@@ -1,0 +1,36 @@
+name: Execute
+
+on:
+    workflow_dispatch:
+
+concurrency:
+    group: ${{ github.workflow }}
+    cancel-in-progress: true
+
+jobs:
+    execute:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+        environment: Execute
+        steps:
+            - name: Generate a token
+              id: generate-token
+              uses: actions/create-github-app-token@v1
+              with:
+                app-id: ${{ secrets.GH_APP_ID }}
+                private-key: ${{ secrets.GH_APP_PK }}
+            - name: Hide token
+              run: echo "::add-mask::$GITHUB_TOKEN"
+              env:
+                GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+            - uses: docker://ghcr.io/lifeismana/gametracking-underlords:latest
+              env:
+                GIT_NAME: ${{ secrets.GIT_NAME }}
+                GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
+                STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+                STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
+                GPG_KEY: ${{ secrets.GPG_KEY }}
+                GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
+                GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+                GITHUB_APP_ID: ${{ secrets.GH_APP_ID }}
