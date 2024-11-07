@@ -21,6 +21,5 @@ cd underlords
 /data/DepotDownloader/DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 1046930 -all-platforms -depot 1046935 -validate -dir . -filelist "/data/list/1046935.txt"
 /data/DepotDownloader/DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 1046930 -all-platforms -depot 1046931 -validate -dir . -filelist "/data/list/1046931.txt"
 /data/DepotDownloader/DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 1046930 -all-platforms -depot 1046934 -validate -dir . -filelist "/data/list/1046934.txt"
-npm install
 
 ./update.sh

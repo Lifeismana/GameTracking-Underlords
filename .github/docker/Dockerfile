@@ -32,8 +32,6 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
 FROM base AS main
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
     gnupg \
-    nodejs \
-    npm \
     php \
     php-common \
     php-mbstring \
