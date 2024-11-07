@@ -7,12 +7,17 @@ set -eu
 [ -n "$GPG_KEY" ] && gpg --batch --import <( echo "$GPG_KEY")
 [ -n "$GPG_KEY_ID" ] && git config --global user.signingkey "$GPG_KEY_ID"
 
-echo ".DepotDownloader" >> ~/.gitignore && \
-git config --global core.excludesfile ~/.gitignore && \
+echo ".DepotDownloader" >> ~/.gitignore
+git config --global core.excludesfile ~/.gitignore
 
 [ ! -d ~/ValveProtobufs ] && ln -s /data/ValveProtobufs ~/ValveProtobufs
 
 cd /data/GameTracking
+
+# create .support if it doesn't exist
+[ ! -d ".support" ] && mkdir .support
+# link vpktool if it doesn't exist
+[ ! -L ".support/vpktool" ] && ln -s /data/VPKTool/vpktool .support/vpktool
 
 git clone --branch $GITHUB_REF_NAME --single-branch https://$GITHUB_APP_ID:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git underlords
 

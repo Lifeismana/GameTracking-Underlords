@@ -29,6 +29,17 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
     dotnet publish --configuration Release -p:PublishSingleFile=true -p:DebugType=embedded --self-contained --runtime linux-x64 DepotDownloader/DepotDownloader.csproj && \
     mv ./DepotDownloader/bin/Release/net8.0/linux-x64/publish/DepotDownloader /data/DepotDownloader_export
 
+FROM base AS download
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN mkdir /data && \
+    cd /data && \
+    git clone https://github.com/Penguinwizzard/VPKTool.git && \
+    cd VPKTool && \
+    make
+
 FROM base AS main
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
     gnupg \
@@ -40,6 +51,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
 
 COPY --from=builder /data/DepotDownloader_export /data/DepotDownloader/DepotDownloader
 COPY --from=builder /data/GameTracking /data/GameTracking
+COPY --from=download /data/VPKTool/vpktool /data/VPKTool/vpktool
 COPY list /data/list
 COPY --chmod=755 script.sh /data/
 
