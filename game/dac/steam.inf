@@ -1,9 +1,9 @@
 ProductName=dac_main
 AppID=1046930
 ServerAppID=1046950
-ServerVersion=543
-ClientVersion=543
-MobileClientVersion=542
-SourceRevision=6937992
-VersionDate=Dec 07 2021
-VersionTime=13:46:48
+ServerVersion=552
+ClientVersion=552
+MobileClientVersion=551
+SourceRevision=8463640
+VersionDate=Nov 02 2023
+VersionTime=14:56:28

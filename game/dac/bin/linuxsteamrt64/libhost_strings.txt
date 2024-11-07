@@ -1,9 +1,70 @@
-
-!
+  0x%08X %s,\n
+  Actual   : 
+  Comment started here.
+  Expected : 
+ !"#$%&'()*+,-./0123
+ #GameUI_Disconnect_ExitingEngine
+ #GameUI_Disconnect_InternalError
+ #GameUI_Disconnect_SnapshotError
+ #GameUI_Disconnect_SoundsMessage
+ #GameUI_Disconnect_SteamIDBanned
+ #GameUI_ServerRejectBadChallenge
+ #Valve_Reject_Connect_From_Lobby
+ #Valve_Reject_Reserved_For_Lobby
+ ( def. "%s" )
+ = { <proto text format> }". To set fields within it, use syntax like "
+ BackUp() can only be called after Next().
+ Can't back up over more bytes than were returned by the last call to Next().
+ Outdent() without matching Indent().
+ Parameter to BackUp() can't be negative.
+ ReadToken overflow
+ Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
+ Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
+ [%.3f server clamped to %.3f]
+ [default = $0
+ \n\nprop_state
+ \n\tgame_mode
+ a protocol 
+ args were given.  Full format string was: "
+ arguments. 
+ but not used.
+ bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+ conflicts with an existing enum type.
+ conflicts with an existing field.
+ conflicts with an existing nested message type.
+ conflicts with an existing oneof type.
+ contains invalid 
+ details: 
+ google/protobuf/descriptor.proto"
+ google/protobuf/descriptor.proto*
+ google/protobuf/descriptor.proto:9\n\tmap_field
+ message of type "
+ not found
+ of the Protocol Buffer runtime library, but the installed version is 
+ of the Protocol Buffer runtime library, which is not compatible with the installed version (
+ type does not match\n
+ unexpected for field 
+ was modified concurrently during serialization.
+ with type 
 !"Invalid set operation (not +/-) specified in puzzle definition."
+!#GameUI_Disconnect_ConnectionLost
+!#GameUI_Disconnect_HLTVRestricted
+!#GameUI_Disconnect_LoopDeactivate
+!#GameUI_Disconnect_RejectedByGame
+!#GameUI_Disconnect_Request_HSIdle
+!#GameUI_Disconnect_ServerShutdown
+!#GameUI_Disconnect_SteamDeny_Misc
+!#GameUI_Disconnect_SteamOwnership
+!#GameUI_Disconnect_TempEntMessage
+!#GameUI_ServerRejectFailedChannel
+!.google.protobuf.EnumValueOptions
+!\n\fangcrosshair
+!\n\fangle_offset
+!\n\nitem_slots
+!\n\nshop_units
+!\n\thistogram
 !m_bNeedsSort
-"
-" because it is missing required fields:
+" because it is missing required fields: 
 " conflicts with field "
 " conflicts with the existing symbol "
 " for field "
@@ -19,7 +80,7 @@
 " is already defined in file "
 " is already defined.
 " is an atomic type, not a message.
-" is missing required fields:
+" is missing required fields: 
 " is not a field or extension of message "
 " is not a message type.
 " is not a proto3 enum, but is used in "
@@ -32,7 +93,7 @@
 " is resolved to "(
 " is specified along with field "
 " is specified multiple times.
-" must be unique within
+" must be unique within 
 " not previously defined in symbols_by_name_, but was defined in symbols_by_parent_; this shouldn't be possible.
 " seems to be defined in "
 " stored in google.protobuf.Any has missing required fields
@@ -44,170 +105,656 @@
 " was not found or had errors.
 " which is a proto3 message type.
 " which is.
-"""
+""\n CMsgClientToGCGetGiftPermissions"
+"#GameUI_Disconnect_DeltaEntMessage
+"#GameUI_Disconnect_HLTVUnavailable
+"#GameUI_ServerRejectInvalidCertLen
+"#\n\nCEntityMsg
 "$0" does not declare $1 as an extension number.
-"$0",
-"%s"
+"$\n\fCMsgPosition
+"$\n\fCMsgVector2D
+"%\n\nCIPASNInfo
 "%s" = "%s"
-"%s":
-"%s":%.3f
-"%s":%d
-"%s":%f
-"%s":%lld
-"%s":%llu
-"%s":%s
-"%s":%u
-"%s":[
+"&\n$CWorkshop_AddSpecialPayment_Response"W\n$CWorkshop_GetSpecialPayments_Request
 ") is not compatible with this reflection object (which is for type "
 ") to start from the outermost scope.
 ").  Note that the exact same class is required; not just the same descriptor.
+")\n\rCMsgSOIDOwner
+"*\n(CMsgGCToGCMasterSubscribeToCacheResponse"a\n%CMsgGCToGCMasterSubscribeToCacheAsync
 ", another member of oneof "
-", but only
-", field number
-", found "
+", but only 
+", field number 
 ", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
 ", which is not imported by "
-".
+"-\n\nCMsgQAngle
 ".  To use it here, please add the necessary import.
 ". If this is intended, set 'option allow_alias = true;' to the enum definition.
 ". This appears to be a value from a sibling type.
-". This is not
+". This is not 
 ". Value: "
-".)
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
-":
+"3\n!CMsgGCStorePurchaseCancelResponse
+"4\n!CMsgGCToGCUniverseStartupResponse
+"5\n"CEcon_FlushInventoryCache_Response
+"5\n"CMsgDevUnlockAllItemStylesResponse
+"6\n CMsgGCGetAccountSubscriptionItem
+";\n'CMsgRequestItemPurgatory_RefundPurchase
+"<\n CNETMsg_SpawnGroup_LoadCompleted
+"A\n*CMsgClientToServerPuzzleLeaderboardCommand
+"A\n/CMsgRequestItemPurgatory_RefundPurchaseResponse
+"D\n\vEPlayerType
 "DeleteMapValue"
+"E\n$CMsgGCGetPartnerAccountLink_Response
+"F\n\fGCSQLVersion
+"G\n#CMsgGCStorePurchaseFinalizeResponse
+"G\n\vCMsgMapProp
 "GetMapData"
 "GetRawRepeatedField"
+"I\n\nETeamFlags
 "InsertOrLookupMapValue"
+"J\n!CMsgGCToGCCheckAccountTradeStatus
+"K\n'CMsgGCToClientStoreTransactionCompleted
+"L\n\rCMsgAddSocket
 "LookupMapValue"
 "MapBegin"
 "MapEnd"
 "MapSize"
 "MutableRawRepeatedField"
+"N\n!CMsgGCToGCUpdateSubscriptionItems
+"Q\n$CMsgGCToGCGrantSelfMadeItemToAccount
+"R\n)CMsgGCToGCCheckAccountTradeStatusResponse
+"S\n\fCMsgItemSlot
+"U\n1CMsgRequestItemPurgatory_FinalizePurchaseResponse
+"\n\fuse_item_msg
+"\n\nlobby_team
+"\n\nmatch_mode
+"\n\nowner_soid
+"\n\rorigin_offset
+"\nis running without a known mod!\n\nSet the VMOD environment variable or run with -game to set the mod name.\n
+"^\n\fOneofOptions
+"`\n CMsgGCToGCStoreProcessSettlement
+"c\n%CMsgGCRequestSubGCSessionInfoResponse
+"c\n(CWorkshop_GetPackageDailyRevenue_Request
 "e" must be followed by exponent.
-"is running without a known mod!Set the VMOD environment variable or run with -game to set the mod name.
-#
+"e\n CMsgClientToGCWrapAndDeliverGift
+"h\n CUserMessageHapticsManagerEffect
+"ikrig
+"j\n&CMsgGCToGCStoreProcessCDKeyTransaction
+"k\n"CNETMsg_SpawnGroup_SetCreationTick
+"o\n!CMsgFulfillDynamicRecipeComponent
+"o\n#CUserMessageCloseCaptionPlaceholder
+"p\n\vEResultCode
+"u\n!CNETMsg_SpawnGroup_ManifestUpdate
+"z\n\rCMsgWebAPIKey
+"{\n\rCMsgHistogram
+"|\n CMsgGCGetAppFriendsList_Response
+"|\n CMsgGCIncrementKillCountResponse
+"}\n!CMsgGCToGCBroadcastConsoleCommand
+##GameUI_Disconnect_BadRelayPassword
+##GameUI_Disconnect_ReliableOverflow
+##GameUI_Disconnect_SnapshotOverflow
 #AppFramework_OutOfMemory
+#GameUI_ClientConsistencyFail
+#GameUI_ClientDifferentMap
+#GameUI_ClientNoMap
+#GameUI_ClientUnableToCRCMap
+#GameUI_Disconnect_BanAdded
+#GameUI_Disconnect_Disconnected
+#GameUI_Disconnect_HLTVDirect
+#GameUI_Disconnect_HLTVStop
+#GameUI_Disconnect_Host_EndGame
+#GameUI_Disconnect_KickBanAdded
+#GameUI_Disconnect_Kicked
+#GameUI_Disconnect_LeavingSplit
+#GameUI_Disconnect_LoopShutdown
+#GameUI_Disconnect_NoMoreSplits
+#GameUI_Disconnect_NoSpectators
+#GameUI_Disconnect_Server
+#GameUI_Disconnect_SteamDropped
+#GameUI_Disconnect_SteamIDInUse
+#GameUI_Disconnect_SteamInUse
+#GameUI_Disconnect_SteamLogon
+#GameUI_Disconnect_SteamTicket
+#GameUI_Disconnect_SteamTimeOut
+#GameUI_Disconnect_SteamVAC
+#GameUI_Disconnect_TickMessage
+#GameUI_Disconnect_TimedOut
+#GameUI_Disconnect_Unusual
+#GameUI_Disconnect_User
+#GameUI_Disconnect_UserCmd
+#GameUI_ServerAuthDisabled
+#GameUI_ServerCDKeyAuthInvalid
+#GameUI_ServerNoLobby
+#GameUI_ServerRejectBadPassword
+#GameUI_ServerRejectBanned:E\n
+#GameUI_ServerRejectLANRestrict
+#GameUI_ServerRejectNewProtocol
+#GameUI_ServerRejectOldProtocol
+#GameUI_ServerRejectServerFull
+#GameUI_ServerRejectSteam
+#GameUI_ServerRequireSteams
 #General_UnableToStartGame
-#It contains connectivity part %d with %d vertices
-#This file is generated by CMesh::SaveObj() from CMesh with %d indices, %d vertices, %d attributes
-#[
+#It contains connectivity part %d with %d vertices\n
+#This file is generated by CMesh::SaveObj() from CMesh with %d indices, %d vertices, %d attributes\n
+#Valve_Reject_Background_Map
+#Valve_Reject_Hidden_Game
+#Valve_Reject_Single_Player
+#\n\rinterior_item
+#\n\tchat_type
 #base
-#base is NULL
+#base is NULL 
 #empty#
-#f %d %d %d, original mesh: %d %d %d
+#f %d %d %d, original mesh: %d %d %d\n
 #include
-#include is NULL
+#include is NULL 
 #int#
-$
-$0  extend .$1 {
-$0  extensions $1 to $2;
-$0  reserved
-$0  }
-$0 to $1,
-$0$1 = $2
+$#GameUI_Disconnect_BadServerPassword
+$#GameUI_Disconnect_ConnectionFailure
+$#GameUI_Disconnect_MessageParseError
+$#GameUI_Disconnect_Request_HLTVRelay
+$0  extend .$1 {\n
+$0  extensions $1 to $2;\n
+$0  reserved 
 $0$1$2 $3 = $4
-$0,
-$0// $1
-$0enum $1 {
+$0enum $1 {\n
 $0message $1
 $0oneof $1 {
-$0option $1;
+$0option $1;\n
 $0rpc $1($4.$2) returns ($5.$3)
-$0}
 $ORIGIN
+$\n EDACItemType_Equipment_Defensive
+$\n EDACItemType_Equipment_Offensive
+$\n EPlayerConnectionState_Connected
+$\n EPlayerOrder_AssignEquipmentItem
+$\n GCConnectionStatus_GC_GOING_DOWN
+$\n k_AddSocket_Failed_ToolIsInvalid
+$\n k_ECustomGameInstallStatus_Ready
+$\n k_EGCMsgUseItemResponse_ItemUsed
+$\n k_EMatchState_Failed_ServerCrash
+$\n k_EMobilePaymentProvider_Invalid
+$\n k_EMsgPlayerStateUpdatesComplete
+$\n k_ESOMsg_CacheSubscribedUpToDate
+$\n k_eDuosMessageTargetType_Synergy
+$\n\vboard_buddy
+$\n\vregion_mode
 $gender
-%
-%%%s
-%%s%%s%%d:  sv[%%%d.%ds] cl[%%%d.%ds]
-%-120s
-%-120s - %s
-%.*g
-%.1f
+%#GameUI_Disconnect_BadClientDeltaTick
+%#GameUI_Disconnect_ConnectionOverflow
+%#GameUI_Disconnect_ConnectionTimedout
+%#GameUI_Disconnect_CreateServerFailed
+%#GameUI_Disconnect_LocalProblem_Other
+%#GameUI_Disconnect_ReplayIncompatible
+%#GameUI_Disconnect_ServerIncompatible
+%#GameUI_Disconnect_ServerInfoOverflow
+%#GameUI_Disconnect_StringTableMessage
+%#GameUI_ServerRejectInvalidConnection
+%#GameUI_ServerReject_InvalidKeyLength
+%%s%%s%%d:  sv[%%%d.%ds] cl[%%%d.%ds]\n
+%-120s - %s\n
+%-120s\n
+%.15lf
 %02X
 %8.8s: %-5d entries, '%s', ...
-%c
-%d
-%d.%d.%d
+%\n k_EDACPuzzleRule_UnitDisallowed1
+%\n k_EDACPuzzleRule_UnitDisallowed2
+%\n k_EDACPuzzleRule_UnitDisallowed3
+%\n k_EDACPuzzleRule_UnitDisallowed4
+%\n k_EMsgClientToGCNameItemResponse
+%\n k_EMsgGCItemEditorReserveItemDef
+%\n k_EMsgGCRemoveMakersMarkResponse
+%\n k_EMsgGCToClientPollFileResponse
+%\n k_EMsgGCToGCGetUserServerMembers
+%\n k_EMsgGCToGCGetUserSessionServer
+%\n k_EMsgGCToGCWebAPIAccountChanged
+%\n k_eDuosMessageType_INoLongerWant
+%\n!EPlayerConnectionState_Connecting
+%\n!EPlayerOrder_Dungeon_AdvancePhase
+%\n!k_EDACPuzzleRule_AllianceAllowed1
+%\n!k_EDACPuzzleRule_AllianceAllowed2
+%\n!k_EDACPuzzleRule_AllianceAllowed3
+%\n!k_EDACPuzzleRule_AllianceAllowed4
+%\n!k_EDamageSourceType_DuosNetDamage
+%\n!k_EMsgClientToServerLoadShareCode
+%\n!k_ESOMsg_CacheSubscriptionRefresh
+%\n!k_ResetGem_Failed_InvalidSocketId
+%\n!k_eDACNetBuffer_PublicPlayerState
+%\n!k_eDACNetBuffer_RoundCombatGlobal
+%\n\vGameManager
 %d/%d: '%s' %s
 %f %f %f %f
-%g
-%hd
-%hu
 %i %i %i %i
-%ld
-%lg
 %lld
 %llu
 %ls [wstring, len = %d]
-%lu
-%p
-%s
-%s * %s
-%s + %s
-%s - %s
-%s / %s
-%s%d
-%s%s%s
-%s,
-%s.%u
-%s/
-%s:  IGameSystem::LoopActivateAllSystems {
-%s:  IGameSystem::LoopDeactivateAllSystems {
+%s:  IGameSystem::LoopActivateAllSystems {\n
+%s:  IGameSystem::LoopDeactivateAllSystems {\n
 %s:  IGameSystem::LoopInitAllSystems(finish)
 %s:  IGameSystem::LoopInitAllSystems(start)
-%s:  IGameSystem::LoopPostInitAllSystems(finish)
-%s:  IGameSystem::LoopPostInitAllSystems(start)
-%s:  } IGameSystem::LoopActivateAllSystems done
-%s:  } IGameSystem::LoopDeactivateAllSystems done
-%s: string format requested %d chars
+%s:  IGameSystem::LoopPostInitAllSystems(finish)\n
+%s:  IGameSystem::LoopPostInitAllSystems(start)\n
+%s:  } IGameSystem::LoopActivateAllSystems done\n
+%s:  } IGameSystem::LoopDeactivateAllSystems done\n
+%s: string format requested %d chars\n
 %s_tempcontent
-%u
-&
-'
-'%s'
+&#GameUI_Disconnect_InvalidMessageError
+&#GameUI_Disconnect_NoPeerGroupHandlers
+&#GameUI_Disconnect_PureServer_Mismatch
+&#GameUI_Disconnect_RemoteProblem_Other
+&#GameUI_ServerRejectInvalidReservation
+&\n!k_EDACDisconnectReason_BadMessage
+&\n!k_EDACDisconnectReason_UserCancel
+&\n!k_EMsgClientToGCLookupAccountName
+&\n!k_EMsgGCClientDisplayNotification
+&\n!k_EMsgGCRemoveItemGifterAccountId
+&\n!k_EMsgGCRequestCrateItemsResponse
+&\n!k_EMsgGCStorePurchaseInitResponse
+&\n!k_EMsgGCToClientPollConvarRequest
+&\n!k_EMsgGCToGCApplyLocalizationDiff
+&\n!k_EMsgGCToGCBannedWordListUpdated
+&\n!k_EMsgGCToGCDirtyMultipleSDOCache
+&\n!k_EMsgGCToGCGetInfuxIntervalStats
+&\n!k_EMsgSQLGCToGCGrantBackpackSlots
+&\n"GAME_PARTICLE_MANAGER_EVENT_CREATE
+&\n"GAME_PARTICLE_MANAGER_EVENT_FROZEN
+&\n"GAME_PARTICLE_MANAGER_EVENT_UPDATE
+&\n"SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP
+&\n"k_ECustomGameInstallStatus_Unknown
+&\n"k_EDACPuzzleRule_MaxCombatDuration
+&\n"k_EMatchState_Failed_NetworkIssues
+&\n"k_ExtractGems_Failed_ItemIsInvalid
+&\n"k_ExtractGems_Failed_ToolIsInvalid
+&\n"k_ResetGem_Failed_FailedToResetGem
+&\n"k_UnlockStyle_Failed_CantAffordGem
+&\n"k_UnlockStyle_Failed_CantLockCache
+&\n"k_UnlockStyle_Failed_ItemIsInvalid
+&\n"k_UnlockStyle_Failed_ToolIsInvalid
+&\n"k_UnpackBundle_Failed_SOCacheError
+&\n"k_eDACNetBuffer_PrivatePlayerState
+&\n\ngc_msg_src
+&\n\tping_data
+&\n\tsnapshots
+'#GameUI_Disconnect_BadSpectatorPassword
+'#GameUI_Disconnect_DifferentClassTables
+'#GameUI_ServerRejectInvalidSteamCertLen
+'\n"SPAWN_GROUP_CREATE_NEW_SCENE_WORLD
+'\n"k_EDACDisconnectReason_UserQuitApp
+'\n"k_EMsgAnyToGCReportAssertsResponse
+'\n"k_EMsgClientToGCCreateStaticRecipe
+'\n"k_EMsgClientToGCEquipItemsResponse
+'\n"k_EMsgClientToGCWrapAndDeliverGift
+'\n"k_EMsgGCAddItemToSocket_DEPRECATED
+'\n"k_EMsgGCAddSocketToItem_DEPRECATED
+'\n"k_EMsgGCDev_NewItemRequestResponse
+'\n"k_EMsgGCGetAccountSubscriptionItem
+'\n"k_EMsgGCToClientPollConvarResponse
+'\n"k_EMsgGCToGCStoreProcessSettlement
+'\n"k_eDuosMessageType_LevelUpQuestion
+'\n#EPlayerConnectionState_Disconnected
+'\n#EPlayerOrder_ItemRewardChoiceReroll
+'\n#EPlayerOrder_SelectItemRewardChoice
+'\n#GAME_PARTICLE_MANAGER_EVENT_DESTROY
+'\n#GAME_PARTICLE_MANAGER_EVENT_LATENCY
+'\n#GAME_PARTICLE_MANAGER_EVENT_RELEASE
+'\n#GCConnectionStatus_STEAM_GOING_DOWN
+'\n#SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE
+'\n#k_EDACPuzzleRule_AllianceDisllowed1
+'\n#k_EDACPuzzleRule_AllianceDisllowed2
+'\n#k_EDACPuzzleRule_AllianceDisllowed3
+'\n#k_EDACPuzzleRule_AllianceDisllowed4
+'\n#k_EGCMsgUseItemResponse_ServerError
+'\n#k_EMobilePaymentProvider_GooglePlay
+'\n#k_UnpackBundle_Failed_ItemIsInvalid
+'\n\fmessage_type
+'\n\rturbo_buckets
 'out_location' must not be NULL
-(
-( def. "%s" )
-(*%s*),
-(.
+(#GameUI_Disconnect_LoopLevelLoadActivate
+(#GameUI_Disconnect_RemoteProblem_BadCert
+(#GameUI_Disconnect_RemoteProblem_Timeout
 (None)
+(\f"?\n$CMsgClientToServerUpvoteNotification
+(\f"n\n CMsgGCToGCMasterSubscribeToCache
+(\n estimated_wait_seconds_remaining
+(\n make_workshop_files_subscribable
+(\n non_prepared_statements_executed
+(\n turbo_mmr_level_partial_progress
+(\n#k_EMsgClientToGCUnlockCrateResponse
+(\n#k_EMsgGCRemoveCustomTextureResponse
+(\n#k_EMsgGCRemoveSocketItem_DEPRECATED
+(\n#k_EMsgGCRequestCrateEscalationLevel
+(\n#k_EMsgGCStorePurchaseCancelResponse
+(\n#k_EMsgGCToClientCurrencyPricePoints
+(\n#k_EMsgGCToGCBroadcastConsoleCommand
+(\n#k_EMsgGCToGCBroadcastMessageFromSub
+(\n#k_EMsgGCToGCCheckAccountTradeStatus
+(\n#k_EMsgGCToGCGetUserPCBangNoResponse
+(\n#k_EMsgGCToGCGrantAccountRolledItems
+(\n#k_EMsgGCToGCItemConsumptionRollback
+(\n#k_EMsgGCToGCUpdateSubscriptionItems
+(\n#k_EMsgGC_IncrementKillCountResponse
+(\n#k_eDuosMessageType_FreeYourBenchFor
+(\n$EPlayerOrder_DevSetAutosavingEnabled
+(\n$GAME_PARTICLE_MANAGER_EVENT_SET_TEXT
+(\n$k_AddSocket_Failed_FailedToAddSocket
+(\n$k_EDACDungeonPhase_Room_Post_Rewards
+(\n$k_EDACDungeonRoomType_StandardCombat
+(\n$k_EDACPuzzleRule_ValidBoardPositions
+(\n$k_EGCMsgInitiateTradeResponse_Cancel
+(\n$k_UnlockStyle_Failed_AlreadyUnlocked
+(\n$k_eDACNetBuffer_PublicPostMatchStats
+(\n\fserver_state
+(\n\rdungeon_phase
+(\n\tattribute
+(\r"&\n$CMsgGCToGCReloadServerRegionSettings*
+(\r"4\n!CMsgClientToGCRemoveItemAttribute
+(\r"6\n"CMsgGCCheckClanMembership_Response
+(\r"8\n%CGCSystemMsg_GetPurchaseTrust_Request
+(\r"8\n%CMsgPlayerRecievedUnitFromDuosPartner
+(\r":\n"CWorkshop_GetContributors_Response
+(\r";\n(CMsgGCToGCStoreProcessSettlementResponse
+(\r"=\n(CMsgGCGetAccountSubscriptionItemResponse
+(\r"=\n)CMsgRequestItemPurgatory_FinalizePurchase
+(\r"A\n.CMsgGCToGCStoreProcessCDKeyTransactionResponse
+(\r"C\n&CMsgGCToGCGetUserServerMembersResponse
+(\r"H\n"CMsgGCToGCPerformManualOpCompleted
+(\r"I\n CMsgGCToClientPollConvarResponse
+(\r"J\n!CGCStoreRechargeRedirect_LineItem
+(\r"P\n CMsgClientAccountSyncStorageFile
+(\r"P\n,CGCSystemMsg_ReportExternalPurchase_Response
+(\r"R\n\nCMsg_CVars
+(\r"S\n'CMsgClientToGCLookupAccountNameResponse
+(\r"T\n&CMsgGCToGCGetUserSessionServerResponse
+(\r"W\n+CMsgGCRequestStoreSalesDataUpToDateResponse
+(\r"`\n\rEGrantRewards
+(\r"a\n'CMsgGCPartnerRechargeRedirectURLRequest
+(\r"t\n\vCMsgSynergy
+(\t"!\n\vCMsgGCError
+(\t"3\n CMsgAnyToGCReportAssertsResponse
+(\t":\n'CMsgGCToGCApplyLocalizationDiffResponse
+(\t"=\n(CMsgGCMsgWebAPIJobRequestForwardResponse
+(\t"C\n&CWorkshop_SetItemPaymentRules_Response
+(\t"K\n$CMsgGCMsgMasterSetDirectory_Response
+(\t"T\n#CMsgClientToServerBoardBuddyCommand
+(\t"V\n!CEcon_FlushInventoryCache_Request
+(\t"\r\n\vCNETMsg_NOP"'\n
+(\t"m\n%CWorkshop_GetItemDailyRevenue_Request
+(\v2 .CCommunity_ClanAnnouncementInfo"p\n$CBroadcast_PostGameDataFrame_Request
+(\v2 .CMsgCombatEvent_ModifierDestroyH
+(\v2 .CMsgGCHUpdateSession.ExtraField
+(\v2 .CMsgGCToGCForwardAccountDetails"&\n$CMsgGCToGCLoadSessionSOCacheResponse"f\n
+(\v2 .CMsgHttpResponse.ResponseHeader
+(\v2 .CMsgItemAges.MaxItemIDTimestamp
+(\v2 .CMsgRoundCombatGlobal.EventList:
+(\v2 .CMsgSerializedSOCache.TypeCache
+(\v2 .google.protobuf.DescriptorProto
+(\v2!.CMsgAMSendEmail.ReplacementToken
+(\v2!.CMsgGCMsgSetOptions.MessageRange
+(\v2!.CMsgGCToGCMasterSubscribeToCache"r\n$CMsgGCToGCMasterUnsubscribeFromCache
+(\v2!.CMsgGameModeState_TechPrototypeAH
+(\v2!.CMsgPrivatePlayerState.Challenge
+(\v2!.CMsgProcessTransactionOrder.Item
+(\v2!.google.protobuf.EnumValueOptions"
+(\v2".CGCStoreRechargeRedirect_LineItem"c\n(CMsgGCPartnerRechargeRedirectURLResponse
+(\v2".CMsgGCMsgMasterSetDirectory.SubGC
+(\v2".CMsgPublicPlayerState.LoadoutItem
+(\v2".CMsgSetItemPositions.ItemPosition
+(\v2".CServerLobbyData_PlayerInfo.Event
+(\v2#.CMsgCombatDebugSnapshot.ActivePath
+(\v2#.CMsgDPPartnerMicroTxns.PartnerInfo
+(\v2#.CMsgGCToGCConsoleOutput.OutputLine
+(\v2#.CMsgIndividualPostMatchStats.Event
+(\v2#.CMsgIndividualPostMatchStats.Round
+(\v2#.CMsgSOMultipleObjects.SingleObject
+(\v2#.CSVCMsgList_UserMessages.usermsg_t
+(\v2$.CGCMsgMemCachedGetResponse.ValueTag
+(\v2$.CMsgGameModeState_Puzzle.ActiveRule
+(\v2$.CMsgPlayerCombatResult.DamageSource
+(\v2$.CMsgPublicPostMatchStats.PlayerInfo
+(\v2$.CMsgSerializedSOCache.Cache.Version
+(\v2$.google.protobuf.EnumDescriptorProto
+(\v2$.google.protobuf.FileDescriptorProto"
+(\v2$.google.protobuf.UninterpretedOption"/\n
+(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
+(\v2$.google.protobuf.UninterpretedOption"P\n
+(\v2$.google.protobuf.UninterpretedOption*\t
+(\v2%.CMsgAMGetUserGameStatsResponse.Stats
+(\v2%.CMsgSOCacheSubscribed.SubscribedType
+(\v2%.CServerLobbyData_PlayerInfo.Currency
+(\v2%.google.protobuf.FieldDescriptorProto
+(\v2%.google.protobuf.OneofDescriptorProto
+(\v2&.CMsgClientToGCCreateStaticRecipe.Item
+(\v2&.CMsgGCMsgMasterSetWebAPIRouting.Entry
+(\v2&.CMsgIndividualPostMatchStats.Currency
+(\v2&.CServerLobbyData_PlayerInfo.Challenge
+(\v2&.google.protobuf.ExtensionRangeOptions
+(\v2&.google.protobuf.MethodDescriptorProto
+(\v2'.CGCToGCMsgMasterStartupComplete.GCInfo
+(\v2'.CMsgAnyToGCReportAsserts.TrackedAssert
+(\v2'.CMsgClientToGCUnlockCrateResponse.Item
+(\v2'.CMsgDPPartnerMicroTxns.PartnerMicroTxn
+(\v2'.CMsgGCToGCFlushSteamInventoryCache.Key
+(\v2'.CMsgGCToGCGrantAccountRolledItems.Item
+(\v2'.CMsgIndividualPostMatchStats.Challenge
+(\v2'.google.protobuf.ServiceDescriptorProto
+(\v2(.CGCSystemMsg_GetAccountDetails_Response
+(\v2(.CMsgClientConnectionStarted.GameManager
+(\v2(.CMsgCombatDebugSnapshot.PathfindingCell
+(\v2(.CMsgGCUpdateSubGCSessionInfo.CMsgUpdate
+(\v2(.CMsgIndividualPostMatchStats.RankUpdate
+(\v2(.CMsgPrivatePlayerState.ItemChoiceReward
+(\v2(.CServerLobbyData_PlayerInfo.LoadoutSlot
+(\v2(.CServerLobbyData_PlayerInfo.VirtualItem"R\n
+(\v2(.CUserMsg_ParticleManager.CreateParticle
+(\v2(.CUserMsg_ParticleManager.UpdateParticle
+(\v2(.google.protobuf.SourceCodeInfo.Location
+(\v2).CMsgGCMsgMasterSetClientMsgRouting.Entry
+(\v2).CUserMsg_ParticleManager.DestroyParticle
+(\v2).CUserMsg_ParticleManager.SetParticleText
+(\v2).google.protobuf.EnumValueDescriptorProto
+(\v2*.CMsgClientConnectionStarted.GameConstants
+(\v2*.CMsgGCRequestStoreSalesDataResponse.Price
+(\v2+.CMsgGCGetPersonaNames_Response.PersonaName
+(\v2+.CMsgGCToClientCurrencyPricePoints.Currency
+(\v2+.CUserMsg_ParticleManager.UpdateParticleEnt
+(\v2+.CUserMsg_ParticleManager.UpdateParticleFwd
+(\v2,.CMsgAMSendEmail.PersonaNameReplacementToken
+(\v2,.CMsgGCToGCSOCacheSubscribe.CMsgHaveVersions
+(\v2,.CMsgPublicPostMatchStats.PlayerPerRoundInfo
+(\v2-.CUserMsg_ParticleManager.SetTextureAttribute
+(\v2-.google.protobuf.GeneratedCodeInfo.Annotation
+(\v2-.google.protobuf.UninterpretedOption.NamePart
+(\v2..CUserMsg_ParticleManager.ReleaseParticleIndex
+(\v2..CUserMsg_ParticleManager.SetControlPointModel
+(\v2..CUserMsg_ParticleManager.UpdateEntityPosition
+(\v2..CUserMsg_ParticleManager.UpdateParticleOffset
+(\v2..CUserMsg_ParticleManager.UpdateParticleOrient
+(\v2..google.protobuf.DescriptorProto.ReservedRange
+(\v2/.CMsgLookupMultipleAccountNamesResponse.Account
+(\v2/.CMsgPrivatePlayerState.ItemChoiceReward.Choice
+(\v2/.google.protobuf.DescriptorProto.ExtensionRange
+(\v20.CUserMsg_ParticleManager.UpdateParticleFallback
+(\v21.CUserMsg_ParticleManager.SetControlPointSnapshot
+(\v21.CUserMsg_ParticleManager.UpdateParticleSetFrozen
+(\v22.CMsgAMGetUserGameStatsResponse.Achievement_Blocks
+(\v22.CUserMsg_ParticleManager.DestroyParticleInvolving
+(\v22.CUserMsg_ParticleManager.SetParticleFoWProperties
+(\v22.CUserMsg_ParticleManager.UpdateParticleShouldDraw
+(\v23.CMsgClientToServerLocalPlayerInventory.LoadoutItem
+(\v23.CUserMessageCameraTransition.Transition_DataDriven
+(\v23.CUserMsg_ParticleManager.SetParticleShouldCheckFoW
+(\v23.CUserMsg_ParticleManager.SetSceneObjectGenericFlag
+(\v24.CMsgClientToGCCreateStaticRecipeResponse.InputError
+(\v24.CMsgClientToGCCreateStaticRecipeResponse.OutputItem
+(\v24.CMsgRoundCombatGlobal.CombatPlayerSlotToEventsEntry
+(\v24.CMsgServerToClientNotificationChanged.UpvoteSubtype
+(\v25.CWorkshop_GetSpecialPayments_Response.SpecialPayment
+(\v26.CMsgClientConnectionStarted.GameConstants.UnitChances
+(\v26.CUserMsg_ParticleManager.ChangeControlPointAttachment
+(\v26.google.protobuf.EnumDescriptorProto.EnumReservedRange
+(\v28.CMsgGCToGCGrantAccountRolledItems.Item.DynamicAttribute
+(\v2:.CMsgClientToGCCreateStaticRecipeResponse.AdditionalOutput
+(\v2:.CMsgClientToGCGetGiftPermissionsResponse.FriendPermission
+(\v2;.CMsgNotificationOfSuspiciousActivity.MultipleGameInstances
+(\v2;.CWorkshop_GetItemDailyRevenue_Response.CountryDailyRevenue
+(\v2<.CMsgGCToGCGrantAccountRolledItems.Item.AdditionalAuditEntry
+(\v2=.CMsgEconPlayerStrangeCountAdjustment.CStrangeCountAdjustment
+(\v2=.CWorkshop_SetItemPaymentRules_Request.PartnerItemPaymentRule
+(\v2>.CWorkshop_GetPackageDailyRevenue_Response.CountryDailyRevenue
+(\v2>.CWorkshop_SetItemPaymentRules_Request.WorkshopItemPaymentRule
+(\v2A.CWorkshop_PopulateItemDescriptions_Request.SingleItemDescription"F\n!CWorkshop_GetContributors_Request
+(\v2I.CWorkshop_PopulateItemDescriptions_Request.ItemDescriptionsLanguageBlock
+(\v2\f.CMsgMapProp
+(\v2\f.CMsgSynergy
+(\v2\f.CMsgUseItem"(\n
+(\v2\f.CSOEconItem
+(\v2\r.CMsgItemSlot
+(\v2\r.CMsgPosition
+(\v2\r.CMsgShopItem
+(\v2\t.CMsgUnit
+(\v2\v.CEntityMsg"
+(\v2\v.CEntityMsg"T\n
+(\v2\v.CEntityMsg"W\n
+(\v2\v.CEntityMsg"]\n
+(\v2\v.CEntityMsg"g\n
+(\v2\v.CIPASNInfo"?\n
+(\v2\v.CMsgQAngle
+(\v2\v.CMsgQAngle"e\n
+(\v2\v.CMsgVector
+(\v2\v.CMsgVector"z\n
+(\v2\v.CMsgVectorB
+(\v2\v.CMsg_CVars"
 (cannot determine missing fields for lite message)
-(merge
+(merge 
 (missing)
-)
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
-), this value label conflicts with
+)#GameUI_Disconnect_PureServer_ClientExtra
+)#GameUI_Disconnect_RemoteProblem_BadCrypt
+)#GameUI_Disconnect_SteamDeny_BadAntiCheat
+), this value label conflicts with 
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-*
+)\n!host_framestarttime_std_deviation
+)\n!matching_subscription_def_indexes
+)\n!next_combat_opponent_neutral_wave
+)\n$k_EDACDisconnectReason_OldConnection
+)\n$k_EMsgClientToGCSetItemStyleResponse
+)\n$k_EMsgClientToGCUnpackBundleResponse
+)\n$k_EMsgGCCompressedMsgToClient_Legacy
+)\n$k_EMsgGCCustomizeItemTextureResponse
+)\n$k_EMsgGCItemEditorReleaseReservation
+)\n$k_EMsgGCItemPurgatory_RefundPurchase
+)\n$k_EMsgGCPresets_SelectPresetForClass
+)\n$k_EMsgGCResetStrangeGemCountResponse
+)\n$k_EMsgGCServerBrowser_FavoriteServer
+)\n$k_EMsgGCSetItemPositions_RateLimited
+)\n$k_EMsgGCToGCFlushSteamInventoryCache
+)\n$k_EMsgGCToGCPerformManualOpCompleted
+)\n$k_EMsgGCTrading_InitiateTradeRequest
+)\n%k_AddGem_Failed_InvalidGemTypeForHero
+)\n%k_AddGem_Failed_InvalidGemTypeForSlot
+)\n%k_EGCMsgInitiateTradeResponse_TooSoon
+)\n%k_ResetGem_Failed_SocketCannotBeReset
+)\n%k_UnlockStyle_Failed_CantAffordAttrib
+)\n%k_UnpackBundle_Failed_BadItemQuantity
+)\n%k_UnpackBundle_Failed_ItemIsNotBundle
+)\n\fMessageRange
+)\n\nExtraField
+)\n\nQueryParam
+*#GameUI_Disconnect_LocalProblem_ManyRelays
+*5\n\rESourceEngine
+*;\n\nEClickType
 *LANGUAGE*
 *N6google8protobuf12_GLOBAL__N_123AggregateErrorCollectorE
 *N6google8protobuf12_GLOBAL__N_123GeneratedMessageFactoryE
 *N6google8protobuf12_GLOBAL__N_123StringBaseTextGeneratorE
 *N6google8protobuf12_GLOBAL__N_124FieldValuePrinterWrapperE
 *N6google8protobuf12_GLOBAL__N_133FastFieldValuePrinterUtf8EscapingE
-+
-+++
-+++ %s:
-+++ %s[%d]:
+*S\n\nEGameState
+*\n"bench_additional_unique_unit_count
+*\n"host_computationtime_std_deviation
+*\n"need_to_choose_most_helpful_friend
+*\n"notification_body_localization_key
+*\n"used_item_reward_reroll_this_round
+*\n%k_EDACDisconnectReason_ChangingServer
+*\n%k_EDACDisconnectReason_UserLeaveMatch
+*\n%k_EMsgClientToGCRemoveItemDescription
+*\n%k_EMsgGCFulfillDynamicRecipeComponent
+*\n%k_EMsgGCItemEditorReservationsRequest
+*\n%k_EMsgGCRemoveItemGiftMessageResponse
+*\n%k_EMsgGCRequestStoreSalesDataResponse
+*\n%k_EMsgGCServerBrowser_BlacklistServer
+*\n%k_EMsgGCStorePurchaseFinalizeResponse
+*\n%k_EMsgGCTrading_InitiateTradeResponse
+*\n%k_EMsgGC_RevolvingLootList_DEPRECATED
+*\n&GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENT
+*\n&k_ECustomGameInstallStatus_CRCMismatch
+*\n&k_ECustomGameInstallStatus_FailedSteam
+*\n&k_EGCMsgInitiateTradeResponse_Accepted
+*\n&k_EGCMsgInitiateTradeResponse_Declined
+*\n&k_EGCMsgInitiateTradeResponse_Disabled
+*\n&k_EGCMsgUseItemResponse_EventNotActive
+*\n&k_EMobilePaymentProvider_AppleAppStore
+*\n&k_EMsgClientToServerUpvoteNotification
+*\n&k_ExtractGems_Failed_FailedToRemoveGem
+*\n&k_UnlockStyle_Failed_NoCompendiumLevel
+*\n\rvictory_level
+*o\n\teRollType
+*r\n\vERoundState
++++ %s[%d]: 
++\n#notification_title_localization_key
++\n&k_EMsgGCAddSocketToBaseItem_DEPRECATED
++\n&k_EMsgGCDev_UnlockAllItemStylesRequest
++\n&k_EMsgGCItemEditorReservationsResponse
++\n&k_EMsgGCItemPurgatory_FinalizePurchase
++\n&k_EMsgGCRemoveUniqueCraftIndexResponse
++\n&k_EMsgGCToGCGrantSelfMadeItemToAccount
++\n&k_EMsgGCToGCReloadServerRegionSettings
++\n&k_eDuosMessageType_SpendRerollQuestion
++\n'GAME_PARTICLE_MANAGER_EVENT_SHOULD_DRAW
++\n'SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES
++\n'k_AddGem_Failed_InvalidGemTypeForSocket
++\n'k_AddSocket_Failed_ItemCannotBeSocketed
++\n'k_EMsgClientToServerTeammateDuosMessage
++\n'k_EMsgPlayerChallengeCompletePrediction
++\n'k_EMsgPlayerRecievedUnitFromDuosPartner
++\n'k_EMsgServerToClientNotificationChanged
++\n'k_EMsgServerToClientTeammateDuosMessage
++\n'k_EPartnerRequestUnsupportedPartnerType
++\n\rReservedRange
++\n\rjob_id_source
++\n\rjob_id_target
++\n\rkills_details
++\n\tteam_info
 +inf
-,
-, %s
-, from:
-, lo=
 , not just within "
-, parent:
--
--%s
----
---- %s:
---- %s[%d]:
------
--->
--1
-->
+, parent: 
+,#GameUI_Disconnect_Splitpacket_Send_Overflow
+,\n'k_EMsgClientToGCUnlockItemStyleResponse
+,\n'k_EMsgGCClientRequestMarketDataResponse
+,\n'k_EMsgGCDev_UnlockAllItemStylesResponse
+,\n'k_EMsgGCToGCClientServerVersionsUpdated
+,\n(k_ECustomGameInstallStatus_FailedGeneric
+,\n(k_EMsgPlayerLoadPuzzleLeaderboardCommand
+,\n(k_ExtractGems_Failed_ToolCannotRemoveGem
+,\n(k_ItemPurgatoryResponse_Refund_Succeeded
+,\n(k_UnpackBundle_Failed_UnableToDeleteItem
+,\n(k_eDACNetBuffer_IndividualPostMatchStats
+,\n\rRequestHeader
+,\n\vtarget_type
+-#GameUI_Disconnect_LocalProblem_NetworkConfig
+--- %s[%d]: 
+-\n%friendship_age_requirement_two_factor
+-\n(k_EMsgClientToGCSetItemInventoryCategory
+-\n(k_EMsgGCItemEditorReserveItemDefResponse
+-\n(k_EMsgGCToGCGetUserServerMembersResponse
+-\n(k_EMsgGCToGCGetUserSessionServerResponse
+-\n(k_EMsgGCToGCStoreProcessCDKeyTransaction
+-\n)GAME_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET
+-\n)k_ECustomGameInstallStatus_FailedCanceled
+-\n)k_EGCMsgInitiateTradeResponse_NotLoggedIn
+-\n\fleft_members
+-\n\nconditions
+-\n\tEventList
+-\n\vplayer_type
 -addon
 -addon_path
 -allow_non_tools_paths
@@ -237,15 +784,10 @@ $gender
 -tempcontent
 -tools
 -unbufferedio
--x
--y
-.
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-...
-... activated.
-... debounced.
-... }
+... activated.\n
+... debounced.\n
 ...<truncated>...
 ../../common/protobuf_helpers.cpp
 ../../public/appframework/tier1app.h
@@ -267,6 +809,7 @@ $gender
 ./google/protobuf/dynamic_message.h
 ./google/protobuf/generated_message_reflection.h
 ./google/protobuf/io/coded_stream_inl.h
+./google/protobuf/map.h
 ./google/protobuf/map_field.h
 ./google/protobuf/map_field_inl.h
 ./google/protobuf/message_lite.h
@@ -278,25 +821,221 @@ $gender
 ./google/protobuf/stubs/stringpiece.h
 ./google/protobuf/unknown_field_set.h
 ./google/protobuf/wire_format_lite_inl.h
+.CGCMsgMemCachedSet.KeyPair
+.CGCStorePurchaseInit_LineItem"A\n
+.CGCToGCMsgMasterAck.Process
+.CIPLocationInfo"
+.CMsgAddItemToSocketData"
+.CMsgAdjustItemEquippedState"?\n CMsgClientToGCEquipItemsResponse
+.CMsgBoardBuddy
+.CMsgClientPingData"
+.CMsgClientPingData"=\n
+.CMsgClientUnderlordLoadout"
+.CMsgClientWelcome.Location
+.CMsgCombatDebugSnapshot"9\n
+.CMsgCombatEvent
+.CMsgCombatEvent_AttackBlockedH
+.CMsgCombatEvent_AttackEvadedH
+.CMsgCombatEvent_AttackH
+.CMsgCombatEvent_AttackMissedH
+.CMsgCombatEvent_CancelAttackH
+.CMsgCombatEvent_CastAbilityH
+.CMsgCombatEvent_CombatEndedH
+.CMsgCombatEvent_DamageH
+.CMsgCombatEvent_DeathH
+.CMsgCombatEvent_ModifierCreateH
+.CMsgCombatEvent_ResurrectH
+.CMsgCombatEvent_SoundEventH
+.CMsgCombatEvent_SpeechEventH
+.CMsgCombatEvent_StartAttackH
+.CMsgCombatEvent_StartGestureH
+.CMsgCombatEvent_StopGestureH
+.CMsgCombatHighlight
+.CMsgCombatMetersSnapshot
+.CMsgCombatSnapshot
+.CMsgConVarValue"
+.CMsgCustomGameInstallStatus"*\n
+.CMsgDuos_TeamCombatResult"<\n CMsgGameModeState_TechPrototypeA
+.CMsgGCClientMarketDataEntry"\\n
+.CMsgGCMsgSetOptions.Option
+.CMsgGCRoutingInfo"
+.CMsgGCRoutingInfo">\n(CMsgGCMsgMasterSetWebAPIRouting_Response
+.CMsgGameModeSettings
+.CMsgGameModeSettings"
+.CMsgGameModeState_DungeonH
+.CMsgGameModeState_DuosH
+.CMsgGameModeState_Normal
+.CMsgGameModeState_Normal"
+.CMsgGameModeState_NormalH
+.CMsgGameModeState_PuzzleH
+.CMsgGameModeState_SandboxH
+.CMsgGameModeState_StreetfightH
+.CMsgGameModeState_TurboH
+.CMsgGameModeState_TutorialH
+.CMsgGameModifiers
+.CMsgGameStateIntegrationBlock
+.CMsgGameStateIntegrationData
+.CMsgHistogram"e\n"CMsgPuzzleLeaderboardHistogramList
+.CMsgHistogram.HistogramBucket
+.CMsgHttpRequest
+.CMsgHttpRequest.QueryParam
+.CMsgHttpRequest.RequestHeader
+.CMsgMatchState.TeamInfo
+.CMsgModifierName.Modifier
+.CMsgPackageLicense
+.CMsgPrivatePlayerState"X\n
+.CMsgProcessTransactionOrder
+.CMsgPublicPlayerState
+.CMsgPuzzleLeaderboardHistogram*
+.CMsgRecipeComponent"6\n
+.CMsgRoundCombat
+.CMsgRoundCombatGlobal"
+.CMsgSOCacheHaveVersion
+.CMsgSOCacheSubscribed
+.CMsgSOCacheSubscriptionCheck
+.CMsgSOIDOwner
+.CMsgSOIDOwner"
+.CMsgSOIDOwner"%\n
+.CMsgSerializedSOCache.Cache
+.CMsgStreetfightSettingsH
+.CMsgTurboBucket
+.CMsgUnderlordPickerOffering
+.CMsgUnitAbilityCooldown
+.CMsgUnitMeterDamageDealt
+.CMsgUnitMeterDamageTaken
+.CMsgUnitMeterDetail
+.CMsgUnitMeterDetail"X\n
+.CMsgUnitMeterSnapshot"
+.CMsgUnitPosition
+.CMsgUnitPositionAndFacing
+.CMsgUnitSnapshot
+.CMsgWebAPIKey
+.CMsg_CVars.CVar
+.CProtoItemSocket
+.CProtoItemSocket""\n
+.CProtoItemSocket"L\n
+.CSODACParty.EPlayerType
+.CSODACParty.Invite
+.CSODACParty.LeftMember
+.CSODACParty.Member
+.CSODACParty.TeamInfo
+.CSOEconItemAttribute
+.CSOEconItemEquipped""\n\rCMsgSortItems
+.CSOItemCriteria
+.CSOItemCriteriaCondition
+.CSVCMsgList_GameEvents.event_t
+.CSVCMsg_GameEvent"9\n
+.CSVCMsg_GameEvent.key_t
+.CSVCMsg_UserMessage"
+.CUserMessageShake
+.CUserMessageVGUIMenu.Keys
+.CUserMsg_ParticleManagerH
+.DungeonActionCard"
+.ECustomGameInstallStatus
+.EDACBotDifficulty
+.EDACDungeonPhase
+.EDACDungeonRoomType
+.EDACGameMessages
+.EDACIncidentType
+.EDACLobbyTeam
+.EDACLobbyTeam"
+.EDACMatchMode
+.EDACNetBuffer
+.EDACPuzzleRule
+.EDACRegionMode
+.EDamageSourceType
+.EDuosMessageTargetType
+.EDuosMessageType
+.EGCMsgInitiateTradeResponse
+.EGCMsgInitiateTradeResponse"+\n
+.EGCMsgInitiateTradeResponse"-\n
+.EGCMsgResponse
+.EGCPartnerRequestResponse
+.EInGameChatType
+.ELobbyServerState
+.EMobilePaymentProvider
+.ENetworkDisconnectionReason"
+.EPlayerConnectionState
+.ERoundCombatResult
+.ERoundVictoryLevel
+.ESourceEngine:\rk_ESE_Source1
+.GCConnectionStatus
+.GCProtoBufMsgSrc
+.PARTICLE_MESSAGE
 .PLACEHOLDER_VALUE
+.PartnerAccountType
+.\n)k_EMsgClientToGCLookupAccountNameResponse
+.\n)k_EMsgGCPartnerRechargeRedirectURLRequest
+.\n)k_EMsgGCPresets_SelectPresetForClassReply
+.\n)k_EMsgGCRemoveItemGifterAccountIdResponse
+.\n)k_EMsgGCToClientStoreTransactionCompleted
+.\n)k_EMsgGCToGCApplyLocalizationDiffResponse
+.\n)k_EMsgGCToGCGetInfuxIntervalStatsResponse
+.\n)k_EMsgGCToGCPlayerStrangeCountAdjustments
+.\n*GAME_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD
+.\n*k_EDACDungeonPhase_Intro_ChoosingFirstUnit
+.\n*k_EDACDungeonPhase_Intro_ChoosingUnderlord
+.\n*k_EGCMsgUseItemResponse_GiftNoOtherPlayers
+.\n*k_EGCMsgUseItemResponse_MissingRequirement
+.\n*k_EGCMsgUseItemResponse_NotHighEnoughLevel
+.\n*k_ItemPurgatoryResponse_Finalize_Succeeded
+.\n*k_RemoveItemAttribute_Failed_ItemIsInvalid
+.\n\nOutputLine
+.\n\vbase_normal
 .dummy
+.eB5
 .foo = value".
+.google.protobuf.EnumOptions
+.google.protobuf.FieldOptions
+.google.protobuf.FieldOptions"
+.google.protobuf.FileOptions
+.google.protobuf.MessageOptions
+.google.protobuf.MethodOptions
+.google.protobuf.OneofOptions"
+.google.protobuf.ServiceOptions"
+.google.protobuf.SourceCodeInfo
 .placeholder.proto
 .vpk
-/
+/\n*k_EMsgClientToGCCreateStaticRecipeResponse
+/\n*k_EMsgClientToGCRemoveItemGifterAttributes
+/\n*k_EMsgClientToGCWrapAndDeliverGiftResponse
+/\n*k_EMsgGCAddItemToSocketResponse_DEPRECATED
+/\n*k_EMsgGCAddSocketToItemResponse_DEPRECATED
+/\n*k_EMsgGCGetAccountSubscriptionItemResponse
+/\n*k_EMsgGCPartnerRechargeRedirectURLResponse
+/\n*k_EMsgGCToGCStoreProcessSettlementResponse
+/\n+GAME_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK
+/\n+k_EDACDungeonPhase_Room_Post_ChooseNextRoom
+/\n+k_EGCMsgUseItemResponse_ItemUsed_Compendium
+/\n\fdamage_dealt
+/\n\fdamage_taken
+/\n\fdetails_duos
+/\n\nget_params
+/\n\rdetails_death
+/\n\tdirectory
 /content/
 /game/
-0
-0 <= i
 00000000-0000-0000-0000-000000000000
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789abcdef
+0:<\n\fdelta_ignore
+0\n+k_EMsgClientToGCRemoveItemAttributeResponse
+0\n+k_EMsgGCRemoveSocketItemResponse_DEPRECATED
+0\n+k_EMsgGCRequestCrateEscalationLevelResponse
+0\n+k_EMsgGCToGCCheckAccountTradeStatusResponse
+0\n,GCConnectionStatus_NO_SESSION_IN_LOGON_QUEUE
+0\n,k_AddGem_Failed_SocketContainsUnremovableGem
+0\n,k_EGCMsgInitiateTradeResponse_NeedSteamGuard
+0\n,k_EGCMsgInitiateTradeResponse_Target_Blocked
+0\n,k_EGCMsgInitiateTradeResponse_TooSoonPenalty
+0\n,k_EGCMsgUseItemResponse_EmoticonUnlock_NoNew
+0\n,k_EGCMsgUseItemResponse_NotInLowPriorityPool
+0\n\npermission
+0\n\vpost_params
 0x%016llX
-0x%08X %s,
 0x%p
-1
 1 1 1
-1.0
+1*=\n\fESynergyType
 10CEntityMsg
 10CHostUtils
 10CIPASNInfo
@@ -455,6 +1194,7 @@ $gender
 17DAC_AbilityData_t
 17DAC_SynergyData_t
 17DungeonActionCard
+18446744073709551615
 18CDebugDrawQueueMgr
 18CGCMsgMemCachedGet
 18CGCMsgMemCachedSet
@@ -505,8 +1245,39 @@ $gender
 19IKeyValuesErrorSpew
 19ISaveRestoreDataMgr
 1DBlend
-2
-2.
+1\n,k_EMsgGCItemEditorReleaseReservationResponse
+1\n,k_EMsgGCItemPurgatory_RefundPurchaseResponse
+1\n,k_EMsgGCTrading_InitiateTradeRequestResponse
+1\n-GAME_PARTICLE_MANAGER_EVENT_DESTROY_INVOLVING
+1\n-NETWORK_DISCONNECT_DIRECT_CONNECT_RESERVATION
+1\n-k_EGCMsgInitiateTradeResponse_TheyCannotTrade
+1\n-k_EGCMsgInitiateTradeResponse_TooRecentFriend
+1\n-k_EGCMsgUseItemResponse_ItemUsed_ItemsGranted
+1\n-k_ItemPurgatoryResponse_Finalize_BackpackFull
+1\n\fItemPosition
+1\n\ngame_state
+1\n\rUpvoteSubtype
+1\n\rdetails_turbo
+1\n\rmodifier_list
+2 .CMsgGCRoutingInfo.RoutingMethod:
+2!.CMsgAddSocketResponse.EAddSocket"
+2!.CMsgGCMsgSetOptions.GCSQLVersion
+2"A\n+CMsgGCMsgMasterSetClientMsgRouting_Response
+2#.google.protobuf.FieldOptions.CType:
+2#GameUI_Disconnect_RemoteProblem_TimeoutConnecting
+2$.CMsgAddItemToSocketResponse.EAddGem"
+2$.google.protobuf.FieldOptions.JSType:\tJS_NORMAL
+2%.CMsgExtractGemsResponse.EExtractGems"
+2%.CMsgPrivatePlayerState.EGrantRewards
+2'.CMsgGameReplayActionMarker.EActionType"+\n\vEActionType
+2).CMsgClientToGCNameItemResponse.ENameItem
+2).google.protobuf.FileOptions.OptimizeMode:
+2*.CMsgDPPartnerMicroTxnsResponse.EErrorCode"
+2*.google.protobuf.FieldDescriptorProto.Type
+2+.CMsgResetStrangeGemCountResponse.EResetGem"
+2+.google.protobuf.FieldDescriptorProto.Label
+2-.CMsgClientToGCSetItemStyleResponse.ESetStyle"a\n\tESetStyle
+2/.google.protobuf.MethodOptions.IdempotencyLevel:
 20CClientReconnectInfo
 20CFootstepSoundsTable
 20CGCMsgGetSystemStats
@@ -544,6 +1315,7 @@ $gender
 20DAC_BotPersonality_t
 20IGameSystem2HostHook
 20IResourceTypeManager
+21.CMsgClientToGCUnpackBundleResponse.EUnpackBundle
 21CEntityMessageDoSpark
 21CGCMsgMemCachedDelete
 21CGCToGCMsgRoutedReply
@@ -605,6 +1377,8 @@ $gender
 22CUserMessageScreenTilt
 22IDACGD_InitializeUtils
 22IVTableIndexCalculator
+23.CMsgClientToGCCreateStaticRecipeResponse.EResponse
+23.CMsgClientToGCUnlockItemStyleResponse.EUnlockStyle
 23CGCMsgSystemStatsSchema
 23CMsgAMGrantGuestPasses2
 23CMsgAMSendEmailResponse
@@ -783,10 +1557,31 @@ $gender
 29CMsgSOCacheSubscribedUpToDate
 29CResourceManifestPrerequisite
 29CSOEconItemTournamentPassport
+2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2Way_0( %s )
 2Way_1( %s )
+2\f.ERoundState:
+2\n-k_EMsgGCFulfillDynamicRecipeComponentResponse
+2\n-k_EMsgGCRequestStoreSalesDataUpToDateResponse
+2\n.GAME_PARTICLE_MANAGER_EVENT_SET_FOW_PROPERTIES
+2\n.GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION
+2\n.eRollType
+2\n.k_ECustomGameInstallStatus_FailedInternalError
+2\n.k_EGCMsgInitiateTradeResponse_Using_New_Device
+2\n.k_EGCMsgUseItemResponse_MiniGameAlreadyStarted
+2\n.k_ItemPurgatoryResponse_Refund_Failed_NoDetail
+2\n\nline_items
+2\r.EDACGameMode
+2\r.EDACGameMode"
+2\r.EDACGameMode:
+2\r.EDACPlatform
+2\r.EPlayerOrder
+2\r.EUnitAIState
+2\r.EUnitKeyword
+2\r.EUnitKeyword"D\n
+2\v.EClickType
+2\v.EGameState:
 2_BONE_IK
-3
 30CGCSystemMsg_GetAccountDetails
 30CMsgAMGetUserGameStatsResponse
 30CMsgClientToGCNameItemResponse
@@ -833,6 +1628,7 @@ $gender
 31CMsgSerializedSOCache_TypeCache
 31CUserMessageAnimStateGraphState
 31CUserMessageHapticsManagerPulse
+32:B\n
 32CMsgAMSendEmail_ReplacementToken
 32CMsgAnyToGCReportAssertsResponse
 32CMsgClientAccountSyncStorageFile
@@ -935,6 +1731,7 @@ $gender
 37CWorkshop_GetItemDailyRevenue_Request
 37CWorkshop_GetSpecialPayments_Response
 37CWorkshop_SetItemPaymentRules_Request
+384B
 38CGCSystemMsg_GetPurchaseTrust_Response
 38CGCToGCMsgMasterStartupComplete_GCInfo
 38CMsgAnyToGCReportAsserts_TrackedAssert
@@ -969,8 +1766,14 @@ $gender
 39CServerLobbyData_PlayerInfo_VirtualItem
 39CUserMsg_ParticleManager_CreateParticle
 39CUserMsg_ParticleManager_UpdateParticle
-3C
-4
+3\n*stat_best_victory_remaining_health_percent
+3\n*stat_prev_victory_remaining_health_percent
+3\n.k_EDACDisconnectReason_GoodbyeUnrecognizedGame
+3\n.k_EMsgGCItemPurgatory_FinalizePurchaseResponse
+3\n/k_EGCMsgInitiateTradeResponse_NeedVerifiedEmail
+3\n/k_EGCMsgInitiateTradeResponse_VAC_Banned_Target
+3\n/k_EGCMsgUseItemResponse_EmoticonUnlock_Complete
+3\n/k_ItemPurgatoryResponse_Refund_Failed_NoSOCache
 40CCommunity_GetClanAnnouncements_Response
 40CMsgClientToGCCreateStaticRecipeResponse
 40CMsgClientToGCGetGiftPermissionsResponse
@@ -1006,6 +1809,7 @@ $gender
 43CMsgPublicPostMatchStats_PlayerPerRoundInfo
 44CGCSystemMsg_ReportExternalPurchase_Response
 44CUserMsg_ParticleManager_SetTextureAttribute
+456789:;<=
 45CUserMsg_ParticleManager_ReleaseParticleIndex
 45CUserMsg_ParticleManager_SetControlPointModel
 45CUserMsg_ParticleManager_UpdateEntityPosition
@@ -1023,8 +1827,9 @@ $gender
 49CUserMsg_ParticleManager_DestroyParticleInvolving
 49CUserMsg_ParticleManager_SetParticleFoWProperties
 49CUserMsg_ParticleManager_UpdateParticleShouldDraw
-4C
-5
+4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
+4\n0k_EGCMsgInitiateTradeResponse_SteamGuardDuration
+4\n\vPersonaName
 50CMsgClientToServerLocalPlayerInventory_LoadoutItem
 50CUserMessageCameraTransition_Transition_DataDriven
 50CUserMsg_ParticleManager_SetParticleShouldCheckFoW
@@ -1042,63 +1847,119 @@ $gender
 58CWorkshop_GetItemDailyRevenue_Response_CountryDailyRevenue
 59CMsgGCToGCGrantAccountRolledItems_Item_AdditionalAuditEntry
 59CProtoItemSocket_AssetModifier_DESERIALIZE_FROM_STRING_ONLY
-6
+5\n0k_EDACDisconnectReason_GameDestroyedUnexpectedly
+5\n0k_EMsgGCToGCStoreProcessCDKeyTransactionResponse
+5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
+5\n1k_EGCMsgInitiateTradeResponse_Sent_Invalid_Cookie
+5\n1k_EGCMsgInitiateTradeResponse_Service_Unavailable
+5\n1k_EGCMsgInitiateTradeResponse_Trade_Banned_Target
+5\n1k_ItemPurgatoryResponse_Finalize_Failed_NoSOCache
+5\n1k_RemoveItemAttribute_Failed_AttributeDoesntExist
+5\n1k_UnpackBundle_Failed_UnableToCreateContainedItem
+5\n\nchallenges
+5\n\vnested_type
+5\n\vtype_caches
+5t~BC
 60CMsgEconPlayerStrangeCountAdjustment_CStrangeCountAdjustment
 60CMsgRoundCombatGlobal_CombatPlayerSlotToEventsEntry_DoNotUse
 60CWorkshop_SetItemPaymentRules_Request_PartnerItemPaymentRule
 61CWorkshop_GetPackageDailyRevenue_Response_CountryDailyRevenue
 61CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule
 64CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription
+65535"
 6ConVar
-7
+6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
+6\n2k_EGCMsgInitiateTradeResponse_VAC_Banned_Initiator
+6\n2k_ItemPurgatoryResponse_Finalize_Failed_Incomplete
+6\n\fextra_fields
+6\n\fmessage_type
+6\n\nline_items
 72CWorkshop_PopulateItemDescriptions_Request_ItemDescriptionsLanguageBlock
 7IConVar
-8
+7\n3GAME_PARTICLE_MANAGER_EVENT_SET_CONTROL_POINT_MODEL
+7\n3k_ECustomGameInstallStatus_RequestedTimestampTooNew
+7\n3k_ECustomGameInstallStatus_RequestedTimestampTooOld
+7\n3k_EGCMsgInitiateTradeResponse_Recent_Password_Reset
+7\n3k_EGCMsgInitiateTradeResponse_WalledFundsNotTrusted
+7\n3k_EGCMsgUseItemResponse_DropRateBonusAlreadyGranted
+7\n3k_EGCMsgUseItemResponse_ItemUsed_EventPointsGranted
+7\n\nEGCItemMsg
+7\n\rannouncements
+7\n\tenum_type
+7\n\tgame_mode
+8#GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay
 8CFmtStrNILi256ELb0EE
 8CMsgRGBA
 8CMsgUnit
-9
+8\n4k_EGCMsgInitiateTradeResponse_Target_Already_Trading
+8\n4k_EGCMsgInitiateTradeResponse_Trade_Banned_Initiator
+8\n\rgcsql_version
+8\n\rsubscribe_msg
+8\n\textension
+8\n\vround_state
 9ILoopMode
 9ISequence
-:
-: "
+9\n5k_RemoveItemAttribute_Failed_AttributeCannotBeRemoved
+9\n\factive_paths
+9\n\ncurrencies
+9\n\noneof_decl
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
-: Tried to copy from a message with a different type. to:
-: Tried to merge from a message with a different type.  to:
-: [
+: Tried to copy from a message with a different type. to: 
+: Tried to merge from a message with a different type.  to: 
 : failed to parse contents
+:9\n\tkey_field
 ::google::protobuf::FieldDescriptorProto_Label_IsValid(value)
 ::google::protobuf::FieldDescriptorProto_Type_IsValid(value)
 ::google::protobuf::FieldOptions_CType_IsValid(value)
 ::google::protobuf::FieldOptions_JSType_IsValid(value)
 ::google::protobuf::FileOptions_OptimizeMode_IsValid(value)
 ::google::protobuf::MethodOptions_IdempotencyLevel_IsValid(value)
-;
-<
-<!--
-<< NULL >>
+:\n6GAME_PARTICLE_MANAGER_EVENT_SET_CONTROL_POINT_SNAPSHOT
+:\n6k_EGCMsgInitiateTradeResponse_Shared_Account_Initiator
+:\n6k_ItemPurgatoryResponse_Refund_Failed_CouldNotFindItem
+:\n\factive_rules
+:\n\nCMsgUpdate
+:\n\nchallenges
+:\n\ncurrencies
+:\n\robjects_added
+;\n\nchallenges
+<"C_OP_RemapSpeedtoCP
+<< NULL >>\n
 <INVALID EXPRESSION>
 <INVALID_RBF_TYPE>
 <NO EXPRESSION>
 <NULL>
+<\n8k_ItemPurgatoryResponse_Refund_Failed_ItemNotInPurgatory
+<\n\tusermsg_t
 <deferred>
 <no deferred ref found>
 <no failure reason set>
 <null>
 <unconnected>
-=
-= { <proto text format> }". To set fields within it, use syntax like "
-=.=
->
-?
+<unknown>
+=\n NETWORK_DISCONNECT_CLIENT_NO_MAP
+=\n9GAME_PARTICLE_MANAGER_EVENT_SET_SCENE_OBJECT_GENERIC_FLAG
+=\n9k_ItemPurgatoryResponse_Finalize_Failed_CouldNotFindItems
+=\n\ftransactions
+>\n\fgame_manager
+>\n\neerrorcode
+>\n\nsale_price
+>\n\rgranted_items
+>\n\tTypeCache
+?456789:;<=
 ?GameSystem2HostHook
-@
+?Trailing Data
+?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
+?\n;k_ItemPurgatoryResponse_Finalize_Failed_ItemsNotInPurgatory
+?\n\ncurrencies
+?\n\rvirtual_items
 @Aphysaggregatedata.cpp
-A
+@\n\fSingleObject
+@\n\vLoadoutItem
 A file with this name is already in the pool.
 A protobuf object %s with a repeated field %s was used in a container, this will crash
-A protocol message was rejected because it was too big (more than
-A->B
+A protocol message was rejected because it was too big (more than 
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
 ABORTED
 ACT_IDLE
@@ -1134,44 +1995,49 @@ AE_VORTIGAUNT_ZAP_POWERUP
 AE_VORTIGAUNT_ZAP_SHOOT
 AE_ZOMBIE_POPHEADCRAB
 AE_ZOMBIE_TOGGLE_HEAD
-AIM
 AIWalkable
 ALREADY_EXISTS
 ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
-APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %d!
-APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
-APPSYSTEM: In ReconnectGameInterface(), tried to use different connection modes!
+APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %d!\n
+APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!\n
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
+APPSYSTEM: In ReconnectGameInterface(), tried to use different connection modes!\n
 ATTACHMENT_INFLUENCE_FLAGS_NONE
+A\n!NETWORK_DISCONNECT_REJECT_NOLOBBY
+A\n\nOutputItem
+A\n\nannotation
 Abilities
 AbsolutePoseControl
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
+Access of unconnected ConVarRef\n
+Access of unconnected SplitScreenConVarRef\n
+Account
+Achievement_Blocks
 Activate diffcheck system.
 ActivateDefinitionSet
-Activating Definition Set (%s): eDefinitionSet = %d
-Actual    :
-Actual   :
+Activating Definition Set (%s): eDefinitionSet = %d\n
 Actually show diffcheck results.
 AddAllocatedMessage
 AddBool
 AddDouble
 AddEnum
-AddEnumValue accepts only valid integer values: value
+AddEnumValue accepts only valid integer values: value 
 AddFloat
 AddInt32
 AddInt64
 AddMessage
 AddOnInfo
+AddRef
 AddString
 AddUInt32
 AddUInt64
+AdditionalAuditEntry
+AdditionalOutput
 AddonInfo
 AddonsChangeDefaultWritePath
 AllowAddonDependencies
 Already saw decimal point or exponent; can't have another one.
-Angle;
+Angle; 
 AnimAddLayer
 AnimAlign
 AnimAutoLayer
@@ -1196,29 +2062,26 @@ AnimStartLoop
 AnimSubtract
 AnimVRFinger_t
 AnimVRHand_t
-Animated
+Animated\n
 AnimationList
 AnimationSystemUtils_001
 AnimationSystem_001
 Application "
-Application unable to load gameinfo.gi file from directory "%s"!
+Application unable to load gameinfo.gi file from directory "%s"!\n
 ApplicationInfo
 AssertMsg_ConditionFailed
-Assertion Failed in function %s():%s
+Assertion Failed in function %s():\n%s
 AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
-Attempting to get the Skeletal Input settings from model %s, which doesn't have any.  Please add a Skeletal Input Settings node to the model in ModelDoc
-Attempting to get the movement settings from model %s, for which movement settings have not been set.  Please add a MovementSettings node to the model in ModelDoc
+Attempting to get the Skeletal Input settings from model %s, which doesn't have any.  \nPlease add a Skeletal Input Settings node to the model in ModelDoc\n
+Attempting to get the movement settings from model %s, for which movement settings have not been set.  \nPlease add a MovementSettings node to the model in ModelDoc\n
 AuthenticAMD
 AvailableUnits
-B
-B->C
-BackUp() can only be called after Next().
 BackUp() can only be called after a successful Next().
-Bad KV3 data for '%s': %s
-Bad Unit ID %u on Unit '%s'.
+Bad KV3 data for '%s': %s\n
+Bad Unit ID %u on Unit '%s'.\n
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
 Bad expression token: %c
@@ -1235,10 +2098,11 @@ Bad header format (expected format name)
 Bad header format (expected format uuid)
 Bad header format (malformed UUID)
 Bad header format (no closing marker)
+Bad header: invalid binary marker
 Bad header: invalid compression header
 Bad header: unrecognized encoding id
 BakedLODBuilderMgr001
-Base Spring;
+Base Spring; 
 BaseIKRig
 BasePhysicsShape
 BenchmarkService001
@@ -1255,8 +2119,7 @@ Bots
 BreakCommand
 BreakPieceEmbedded
 BreakPieceExternal
-Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of
-C
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of 
 C& google::protobuf::internal::scoped_array<C>::operator[](std::ptrdiff_t) const [with C = unsigned int, std::ptrdiff_t = long int]
 C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google::protobuf::Message]
 C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google::protobuf::UnknownFieldSet]
@@ -1265,8 +2128,6 @@ C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = googl
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::Message]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C->D
-C->E
 CANCELLED
 CAimConstraint
 CAnimBone
@@ -1280,6 +2141,7 @@ CAnimRetargetElementData
 CAnimUser
 CAnimationGroup
 CAttachment
+CAttribute_String
 CAuthPhysBody
 CAuthPhysJoint
 CBaseConstraint
@@ -1313,265 +2175,573 @@ CBufferString::StripTrailingSlash()
 CBufferString::Swap(CBufferString&)
 CBufferString::ToLowerFast(int)
 CBufferStringN
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CClientReconnectInfo
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
+CCommunity_ClanAnnouncementInfo
 CConstraintSlave
 CConstraintTarget
 CDACGameManager
+CDACNetBuffer_Debug
 CDrawCullingData
 CEntityIndex
+CEntityMessageDoSpark
+CEntityMessageFixAngle
+CEntityMessagePlayJingle
+CEntityMessagePropagateForce
+CEntityMessageRemoveAllDecals
+CEntityMessageScreenOverlay
+CExtraMsgBlock
 CFingerBone
 CFingerChain
 CFingerSource
 CFootDefinition
+CGCMsgCompressedMsgToClient
+CGCMsgGetIPASN
+CGCMsgGetIPASNResponse
+CGCMsgGetIPLocation
+CGCMsgGetIPLocationResponse
+CGCMsgGetSystemStats"
+CGCMsgGetSystemStatsResponse
+CGCMsgMemCachedDelete
+CGCMsgMemCachedGet
+CGCMsgMemCachedGetResponse
+CGCMsgMemCachedSet
+CGCMsgMemCachedStats"
+CGCMsgMemCachedStatsResponse
+CGCMsgSQLStats
+CGCMsgSQLStatsResponse
+CGCMsgSystemStatsSchema
+CGCStorePurchaseInit_LineItem
+CGCSystemMsg_GetAccountDetails
+CGCToGCMsgMasterAck
+CGCToGCMsgMasterAck_Response
+CGCToGCMsgMasterStartupComplete
+CGCToGCMsgRouted
+CGCToGCMsgRoutedReply
 CGameModelInfo::GetModelIndex() Lazy loading mode
-CHECK failed: !TableEntryIsTree(b) && !TableEntryIsTree(b ^ 1):
-CHECK failed: !aggregate_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !checkpoints_.empty():
-CHECK failed: !coded_out.HadError():
-CHECK failed: !csharp_namespace_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !default_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !descriptor_:
-CHECK failed: !extendee_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !extension->is_repeated:
-CHECK failed: !failed_:
-CHECK failed: !field->containing_oneof():
-CHECK failed: !field->options().weak():
-CHECK failed: !file->finished_building_:
-CHECK failed: !file_:
-CHECK failed: !go_package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !identifier_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !input_type_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !is_closed_:
-CHECK failed: !iter->second.is_repeated:
-CHECK failed: !java_outer_classname_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !java_package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !json_name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !leading_comments_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !name_:
-CHECK failed: !name_part_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !objc_class_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !once_:
-CHECK failed: !out.HadError():
-CHECK failed: !output_type_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !php_class_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !php_namespace_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !source_file_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !string_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !swift_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !syntax_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !trailing_comments_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: !tree->empty():
-CHECK failed: !type_name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()):
-CHECK failed: (&from) != (this):
-CHECK failed: (&from) != (to):
-CHECK failed: (&other) != (this):
-CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL):
-CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_REPEATED):
-CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL):
-CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (REPEATED):
-CHECK failed: ((iter->second).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL):
-CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL):
-CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (REPEATED):
-CHECK failed: (*buffer) == (first_byte):
-CHECK failed: (0) != (n):
-CHECK failed: (0) <= (pos):
-CHECK failed: (0) == (BufferSize()):
-CHECK failed: (FieldDescriptor::TypeToCppType(field->type())) == (value.type()):
-CHECK failed: (TYPE_LENGTH_DELIMITED) == (type()):
-CHECK failed: (b->avail()) >= (n):
-CHECK failed: (backup_bytes_) == (0):
-CHECK failed: (bucket_index_ % 2) == (0):
-CHECK failed: (bucket_index_ & 1) == (0):
-CHECK failed: (buffer_size) >= (0):
-CHECK failed: (buffer_used_) == (buffer_size_):
-CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization):
-CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization):
-CHECK failed: (calc_escaped_size) == (escaped_len):
-CHECK failed: (count) <= (buffer_used_):
-CHECK failed: (count) <= (kMaxLength):
-CHECK failed: (count) <= (last_returned_size_):
-CHECK failed: (count) <= (target_->size()):
-CHECK failed: (count) == (tree->size()):
-CHECK failed: (count) >= (0):
-CHECK failed: (cpp_type((*extension).type)) == (FieldDescriptor::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_BOOL):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_DOUBLE):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_ENUM):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_FLOAT):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT32):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT64):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_STRING):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT32):
-CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT64):
-CHECK failed: (cpp_type((iter->second).type)) == (FieldDescriptor::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_BOOL):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_DOUBLE):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_ENUM):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_FLOAT):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT32):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT64):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_STRING):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT32):
-CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT64):
-CHECK failed: (cpp_type(extension->type)) == (FieldDescriptor::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_BOOL):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_DOUBLE):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_ENUM):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_FLOAT):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT32):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT64):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_MESSAGE):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_STRING):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT32):
-CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT64):
-CHECK failed: (current_size_) < (total_size_):
-CHECK failed: (current_size_) > (0):
-CHECK failed: (descriptor->file()->pool()) == (DescriptorPool::generated_pool()):
-CHECK failed: (digits) < (100):
-CHECK failed: (end - target) == (size):
-CHECK failed: (extension->is_packed) == (other_extension.is_packed):
-CHECK failed: (extension->is_packed) == (packed):
-CHECK failed: (extension->type) == (other_extension.type):
-CHECK failed: (field->message_type()) == (desc):
-CHECK failed: (field->options().ctype()) == (ctype):
-CHECK failed: (field->type()) == (FieldDescriptor::TYPE_BYTES):
-CHECK failed: (final_byte_count) < (target_byte_count):
-CHECK failed: (first_byte & 0x80) == (0x80):
-CHECK failed: (first_byte_or_zero) != (0):
-CHECK failed: (first_byte_or_zero) == (buffer_[0]):
-CHECK failed: (from.GetDescriptor()) == (descriptor):
-CHECK failed: (has_bit_index) != (~0u):
-CHECK failed: (index) < (current_size_):
-CHECK failed: (index) >= (0):
-CHECK failed: (internal::AlignUpTo8(b->pos)) == (b->pos):
-CHECK failed: (internal::AlignUpTo8(n)) == (n):
-CHECK failed: (it.m_) == (this):
-CHECK failed: (last_returned_size_) > (0):
-CHECK failed: (len) <= (dest_len):
-CHECK failed: (len) >= (0):
-CHECK failed: (message1->GetReflection()) == (this):
-CHECK failed: (message2->GetReflection()) == (this):
-CHECK failed: (message_type) == (field->message_type()):
-CHECK failed: (min_bytes) <= (std::numeric_limits<size_t>::max() - kHeaderSize):
-CHECK failed: (n & (n - 1)) == (0):
-CHECK failed: (n) > (0):
-CHECK failed: (n) >= (0):
-CHECK failed: (new_num_buckets) >= (kMinTableSize):
-CHECK failed: (new_size) <= ((std::numeric_limits<size_t>::max() - kRepHeaderSize) / sizeof(old_rep->elements[0])):
-CHECK failed: (num_elements) <= (std::numeric_limits<size_t>::max() / sizeof(T)):
-CHECK failed: (option_field->type()) == (FieldDescriptor::TYPE_GROUP):
-CHECK failed: (out) == (begin + result->size()):
-CHECK failed: (out) == (begin + result.size()):
-CHECK failed: (pos) <= (x.length_):
-CHECK failed: (recursion_budget_) < (recursion_limit_):
-CHECK failed: (result.bucket_index_) == (b & ~static_cast<size_type>(1)):
-CHECK failed: (result.size()) == (i):
-CHECK failed: (size) <= (6):
-CHECK failed: (size) <= (static_cast<size_t>(2147483647)):
-CHECK failed: (static_cast<size_t>(new_size)) <= ((std::numeric_limits<size_t>::max() - kRepHeaderSize) / sizeof(Element)):
-CHECK failed: (str.size()) <= (kuint32max):
-CHECK failed: (table_[b]) == (table_[b ^ 1]):
-CHECK failed: (target - output->data()) == (output->size()):
-CHECK failed: (temp[0]) == ('1'):
-CHECK failed: (temp[size-1]) == ('5'):
-CHECK failed: (to->GetDescriptor()) == (descriptor):
-CHECK failed: (type) != (WireFormatLite::TYPE_ENUM):
-CHECK failed: (type) != (WireFormatLite::TYPE_GROUP):
-CHECK failed: (type) != (WireFormatLite::TYPE_MESSAGE):
-CHECK failed: (type) == (WireFormatLite::TYPE_ENUM):
-CHECK failed: (uintptr_t((a).data() - (*result).data())) > (uintptr_t((*result).size())):
-CHECK failed: (uintptr_t((b).data() - (*result).data())) > (uintptr_t((*result).size())):
-CHECK failed: (uintptr_t((c).data() - (*result).data())) > (uintptr_t((*result).size())):
-CHECK failed: (uintptr_t((d).data() - (*result).data())) > (uintptr_t((*result).size())):
-CHECK failed: (v.size()) <= (kStringPrintfVectorMaxArgs):
-CHECK failed: (value.size()) <= (kint32max):
-CHECK failed: FindThreadInfo(b->owner) == NULL:
-CHECK failed: GetArenaNoVirtual() == NULL:
-CHECK failed: GetArenaNoVirtual() == other->GetArenaNoVirtual():
-CHECK failed: HasExtensionSet():
-CHECK failed: HasHasbits():
-CHECK failed: InternalGetTable():
-CHECK failed: IsHeadSurrogate(head_surrogate):
-CHECK failed: IsInitialized():
-CHECK failed: IsTrailSurrogate(trail_surrogate):
-CHECK failed: TableEntryIsNonEmptyList(b):
-CHECK failed: TableEntryIsTree(b):
-CHECK failed: allow_unknown_field_ || reserved_field:
-CHECK failed: backup_bytes_ == 0 && buffer_.get() != NULL:
-CHECK failed: builder_:
-CHECK failed: checkpoints_.empty():
-CHECK failed: cpp_type(extension->type) == WireFormatLite::CPPTYPE_MESSAGE:
-CHECK failed: dynamic.get() != NULL:
-CHECK failed: enum_type_->value_count():
-CHECK failed: errors == NULL:
-CHECK failed: extension->is_repeated:
-CHECK failed: fallback_database_ == NULL:
-CHECK failed: field != NULL:
-CHECK failed: field->cpp_type() == cpp_type || (field->cpp_type() == FieldDescriptor::CPPTYPE_ENUM && cpp_type == FieldDescriptor::CPPTYPE_INT32):
-CHECK failed: field->is_repeated() || (index == -1):
-CHECK failed: field->is_repeated():
-CHECK failed: fields_ != NULL && fields_->size() > 0:
-CHECK failed: fields_ != NULL:
-CHECK failed: file != NULL:
-CHECK failed: file && file->pool_:
-CHECK failed: file()->finished_building_ == true:
-CHECK failed: file->pool_->lazily_build_dependencies_:
-CHECK failed: file_->finished_building_:
-CHECK failed: find(*KeyPtrFromNodePtr(node)) == end():
-CHECK failed: finished_building_ == true:
-CHECK failed: generated_database_->Add(encoded_file_descriptor, size):
-CHECK failed: has_default_value():
-CHECK failed: i >= 0:
-CHECK failed: index_of_first_non_null_ == num_buckets_ || table_[index_of_first_non_null_] != NULL:
-CHECK failed: info != NULL:
-CHECK failed: initial_value != NULL:
-CHECK failed: iter != extensions_.end():
-CHECK failed: iter == extensions_.end():
-CHECK failed: m_->index_of_first_non_null_ == m_->num_buckets_ || m_->table_[m_->index_of_first_non_null_] != NULL:
-CHECK failed: map_iter->iter_ != NULL:
-CHECK failed: message_arena != submessage_arena:
-CHECK failed: mutex_ == NULL:
-CHECK failed: n >= kMinTableSize:
-CHECK failed: node_ != NULL && m_ != NULL:
-CHECK failed: options->AppendPartialToString(&buf):
-CHECK failed: options->ParsePartialFromString(buf):
-CHECK failed: options_ != NULL:
-CHECK failed: options_descriptor:
-CHECK failed: original_uninterpreted_options_field != NULL:
-CHECK failed: other->GetArenaNoVirtual() != GetArenaNoVirtual():
-CHECK failed: output->message_prototype != NULL:
-CHECK failed: output:
-CHECK failed: prototype != NULL:
-CHECK failed: rep_:
-CHECK failed: result != NULL:
-CHECK failed: s != NULL:
-CHECK failed: schema_.HasHasbits():
-CHECK failed: snprintf_result > 0 && snprintf_result < kDoubleToBufferSize:
-CHECK failed: snprintf_result > 0 && snprintf_result < kFloatToBufferSize:
-CHECK failed: source_code_info_ != NULL:
-CHECK failed: table_[b] == table_[b + 1] && (b & 1) == 0:
-CHECK failed: target_ != NULL:
-CHECK failed: this != other:
-CHECK failed: this == other_mutator:
-CHECK failed: this->MapFieldBase::repeated_field_ != NULL:
-CHECK failed: trees:
-CHECK failed: type == WireFormatLite::TYPE_MESSAGE || type == WireFormatLite::TYPE_GROUP:
-CHECK failed: type > 0 && type <= FieldDescriptor::MAX_TYPE:
-CHECK failed: type > 0 && type <= WireFormatLite::MAX_FIELD_TYPE:
-CHECK failed: uninterpreted_options_field != NULL:
-CHECK failed: value != NULL:
-CHECK failed: z.first != NULL:
+CHECK failed: !TableEntryIsTree(b) && !TableEntryIsTree(b ^ 1): 
+CHECK failed: !aggregate_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !checkpoints_.empty(): 
+CHECK failed: !coded_out.HadError(): 
+CHECK failed: !csharp_namespace_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !default_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !descriptor_: 
+CHECK failed: !extendee_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !extension->is_repeated: 
+CHECK failed: !failed_: 
+CHECK failed: !field->containing_oneof(): 
+CHECK failed: !field->options().weak(): 
+CHECK failed: !file->finished_building_: 
+CHECK failed: !file_: 
+CHECK failed: !go_package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !identifier_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !input_type_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !is_closed_: 
+CHECK failed: !iter->second.is_repeated: 
+CHECK failed: !java_outer_classname_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !java_package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !json_name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !leading_comments_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !name_: 
+CHECK failed: !name_part_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !objc_class_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !once_: 
+CHECK failed: !out.HadError(): 
+CHECK failed: !output_type_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !package_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !php_class_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !php_namespace_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !source_file_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !string_value_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !swift_prefix_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !syntax_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !trailing_comments_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: !tree->empty(): 
+CHECK failed: !type_name_.IsDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited()): 
+CHECK failed: (&from) != (this): 
+CHECK failed: (&from) != (to): 
+CHECK failed: (&other) != (this): 
+CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL): 
+CHECK failed: ((*extension).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_REPEATED): 
+CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL): 
+CHECK failed: ((*extension).is_repeated ? REPEATED : OPTIONAL) == (REPEATED): 
+CHECK failed: ((iter->second).is_repeated ? FieldDescriptor::LABEL_REPEATED : FieldDescriptor::LABEL_OPTIONAL) == (FieldDescriptor::LABEL_OPTIONAL): 
+CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (OPTIONAL): 
+CHECK failed: ((iter->second).is_repeated ? REPEATED : OPTIONAL) == (REPEATED): 
+CHECK failed: (*buffer) == (first_byte): 
+CHECK failed: (0) != (n): 
+CHECK failed: (0) <= (pos): 
+CHECK failed: (0) == (BufferSize()): 
+CHECK failed: (FieldDescriptor::TypeToCppType(field->type())) == (value.type()): 
+CHECK failed: (TYPE_LENGTH_DELIMITED) == (type()): 
+CHECK failed: (b->avail()) >= (n): 
+CHECK failed: (backup_bytes_) == (0): 
+CHECK failed: (bucket_index_ % 2) == (0): 
+CHECK failed: (bucket_index_ & 1) == (0): 
+CHECK failed: (buffer_size) >= (0): 
+CHECK failed: (buffer_used_) == (buffer_size_): 
+CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization): 
+CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization): 
+CHECK failed: (calc_escaped_size) == (escaped_len): 
+CHECK failed: (count) <= (buffer_used_): 
+CHECK failed: (count) <= (kMaxLength): 
+CHECK failed: (count) <= (last_returned_size_): 
+CHECK failed: (count) <= (target_->size()): 
+CHECK failed: (count) == (tree->size()): 
+CHECK failed: (count) >= (0): 
+CHECK failed: (cpp_type((*extension).type)) == (FieldDescriptor::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_BOOL): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_DOUBLE): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_ENUM): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_FLOAT): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT32): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_INT64): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_STRING): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT32): 
+CHECK failed: (cpp_type((*extension).type)) == (WireFormatLite::CPPTYPE_UINT64): 
+CHECK failed: (cpp_type((iter->second).type)) == (FieldDescriptor::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_BOOL): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_DOUBLE): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_ENUM): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_FLOAT): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT32): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_INT64): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_STRING): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT32): 
+CHECK failed: (cpp_type((iter->second).type)) == (WireFormatLite::CPPTYPE_UINT64): 
+CHECK failed: (cpp_type(extension->type)) == (FieldDescriptor::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_BOOL): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_DOUBLE): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_ENUM): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_FLOAT): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT32): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_INT64): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_MESSAGE): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_STRING): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT32): 
+CHECK failed: (cpp_type(extension->type)) == (WireFormatLite::CPPTYPE_UINT64): 
+CHECK failed: (current_size_) < (total_size_): 
+CHECK failed: (current_size_) > (0): 
+CHECK failed: (descriptor->file()->pool()) == (DescriptorPool::generated_pool()): 
+CHECK failed: (digits) < (100): 
+CHECK failed: (end - target) == (size): 
+CHECK failed: (extension->is_packed) == (other_extension.is_packed): 
+CHECK failed: (extension->is_packed) == (packed): 
+CHECK failed: (extension->type) == (other_extension.type): 
+CHECK failed: (field->message_type()) == (desc): 
+CHECK failed: (field->options().ctype()) == (ctype): 
+CHECK failed: (field->type()) == (FieldDescriptor::TYPE_BYTES): 
+CHECK failed: (final_byte_count) < (target_byte_count): 
+CHECK failed: (first_byte & 0x80) == (0x80): 
+CHECK failed: (first_byte_or_zero) != (0): 
+CHECK failed: (first_byte_or_zero) == (buffer_[0]): 
+CHECK failed: (from.GetDescriptor()) == (descriptor): 
+CHECK failed: (has_bit_index) != (~0u): 
+CHECK failed: (index) < (current_size_): 
+CHECK failed: (index) >= (0): 
+CHECK failed: (internal::AlignUpTo8(b->pos)) == (b->pos): 
+CHECK failed: (internal::AlignUpTo8(n)) == (n): 
+CHECK failed: (it.m_) == (this): 
+CHECK failed: (last_returned_size_) > (0): 
+CHECK failed: (len) <= (dest_len): 
+CHECK failed: (len) >= (0): 
+CHECK failed: (message1->GetReflection()) == (this): 
+CHECK failed: (message2->GetReflection()) == (this): 
+CHECK failed: (message_type) == (field->message_type()): 
+CHECK failed: (min_bytes) <= (std::numeric_limits<size_t>::max() - kHeaderSize): 
+CHECK failed: (n & (n - 1)) == (0): 
+CHECK failed: (n) > (0): 
+CHECK failed: (n) >= (0): 
+CHECK failed: (new_num_buckets) >= (kMinTableSize): 
+CHECK failed: (new_size) <= ((std::numeric_limits<size_t>::max() - kRepHeaderSize) / sizeof(old_rep->elements[0])): 
+CHECK failed: (num_elements) <= (std::numeric_limits<size_t>::max() / sizeof(T)): 
+CHECK failed: (option_field->type()) == (FieldDescriptor::TYPE_GROUP): 
+CHECK failed: (out) == (begin + result->size()): 
+CHECK failed: (out) == (begin + result.size()): 
+CHECK failed: (output->ByteCount()) == (expected_endpoint): 
+CHECK failed: (pos) <= (x.length_): 
+CHECK failed: (recursion_budget_) < (recursion_limit_): 
+CHECK failed: (result.bucket_index_) == (b & ~static_cast<size_type>(1)): 
+CHECK failed: (result.size()) == (i): 
+CHECK failed: (size) <= (6): 
+CHECK failed: (size) <= (static_cast<size_t>(2147483647)): 
+CHECK failed: (static_cast<size_t>(new_size)) <= ((std::numeric_limits<size_t>::max() - kRepHeaderSize) / sizeof(Element)): 
+CHECK failed: (str.size()) <= (kuint32max): 
+CHECK failed: (table_[b]) == (table_[b ^ 1]): 
+CHECK failed: (target - output->data()) == (output->size()): 
+CHECK failed: (temp[0]) == ('1'): 
+CHECK failed: (temp[size-1]) == ('5'): 
+CHECK failed: (to->GetDescriptor()) == (descriptor): 
+CHECK failed: (type) != (WireFormatLite::TYPE_ENUM): 
+CHECK failed: (type) != (WireFormatLite::TYPE_GROUP): 
+CHECK failed: (type) != (WireFormatLite::TYPE_MESSAGE): 
+CHECK failed: (type) == (WireFormatLite::TYPE_ENUM): 
+CHECK failed: (uintptr_t((a).data() - (*result).data())) > (uintptr_t((*result).size())): 
+CHECK failed: (uintptr_t((b).data() - (*result).data())) > (uintptr_t((*result).size())): 
+CHECK failed: (uintptr_t((c).data() - (*result).data())) > (uintptr_t((*result).size())): 
+CHECK failed: (uintptr_t((d).data() - (*result).data())) > (uintptr_t((*result).size())): 
+CHECK failed: (v.size()) <= (kStringPrintfVectorMaxArgs): 
+CHECK failed: (value.size()) <= (kint32max): 
+CHECK failed: FindThreadInfo(b->owner) == NULL: 
+CHECK failed: GetArenaNoVirtual() == NULL: 
+CHECK failed: GetArenaNoVirtual() == other->GetArenaNoVirtual(): 
+CHECK failed: HasExtensionSet(): 
+CHECK failed: HasHasbits(): 
+CHECK failed: InternalGetTable(): 
+CHECK failed: IsHeadSurrogate(head_surrogate): 
+CHECK failed: IsInitialized(): 
+CHECK failed: IsTrailSurrogate(trail_surrogate): 
+CHECK failed: TableEntryIsNonEmptyList(b): 
+CHECK failed: TableEntryIsTree(b): 
+CHECK failed: a.type() == b.type(): 
+CHECK failed: allow_unknown_field_ || reserved_field: 
+CHECK failed: backup_bytes_ == 0 && buffer_.get() != NULL: 
+CHECK failed: builder_: 
+CHECK failed: checkpoints_.empty(): 
+CHECK failed: cpp_type(extension->type) == WireFormatLite::CPPTYPE_MESSAGE: 
+CHECK failed: dest: 
+CHECK failed: dynamic.get() != NULL: 
+CHECK failed: enum_type_->value_count(): 
+CHECK failed: errors == NULL: 
+CHECK failed: extension->is_repeated: 
+CHECK failed: fallback_database_ == NULL: 
+CHECK failed: field != NULL: 
+CHECK failed: field->cpp_type() == cpp_type || (field->cpp_type() == FieldDescriptor::CPPTYPE_ENUM && cpp_type == FieldDescriptor::CPPTYPE_INT32): 
+CHECK failed: field->is_repeated() || (index == -1): 
+CHECK failed: field->is_repeated(): 
+CHECK failed: fields_ != NULL && fields_->size() > 0: 
+CHECK failed: fields_ != NULL: 
+CHECK failed: file != NULL: 
+CHECK failed: file && file->pool_: 
+CHECK failed: file()->finished_building_ == true: 
+CHECK failed: file->pool_->lazily_build_dependencies_: 
+CHECK failed: file_->finished_building_: 
+CHECK failed: find(*KeyPtrFromNodePtr(node)) == end(): 
+CHECK failed: finished_building_ == true: 
+CHECK failed: generated_database_->Add(encoded_file_descriptor, size): 
+CHECK failed: has_default_value(): 
+CHECK failed: i >= 0: 
+CHECK failed: index_of_first_non_null_ == num_buckets_ || table_[index_of_first_non_null_] != NULL: 
+CHECK failed: info != NULL: 
+CHECK failed: initial_value != NULL: 
+CHECK failed: is_prototype(): 
+CHECK failed: is_repeated: 
+CHECK failed: iter != extensions_.end(): 
+CHECK failed: iter == extensions_.end(): 
+CHECK failed: m_->index_of_first_non_null_ == m_->num_buckets_ || m_->table_[m_->index_of_first_non_null_] != NULL: 
+CHECK failed: map_iter->iter_ != NULL: 
+CHECK failed: message_arena != submessage_arena: 
+CHECK failed: mutex_ == NULL: 
+CHECK failed: n >= kMinTableSize: 
+CHECK failed: node_ != NULL && m_ != NULL: 
+CHECK failed: options->AppendPartialToString(&buf): 
+CHECK failed: options->ParsePartialFromString(buf): 
+CHECK failed: options_ != NULL: 
+CHECK failed: options_descriptor: 
+CHECK failed: original_uninterpreted_options_field != NULL: 
+CHECK failed: other->GetArenaNoVirtual() != GetArenaNoVirtual(): 
+CHECK failed: output->message_prototype != NULL: 
+CHECK failed: output: 
+CHECK failed: prototype != NULL: 
+CHECK failed: rep_: 
+CHECK failed: result != NULL: 
+CHECK failed: s != NULL: 
+CHECK failed: schema_.HasHasbits(): 
+CHECK failed: snprintf_result > 0 && snprintf_result < kDoubleToBufferSize: 
+CHECK failed: snprintf_result > 0 && snprintf_result < kFloatToBufferSize: 
+CHECK failed: source_code_info_ != NULL: 
+CHECK failed: submessage->GetArena() == submessage_arena: 
+CHECK failed: table_[b] == table_[b + 1] && (b & 1) == 0: 
+CHECK failed: target_ != NULL: 
+CHECK failed: this != other: 
+CHECK failed: this == other_mutator: 
+CHECK failed: this->MapFieldBase::repeated_field_ != NULL: 
+CHECK failed: trees: 
+CHECK failed: type == WireFormatLite::TYPE_MESSAGE || type == WireFormatLite::TYPE_GROUP: 
+CHECK failed: type > 0 && type <= FieldDescriptor::MAX_TYPE: 
+CHECK failed: type > 0 && type <= WireFormatLite::MAX_FIELD_TYPE: 
+CHECK failed: uninterpreted_options_field != NULL: 
+CHECK failed: value != NULL: 
+CHECK failed: z.first != NULL: 
 CHitBox
 CHitBoxSet
 CHitBoxSetList
+CIPLocationInfo
+CLIENT_STEAMID
 CMaterialDrawDescriptor
 CMemAllocSystemInitialize
 CMorphConstraint
+CMsgAMAddFreeLicense
+CMsgAMAddFreeLicenseResponse
+CMsgAMFindAccounts
+CMsgAMFindAccountsResponse
+CMsgAMGetLicenses
+CMsgAMGetLicensesResponse
+CMsgAMGetUserGameStats
+CMsgAMGetUserGameStatsResponse
+CMsgAMGrantGuestPasses2
+CMsgAMGrantGuestPasses2Response
+CMsgAMSendEmail
+CMsgAMSendEmailResponse
+CMsgAddItemToSocket
+CMsgAddItemToSocketData
+CMsgAddItemToSocketResponse
+CMsgAddSocketResponse
+CMsgAdjustItemEquippedState
+CMsgAnyToGCReportAsserts
+CMsgApplyAutograph
+CMsgApplyEggEssence
+CMsgApplyPennantUpgrade
+CMsgApplyStrangePart
+CMsgBannedWordList
+CMsgBoardBuddy
+CMsgClientConnectionComplete"o\n
+CMsgClientConnectionStarted
+CMsgClientHello
+CMsgClientPingData
+CMsgClientServerHeader
+CMsgClientSetDebugNetBuffer
+CMsgClientToGCEquipItems
+CMsgClientToGCLookupAccountName
+CMsgClientToGCNameItem
+CMsgClientToGCNameItemResponse
+CMsgClientToGCSetItemStyle
+CMsgClientToGCUnlockCrate
+CMsgClientToGCUnlockItemStyle
+CMsgClientToGCUnpackBundle
+CMsgClientToGCUnwrapGift
+CMsgClientToServerChatMsg
+CMsgClientToServerClickMsg
+CMsgClientToServerInitData
+CMsgClientToServerLoadShareCode
+CMsgClientUnderlordLoadout
+CMsgClientUnderlordLoadoutList
+CMsgClientWelcome
+CMsgCombatDebugSnapshot
+CMsgCombatEvent
+CMsgCombatEvent_Attack
+CMsgCombatEvent_AttackBlocked
+CMsgCombatEvent_AttackEvaded"5\n
+CMsgCombatEvent_AttackMissed"
+CMsgCombatEvent_CancelAttack"6\n
+CMsgCombatEvent_CastAbility
+CMsgCombatEvent_CombatEnded
+CMsgCombatEvent_Damage
+CMsgCombatEvent_Death"3\n
+CMsgCombatEvent_ModifierCreate
+CMsgCombatEvent_ModifierDestroy
+CMsgCombatEvent_Resurrect"1\n
+CMsgCombatEvent_SoundEvent
+CMsgCombatEvent_SpeechEvent
+CMsgCombatEvent_StartAttack
+CMsgCombatEvent_StartGesture
+CMsgCombatEvent_StopGesture
+CMsgCombatHighlight
+CMsgCombatMetersSnapshot
+CMsgCombatSnapshot
+CMsgConVarValue
+CMsgConnectionStatus
+CMsgCraftStatue
+CMsgCraftingResponse
+CMsgCustomGameInstallStatus
+CMsgDPPartnerMicroTxns
+CMsgDPPartnerMicroTxnsResponse
+CMsgDevNewItemRequest
+CMsgDevNewItemRequestResponse
+CMsgDevUnlockAllItemStyles
+CMsgDuos_TeamCombatResult
+CMsgExtractGems
+CMsgExtractGemsResponse
+CMsgGCAddGiftItem
+CMsgGCCheckClanMembership
+CMsgGCCheckFriendship
+CMsgGCCheckFriendship_Response
+CMsgGCClientDisplayNotification
+CMsgGCClientMarketData
+CMsgGCClientMarketDataEntry
+CMsgGCClientMarketDataRequest
+CMsgGCClientPing"
+CMsgGCClientVersionUpdated
+CMsgGCCollectItem
+CMsgGCGetAppFriendsList
+CMsgGCGetCommandList
+CMsgGCGetCommandListResponse
+CMsgGCGetEmailTemplate
+CMsgGCGetEmailTemplateResponse
+CMsgGCGetPartnerAccountLink
+CMsgGCGetPersonaNames
+CMsgGCGetPersonaNames_Response
+CMsgGCHAccountTwoFactorChange
+CMsgGCHAccountVacStatusChange
+CMsgGCHUpdateSession
+CMsgGCHVacVerificationChange
+CMsgGCMsgMasterSetDirectory
+CMsgGCMsgMasterSetWebAPIRouting
+CMsgGCMsgSetOptions
+CMsgGCMultiplexMessage
+CMsgGCNameItemNotification
+CMsgGCPartnerBalanceRequest"[\n
+CMsgGCPartnerBalanceResponse
+CMsgGCRequestStoreSalesData
+CMsgGCRequestSubGCSessionInfo
+CMsgGCRoutingInfo
+CMsgGCServerVersionUpdated
+CMsgGCSetItemPosition
+CMsgGCShowItemsPickedUp
+CMsgGCStorePurchaseCancel
+CMsgGCStorePurchaseFinalize
+CMsgGCStorePurchaseInit
+CMsgGCStorePurchaseInitResponse
+CMsgGCToClientPollConvarRequest
+CMsgGCToClientPollFileRequest
+CMsgGCToClientPollFileResponse
+CMsgGCToClientRequestDropped"
+CMsgGCToGCAddSubscriptionTime
+CMsgGCToGCApplyLocalizationDiff
+CMsgGCToGCBannedWordListUpdated
+CMsgGCToGCCanUseDropRateBonus
+CMsgGCToGCConsoleOutput
+CMsgGCToGCDirtyMultipleSDOCache
+CMsgGCToGCDirtySDOCache
+CMsgGCToGCForwardAccountDetails
+CMsgGCToGCGetInfuxIntervalStats"
+CMsgGCToGCGetUserServerMembers
+CMsgGCToGCGetUserSessionServer
+CMsgGCToGCInternalTestMsg
+CMsgGCToGCLoadSessionSOCache
+CMsgGCToGCMasterDestroyCache
+CMsgGCToGCPerformManualOp
+CMsgGCToGCPingRequest"
+CMsgGCToGCPingResponse"4\n
+CMsgGCToGCPurchaseSucceeded"\\n
+CMsgGCToGCRefreshSOCache
+CMsgGCToGCSOCacheSubscribe
+CMsgGCToGCSOCacheUnsubscribe
+CMsgGCToGCSelfPing
+CMsgGCToGCSubGCStarting
+CMsgGCToGCUniverseStartup
+CMsgGCToGCUpdateSQLKeyValue
+CMsgGCToGCUpdateSessionStats
+CMsgGCToGCWebAPIAccountChanged"G\n
+CMsgGCUpdateSubGCSessionInfo
+CMsgGameModeSettings
+CMsgGameModeState
+CMsgGameModeState_Dungeon
+CMsgGameModeState_Duos
+CMsgGameModeState_Normal"I\n
+CMsgGameModeState_Puzzle
+CMsgGameModeState_Sandbox
+CMsgGameModeState_Streetfight
+CMsgGameModeState_Turbo
+CMsgGameModeState_Tutorial
+CMsgGameModifiers"
+CMsgGameReplayActionMarker
+CMsgGameStateIntegrationBlock
+CMsgGameStateIntegrationData
+CMsgGameStateIntegrationUpdate
+CMsgGenericResult
+CMsgHaveVersions
+CMsgHttpRequest
+CMsgHttpResponse
+CMsgIndividualPostMatchStats
+CMsgInvitationCreated
+CMsgInviteToLobby
+CMsgInviteToParty
+CMsgItemAcknowledged
+CMsgItemChangedOwner
+CMsgKickFromParty
+CMsgLANServerAvailable
+CMsgLeaveParty"~\n
+CMsgLobbyInviteResponse
+CMsgLookupMultipleAccountNames
+CMsgMatchState
+CMsgModifierName
+CMsgNetBufferContents
+CMsgNetBufferRemoved
+CMsgNotifyWatchdog
+CMsgPackageLicense
+CMsgPartyInviteResponse
+CMsgPlayerAcquiredItem
+CMsgPlayerCombatResult
+CMsgPlayerCombinedHero
+CMsgPlayerEliminated
+CMsgPlayerInfo
+CMsgPlayerLevelUp
+CMsgPlayerMapPropCommand
+CMsgPlayerOrder
+CMsgPlayerOrderProcessed
+CMsgPlayerPreferences
+CMsgPlayerSelectedTalent
+CMsgPlayerStateUpdatesComplete"m\n
+CMsgPlayerWinStreak
+CMsgPrivatePlayerState
+CMsgProcessTransactionOrder
+CMsgProtoBufHeader
+CMsgPublicPlayerState
+CMsgPublicPostMatchStats
+CMsgPuzzleLeaderboardHistogram
+CMsgRGBA
+CMsgRecipeComponent
+CMsgRecordLocalBotStats
+CMsgRedeemCode
+CMsgRedeemCodeResponse
+CMsgRegionPingTimesClient
+CMsgReplicateConVars
+CMsgRequestCrateEscalationLevel
+CMsgRequestCrateItems
+CMsgRequestCrateItemsResponse
+CMsgRequestInventoryRefresh".\n
+CMsgResetStrangeGemCount
+CMsgRoundCombat
+CMsgRoundCombatGlobal
+CMsgSDONoMemcached"/\n
+CMsgSHA1Digest
+CMsgSOCacheHaveVersion
+CMsgSOCacheSubscribed
+CMsgSOCacheSubscribedUpToDate
+CMsgSOCacheSubscriptionCheck
+CMsgSOCacheSubscriptionRefresh
+CMsgSOCacheUnsubscribed
+CMsgSOCacheVersion
+CMsgSOMultipleObjects
+CMsgSOSingleObject
+CMsgSQLAddDropRateBonus
+CMsgSQLGCToGCGrantBackpackSlots
+CMsgSQLUpgradeBattleBooster
+CMsgSerializedSOCache
+CMsgServerAvailable
+CMsgServerToClientChatMsg
+CMsgServerToClientClickMsg
+CMsgServerUseItem
+CMsgSetItemPositions
+CMsgStartFindingMatchInfo
+CMsgStreetfightSettings
+CMsgSystemBroadcast
+CMsgTurboBucket
+CMsgUnderlordPickerOffering
+CMsgUnit
+CMsgUnitAbilityCooldown
+CMsgUnitMeterDamageDealt
+CMsgUnitMeterDamageTaken
+CMsgUnitMeterDetail
+CMsgUnitMeterSnapshot
+CMsgUnitPosition
+CMsgUnitPositionAndFacing
+CMsgUnitSnapshot
+CMsgUpdateItemSchema
+CMsgUseMultipleItems
+CMsgWebAPIRequest
+CNETMsg_Disconnect
+CNETMsg_SetConVar
+CNETMsg_SignonState
+CNETMsg_SpawnGroup_Load
+CNETMsg_SpawnGroup_Unload
+CNETMsg_SplitScreenUser
+CNETMsg_StringCmd
 COLLISION_MODE_INITIAL_TRACE_DOWN
 COLLISION_MODE_PER_FRAME_PLANESET
 COLLISION_MODE_PER_PARTICLE_TRACE
@@ -1581,6 +2751,7 @@ COM_TimestampedLog
 CONTENT
 CONTENTADDONS
 CONTENTROOT
+CORD
 COrientConstraint
 CPPTYPE_BOOL
 CPPTYPE_DOUBLE
@@ -1595,12 +2766,40 @@ CPPTYPE_UINT64
 CParentConstraint
 CParticleSystemDefinition
 CPointConstraint
+CProtoItemSocket
+CProtoItemSocket_AssetModifier
+CProtoItemSocket_Autograph
+CProtoItemSocket_Color
+CProtoItemSocket_Effect
+CProtoItemSocket_Empty
+CProtoItemSocket_Spectator
+CProtoItemSocket_StaticVisuals
+CProtoItemSocket_Strange
 CRenderBufferBinding
 CRenderMesh
 CRenderSkeleton
 CResourceManifestPrerequisite
+CSOAccountSyncStorage
+CSOEconClaimCode
+CSOEconGameAccountClient
+CSOEconItemAttribute
+CSOEconItemDropRateBonus
+CSOEconItemEquipped
+CSOEconItemEventTicket
+CSOEconItemLeagueViewPass
+CSOEconItemTournamentPassport
+CSOGameAccountClient
+CSOItemCriteria
+CSOItemCriteriaCondition
+CSVCMsgList_GameEvents
+CSVCMsgList_UserMessages
+CSVCMsg_GameEvent
+CSVCMsg_UserMessage
 CSceneObjectData
-CSisterResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an illegal resource name %s!
+CServerLobbyData_PlayerInfo
+CSisterResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an illegal resource name %s!\n
+CSolveIKChainAnimNode
+CStrangeCountAdjustment
 CStrongHandle
 CThreadEvent::CThreadEvent(bool)
 CThreadEvent::Set()
@@ -1620,20 +2819,63 @@ CTier2AppSystemDict::LoadStartupManifestGroup
 CTiltTwistConstraint
 CTransform
 CTwistConstraint
-CUtlBlockMemory overflow!
-CUtlLinkedList overflow! (exhausted index range)
-CUtlLinkedList overflow! (exhausted memory allocator)
+CType
+CUserMessageAchievementEvent
+CUserMessageAmmoDenied
+CUserMessageAnimStateGraphState
+CUserMessageAudioParameter
+CUserMessageCameraTransition
+CUserMessageCloseCaption
+CUserMessageCloseCaptionDirect
+CUserMessageColoredText
+CUserMessageCreditsMsg
+CUserMessageCrosshairAngle
+CUserMessageCurrentTimescale
+CUserMessageDesiredTimescale
+CUserMessageFade
+CUserMessageGameTitle"
+CUserMessageHapticsManagerPulse
+CUserMessageHintText
+CUserMessageHudMsg
+CUserMessageHudText
+CUserMessageItemPickup
+CUserMessageKeyHintText
+CUserMessageRequestState"'\n
+CUserMessageResetHUD"8\n
+CUserMessageRumble
+CUserMessageSayText
+CUserMessageSayText2
+CUserMessageSayTextChannel
+CUserMessageScreenTilt
+CUserMessageSendAudio
+CUserMessageShake
+CUserMessageShakeDir
+CUserMessageShowMenu
+CUserMessageTextMsg
+CUserMessageTrain
+CUserMessageVGUIMenu
+CUserMessageVoiceMask
+CUserMessageVoiceSubtitle
+CUserMsg_CustomGameEvent
+CUserMsg_HudError
+CUserMsg_ParticleManager
+CUtlBlockMemory overflow!\n
+CUtlLinkedList overflow! (exhausted index range)\n
+CUtlLinkedList overflow! (exhausted memory allocator)\n
 CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlRBTree overflow with %u elements!
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlRBTree overflow with %u elements!\n
 CUtlString
 CUtlStringToken
 CUtlSymbol
 CUtlSymbolLarge
 CUtlVector
+CVar
 CVrSkeletalInputSettings
 CWristBone
 CXXABI_1.3
+C\n?k_EGCMsgInitiateTradeResponse_Free_Account_Initiator_DEPRECATED
+C\n\rhave_versions
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
 C_INIT_CreateFromCPs
@@ -1718,47 +2960,53 @@ C_OP_SetSingleControlPointPosition
 C_OP_StopAfterCPDuration
 C_OP_TwistAroundAxis
 C_OP_WorldTraceConstraint
+Cache
 Call set methods to initialize MapKey.
 Caller should provide us with *buffer_ when buffer is non-empty
-Can't
+Can't 
 Can't BackUp() after failed Next().
-Can't back up over more bytes than were returned by the last call to Next().
 Can't get here.
 Can't get here: failed to get default value as string
-Cannot allocate buffer larger than kint32max for
+Cannot allocate buffer larger than kint32max for 
 Cannot call BuildFile on a DescriptorPool that uses a DescriptorDatabase.  You must instead find a way to get your file into the underlying database.
 Cannot copy json_name to a proto of a different size.
 Cannot get here
 Cannot register same format from/to a KV3 conversion (from '%s' to '%s')
 ChangeCallbackOnChange
 ChangeCallbackOnChangeOrCreate
+ChangeControlPointAttachment
+Choice
+ClearField
 ClientActivateDefinitionSet
 ClothShapeCapsule
 ClothShapeList
 ClothShapeSphere
+CombatPlayerSlotToEventsEntry
 Combo(
 CommandLine
 CommandProcedure
 CommandProcedureList
-Comment started here.
 ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
-Conditional Error: %s
+ConVar(%s) defined with infinite float value (%s)\n
+ConVarRef %s doesn't point to an existing ConVar\n
+Conditional Error: %s\n
 ConfigAttachedModel
 ConfigurationSystem_001
 ConnectGameInterfaces
 ConnectInterfaces
 ConsoleStartup
-Could not create an instance of
+Could not create an instance of 
 Could not find type "
 Couldn't parse default value "
+CountryDailyRevenue
 CreateInterface
+CreateParticle
 Cubic
+Currency
 Cycle or diamond double-reference to '%s'
-D
 DAC Game Manager
 DACAbilityID_t
+DACEquipSubSlot_t
 DACGameManager001
 DACLobbyID_t
 DACPuzzleID_t
@@ -1767,6 +3015,7 @@ DATA_LOSS
 DEADLINE_EXCEEDED
 DEFAULT_WRITE_PATH
 DEMO
+DISCARD
 DacGestureSlot_t
 DebugDrawQueueManager001
 DebugTextureInfo001
@@ -1775,6 +3024,10 @@ Default
 Default value for an enum field must be an identifier.
 DegreeEuler
 DepthPassBatchID
+DescriptorProto
+DescriptorProtosH
+DestroyParticle
+DestroyParticleInvolving
 DevMsg
 DevMsg(char const*, ...)
 Developer
@@ -1782,31 +3035,218 @@ DeveloperConsole
 DeveloperVerbose
 Division or mod by zero: dividend.hi=
 Dominate(
-Don't lookup extension types if they aren't present (1).
-Don't lookup extension types if they aren't present (2).
+Don't lookup extension types if they aren't present (1). 
+Don't lookup extension types if they aren't present (2). 
 DotaCardGameClient_001
 DotaMapUtils001
 Double-register of KV3 conversion (from '%s' to '%s')
 Double-save to Member '%s'
+DungeonActionCard
+DynamicAttribute
 DynamicConfigList
-E
+E3:0
+EAddGem
+EBaseEntityMessages
+EBaseUserMessages
+EBoardBuddyCommand
+ECustomGameInstallStatus
+EDACBotDifficulty
+EDACDisconnectReason
+EDACDungeonPhase
+EDACDungeonRoomType
+EDACGameMessages
+EDACIncidentType
+EDACIncidentType_DamageMagical
+EDACIncidentType_DamagePhysical
+EDACIncidentType_DamagePure
+EDACIncidentType_Died
+EDACIncidentType_Heal
+EDACIncidentType_None
 EDACItemType_
+EDACItemType_Equipment_Hat
+EDACItemType_Equipment_Support
+EDACItemType_Global
+EDACItemType_Invalid
+EDACItemType_Placeable
+EDACMatchState
+EDACPlayerState
+EDACPuzzleRule
+EDACRegionMode
 EDACUnderlordEquipSlot
 EDACUnderlordEquipSlot_First
 EDACUnderlordEquipSlot_Max
 EDACUnderlordEquipSlot_None
 EDACUnderlordEquipSlot_Skin
 EDACUnderlordEquipSlot_VictoryDance
+EDamageSourceType
+EDuosMessageTargetType
+EDuosMessageType
+EGCBaseClientMsg
+EGCBaseProtoObjectTypes
+EGCDACCommonMessages
+EGCEconBaseMsg
+EGCMsgInitiateTradeResponse
+EGCMsgResponse
+EGCMsgUseItemResponse
+EGCPartnerRequestResponse
+EGameState_GameOver
+EGameState_Intro
+EGameState_Playing
+EGrantRewards_No
+EGrantRewards_NoLongerEligible
+EGrantRewards_Yes
+EHapticPulseType
+EInGameChatType
+EItemPurgatoryResponse_Finalize
+EItemPurgatoryResponse_Refund
+ELobbyServerState
+EM_PropagateForce
+EM_RemoveAllDecals
+EM_ScreenOverlay
+EMapPropCommand
+EMobilePaymentProvider
+ENetworkDisconnectionReason
+EPlayerConnectionState
+EPlayerOrder_BuyAndCombine
+EPlayerOrder_BuyAndSend
+EPlayerOrder_BuyCombineMove
+EPlayerOrder_BuyPuzzleUnit
+EPlayerOrder_BuyXP
+EPlayerOrder_ClearBoard
+EPlayerOrder_CombineItem
+EPlayerOrder_DevGiveUnderlord
+EPlayerOrder_DevGold
+EPlayerOrder_DevHero
+EPlayerOrder_DevItem
+EPlayerOrder_DevMakeTestBot
+EPlayerOrder_DevRemoveAllItems
+EPlayerOrder_DevRemoveAllUnits
+EPlayerOrder_DevSetPlayerLevel
+EPlayerOrder_DevSetUnitRank
+EPlayerOrder_DevTalent
+EPlayerOrder_GoToTutorialState
+EPlayerOrder_LockShop
+EPlayerOrder_MoveUnit
+EPlayerOrder_MutePlayer
+EPlayerOrder_PauseGame
+EPlayerOrder_ReRoll
+EPlayerOrder_RequestPlayerStats
+EPlayerOrder_ResumeGame
+EPlayerOrder_SelectTalent
+EPlayerOrder_SelectTurboBucket
+EPlayerOrder_SelectUnderlord
+EPlayerOrder_SellItem
+EPlayerOrder_SellUnit
+EPlayerOrder_Send
+EPlayerOrder_SendGold
+EPlayerOrder_SpectatePlayer
+EPlayerOrder_StepForward
+EPlayerOrder_TurboBucketReroll
 ERROR
-ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!
-ERROR: Specified full path %s does not lie under the mod search path!)
-ERROR: Specified path %s could not be made content-relative
-ERROR: You are trying to mount addon '%s' but SetAllowAddonChanges is false which probably means you shouldn't be calling this directly.
-ERROR: You are trying to unmount addon '%s', but SetAllowAddonChanges is false which probably means you should be using calling this directly.
+ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
+ERROR: Specified full path %s does not lie under the mod search path!)\n
+ERROR: Specified path %s could not be made content-relative\n
+ERROR: You are trying to mount addon '%s' but SetAllowAddonChanges is false which probably means you shouldn't be calling this directly.\n
+ERROR: You are trying to unmount addon '%s', but SetAllowAddonChanges is false which probably means you should be using calling this directly.\n
+ERemoveItemAttribute
+EResult
+ERoundCombatResult
+ERoundCombatResult_AwayWin
+ERoundCombatResult_Draw
+ERoundCombatResult_HomeWin
+ERoundState_Combat
+ERoundState_Preparing
+ERoundState_Ready
+ERoundState_RoundOver
+ERoundVictoryLevel
+ERoundVictoryLevel_AwayDecisive
+ERoundVictoryLevel_AwayFlawless
+ERoundVictoryLevel_AwayNarrow
+ERoundVictoryLevel_AwayNormal
+ERoundVictoryLevel_Draw
+ERoundVictoryLevel_HomeDecisive
+ERoundVictoryLevel_HomeFlawless
+ERoundVictoryLevel_HomeNarrow
+ERoundVictoryLevel_HomeNormal
+ESOMsg
+ESendDestination
+ESendDestination_Duos_Partner
 ESynergyType_%s
+ESynergyType_Class
+ESynergyType_Race
+EUnitAIState_Attack
+EUnitAIState_CastAbility
+EUnitAIState_Celebrate
+EUnitAIState_Dead
+EUnitAIState_Idle
+EUnitAIState_MoveInFear
+EUnitAIState_MoveToAttack
+EUnitAIState_MoveToLocation
+EUnitAIState_Portrait
+EUnitAIState_Resurrecting
+EUnitAIState_RoundEndTeleport
+EUnitAIState_WalkBack
+EUnitAIState_WalkThroughGate
+EUnitKEyword_MegaWarrior
 EUnitKeyword_%s
+EUnitKeyword_Assassin
+EUnitKeyword_Beast
+EUnitKeyword_Brawler
+EUnitKeyword_Brawny
+EUnitKeyword_Brutal
+EUnitKeyword_Champion
+EUnitKeyword_Demon
+EUnitKeyword_DemonHunter
+EUnitKeyword_Dragon
+EUnitKeyword_Druid
+EUnitKeyword_Dwarf
+EUnitKeyword_Element
+EUnitKeyword_Elf
+EUnitKeyword_Fallen
+EUnitKeyword_Goblin
+EUnitKeyword_Guardian
+EUnitKeyword_Healer
+EUnitKeyword_Human
+EUnitKeyword_Hunter
+EUnitKeyword_Insect
+EUnitKeyword_Invalid
+EUnitKeyword_Inventor
+EUnitKeyword_Knight
+EUnitKeyword_Mage
+EUnitKeyword_Magus
+EUnitKeyword_Mech
+EUnitKeyword_Meepo
+EUnitKeyword_MegaAssassin
+EUnitKeyword_MegaBloodbound
+EUnitKeyword_MegaDemon
+EUnitKeyword_MegaElusive
+EUnitKeyword_MegaScaled
+EUnitKeyword_MegaTroll
+EUnitKeyword_MegaWarlock
+EUnitKeyword_Naga
+EUnitKeyword_Ogre
+EUnitKeyword_Orc
+EUnitKeyword_Poisoner
+EUnitKeyword_Primordial
+EUnitKeyword_Rogue
+EUnitKeyword_Satyr
+EUnitKeyword_Savage
+EUnitKeyword_Shaman
+EUnitKeyword_Spectral
+EUnitKeyword_SpiritBrother
+EUnitKeyword_Summoner
+EUnitKeyword_Swordsman
+EUnitKeyword_Troll
+EUnitKeyword_Undead
+EUnitKeyword_Vigilant
+EUnitKeyword_Void
+EUnitKeyword_Warlock
+EUnitKeyword_Warrior
+EUnitKeyword_Wild
+EUnitKeyword_Wisp
 EXECUTABLE_PATH
 EXPORTSYSTEM_INTERFACE_VERSION_001
+E\n NETWORK_DISCONNECT_REJECT_BANNED
 EarlyInit_Tier0
 EconItemToolModel_001
 EditorDynamicConfig
@@ -1815,24 +3255,29 @@ End-of-file inside block comment.
 EngineLoopState_t
 EngineServiceMgr001
 Entry
-Entry %s was not found in surfaceproperties_footsteps.txt
+Entry %s was not found in surfaceproperties_footsteps.txt\n
 Enum type "
 Enum value "$0" is reserved multiple times.
 Enum value "$0" is reserved.
 Enum value "$0" uses reserved number $1.
 Enum value in map must define 0 as the first value.
+EnumDescriptorProto
 EnumOptions
+EnumReservedRange
+EnumValueDescriptorProto
 EnumValueOptions
 Enums must contain at least one value.
 EnvironmentMapBuilder_001
 Error
-Error loading %s: %s
-Error parsing text-format
-Error processing modifier for puzzle
-Error processing unit addition for puzzle
+Error loading %s: %s\n
+Error parsing text-format 
+Error processing modifier for puzzle\n
+Error processing unit addition for puzzle\n
 Error reporting not implemented.
 Error while parsing option value for "
+Event
 EventAdvanceTick_t
+EventAppShutdown_t
 EventClientAdvanceTick_t
 EventClientFrameSimulate_t
 EventClientOutput_t
@@ -1867,10 +3312,10 @@ EventSimpleLoopFrameUpdate_t
 EventSimulate_t
 EventSplitScreenStateChanged_t
 EventSystem001
-Exceeded max number of actors in scripts/global_actors.txt
-Exceeded maximum protobuf size of 2GB:
-Expanded map entry type
-Expect a decimal number, got:
+Exceeded max number of actors in scripts/global_actors.txt\n
+Exceeded maximum protobuf size of 2GB: 
+Expanded map entry type 
+Expect a decimal number, got: 
 Expected "
 Expected "="after member '%s'
 Expected '#'
@@ -1881,26 +3326,25 @@ Expected '['
 Expected '[' or '('
 Expected '{'
 Expected ( <count> )
-Expected :
 Expected <member name> after type
 Expected []
-Expected double, got:
+Expected double, got: 
 Expected eight hex digits up to 10ffff for \U escape sequence
 Expected four hex digits for \u escape sequence.
 Expected hex byte (eg. 00-FF)
 Expected hex digits for escape sequence.
-Expected identifier, got:
-Expected integer or identifier, got:
-Expected integer, got:
+Expected identifier, got: 
+Expected integer or identifier, got: 
+Expected integer, got: 
 Expected member name or '}'
-Expected string, got:
+Expected string, got: 
 Expected token
 Expected type of next member
 Expected value or ']'
 Explicit default values are not allowed in proto3.
 Extension "
-Extension conflicts with extension already in database: extend
-Extension factory's GetPrototype() returned NULL for extension:
+Extension conflicts with extension already in database: extend 
+Extension factory's GetPrototype() returned NULL for extension: 
 Extension not found.
 Extension number $0 has already been used in "$1" by extension "$2" defined in $3.
 Extension number $0 has already been used in "$1" by extension "$2".
@@ -1911,34 +3355,36 @@ Extension range $0 to $1 overlaps with already-defined range $2 to $3.
 Extension range $0 to $1 overlaps with reserved range $2 to $3.
 Extension range end number must be greater than start number.
 Extension ranges are not allowed in proto3.
+ExtensionRange
+ExtensionRangeOptions
 Extensions in proto3 are only allowed for defining options.
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
-F
 FAILED_PRECONDITION
 FATAL
-FATAL ERROR: unable to register all schema data: %s
+FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
+F\n%NETWORK_DISCONNECT_DISCONNECT_BY_USER
+F\n\foptimize_for
 F_ALPHA_TEST
 F_MORPH_SUPPORTED
 F_TRANSLUCENT
 Failed to assign bool literal value
-Failed to convert KV3 to string; error: %s
-Failed to convert introspected block: %s
+Failed to convert KV3 to string; error: %s\n
+Failed to convert introspected block: %s\n
 Failed to determine base game directory from %s
-Failed to find valid Underlord ID for '%s'
-Failed to initialize game definition for '%s': KV3 Table Name '%s'
-Failed to load 'rewardTiers' for Wave '%s'
-Failed to load 'rewardTiers_classic' for Wave '%s'
-Failed to map from %s to content-path
-Failed to merge reload data for %s (%s)
+Failed to find valid Underlord ID for '%s'\n
+Failed to initialize game definition for '%s': KV3 Table Name '%s'\n
+Failed to load 'rewardTiers' for Wave '%s'\n
+Failed to load 'rewardTiers_classic' for Wave '%s'\n
+Failed to map from %s to content-path\n
+Failed to merge reload data for %s (%s)\n
 Failed to open file
-Failed to open file: %s
+Failed to open file: %s\n
 False
-FastHexToBuffer() wants non-negative integers, not
+FastHexToBuffer() wants non-negative integers, not 
 Feel free to add support for more if you need it.
 FeetSettings
-Field       :
 Field "
 Field "$0" uses reserved number $1.
 Field does not match message type.
@@ -1951,10 +3397,10 @@ Field number $0 has already been used in "$1" by field "$2".
 Field numbers $0 through $1 are reserved for the protocol buffer library implementation.
 Field numbers cannot be greater than $0.
 Field numbers must be positive integers.
-Field type:
 Field with message or enum type missing type_name.
 Field with primitive type has type_name.
-Field:
+Field: 
+FieldDescriptorProto
 FieldDescriptorProto.extendee not set for extension field.
 FieldDescriptorProto.extendee set for non-extension field.
 FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
@@ -1963,34 +3409,50 @@ FieldOptions
 FieldSize
 Fields in the same oneof must be defined consecutively. "$0" cannot be defined before the completion of the "$1" oneof definition.
 Fields of oneofs must themselves have label LABEL_OPTIONAL.
-File already exists in database:
-File appears to be in generated pool but wasn't registered:
-File is already registered:
-File recursively imports itself:
+File already exists in database: 
+File appears to be in generated pool but wasn't registered: 
+File is already registered: 
+File recursively imports itself: 
+FileDescriptorProto
+FileDescriptorSet
 FileOptions
 FileSystem
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
-FixupResourceName: Illegal full path passed in ("%s")!
-FixupResourceName: Illegal path, missing extension passed in ("%s")!
+FixupResourceName: Illegal full path passed in ("%s")!\n
+FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
 FlattenedSerializersVersion001
-Flexible;
+Flexible; 
 FontManager_001
 FormatV
-Found ID collision when loading game definitions for '%s': Name '%s', ID %lld
-Found Invalid ID when loading game definitions for '%s': Name '%s'
-Found invalid proto option data for:
-Found name collision when loading game definitions for '%s': Name '%s'
-Found uninitialized or empty name when loading game definitions for '%s': KV3 Table Name '%s'
-G
-G->B
+Found ID collision when loading game definitions for '%s': Name '%s', ID %lld\n
+Found Invalid ID when loading game definitions for '%s': Name '%s'\n
+Found invalid proto option data for: 
+Found name collision when loading game definitions for '%s': Name '%s'\n
+Found uninitialized or empty name when loading game definitions for '%s': KV3 Table Name '%s'\n
+FriendPermission
 GAME
 GAMEBIN
 GAMECONSOLE
 GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt2) 5.4.1 20160803
 GCC: (crosstool-NG 1.17.0) 4.6.3
+GCConnectionStatus
+GCConnectionStatus_HAVE_SESSION
+GCConnectionStatus_NO_SESSION
+GCConnectionStatus_NO_STEAM
+GCConnectionStatus_SUSPENDED
+GCInfo
+GCProtoBufMsgSrc
+GCProtoBufMsgSrc_FromGC
+GCProtoBufMsgSrc_FromSteamID
+GCProtoBufMsgSrc_FromSystem
+GCProtoBufMsgSrc_ReplySystem
+GCProtoBufMsgSrc_SpoofedSteamID
+GCProtoBufMsgSrc_Unspecified
+GCSQL_VERSION_BASELINE
+GCSQL_VERSION_BOOLTYPE
 GESTURE_SLOT_ABILITY
 GESTURE_SLOT_ABSOLUTE
 GESTURE_SLOT_ATTACK
@@ -2015,8 +3477,7 @@ GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
-Game System %s is defined twice!
+Game System %s is defined twice!\n
 GameModelInfoClient001
 GameModelInfoServer001
 GameResourceServiceClientV001
@@ -2024,10 +3485,11 @@ GameResourceServiceServerV001
 GameStartup
 GameUIService_001
 Gaussian
-GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!
+GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
+GeneratedCodeInfo
 GenericGameData
-GetAddonsContentDirectory: Failed to find CONTENTADDONS search path.
-GetAddonsDirectory: Failed to find ADDONS search path.
+GetAddonsContentDirectory: Failed to find CONTENTADDONS search path.\n
+GetAddonsDirectory: Failed to find ADDONS search path.\n
 GetAvailableAddonMaps failed to find any maps in the '%s' addon - trying fallback maps:
 GetBool
 GetCPUInformation
@@ -2038,7 +3500,7 @@ GetFloat
 GetInt32
 GetInt64
 GetMessage
-GetModelMaterialColor:  Available on client only!
+GetModelMaterialColor:  Available on client only!\n
 GetRawRepeatedField
 GetRepeatedBool
 GetRepeatedDouble
@@ -2057,8 +3519,8 @@ GetString
 GetStringReference
 GetUInt32
 GetUInt64
+Google.Protobuf.Reflection
 Groups are not supported in proto3 syntax.
-H
 HBm_influenceFlags
 HELPER_BONE
 HIGHDPI
@@ -2066,15 +3528,16 @@ HSCRIPT
 HammerMapLoader001
 HandleReload
 HangWatchdog_IndicateActivity
-Has Collision;
+Has Collision; 
 HasField
 HelpSystem_001
 Hex and octal numbers must be integers.
+HistogramBucket
 HookUpConfigValue
 Host
 HostStateMgr001
 HostUtils001
-I
+IDEMPOTENCY_UNKNOWN
 IGameSystem::Init( %-80s ) %8.3f msec
 IGameSystem::PostInit( %-80s ) %8.3f msec
 IKChain
@@ -2089,88 +3552,113 @@ INVALID
 INVALID_ARGUMENT
 INVALID_CPPTYPE
 IQuickTime001
-Illegal jstype for int64, uint64, sint64, fixed64 or sfixed64 field:
-Import
+I\n NETWORK_DISCONNECT_STEAM_DROPPED
+I\n$NETWORK_DISCONNECT_STEAM_VACBANSTATE
+I\n%NETWORK_DISCONNECT_REJECT_HIDDEN_GAME
+IdempotencyLevel
+Illegal jstype for int64, uint64, sint64, fixed64 or sfixed64 field: 
+Import 
 Import "
 Index must be -1 for non-repeated fields
 Index must be -1 for singular fields.
-Index must be in range of repeated field values.
+Index must be in range of repeated field values. 
 Index out-of-bounds (field is empty).
 InfoForResourceTypeCAnimData
 InitAllSystems
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
 InstallSchemaBindings
 Integer out of range (
-Intentionally vague touch behavior for %p
+Intentionally vague touch behavior for %p\n
 Interpreting non ascii codepoint %d.
-Invalid EDACPuzzleRule specified in PuzzleDef '%s': '%s'
-Invalid access of deferred ConVarRef for '%s'
+Invalid EDACPuzzleRule specified in PuzzleDef '%s': '%s'\n
+Invalid access of deferred ConVarRef for '%s'\n
 Invalid compressed buffer size
 Invalid control characters encountered in text.
 Invalid data for member '%s'
 Invalid data.
 Invalid escape sequence in string literal.
 Invalid file descriptor data passed to EncodedDescriptorDatabase::Add().
-Invalid float number:
+Invalid float number: 
 Invalid header
 Invalid key for map field.
-Invalid keyword for Synergy '%s'
+Invalid keyword for Synergy '%s'\n
 Invalid member name '%s'
 Invalid message set extension.
-Invalid model override when loading puzzle
+Invalid model override when loading puzzle\n
 Invalid proto descriptor for file "
 Invalid public dependency index.
-Invalid request for mesh %d in model %s with %d entry remapping start table
-Invalid request for mesh %d in model %s with no remapping table
-Invalid request for mesh %d in model %s with no remapping table starts
-Invalid search path specified for 'game_language'. Search path '%s' does not contain '%s'
+Invalid request for mesh %d in model %s with %d entry remapping start table\n
+Invalid request for mesh %d in model %s with no remapping table starts\n
+Invalid request for mesh %d in model %s with no remapping table\n
+Invalid search path specified for 'game_language'. Search path '%s' does not contain '%s'\n
 Invalid strings::Substitute() format string: "
-Invalid symbol name:
+Invalid symbol name: 
 Invalid value for boolean field "
 Invalid weak dependency index.
-Invalid wire type for CPPTYPE_INT32:
-Invalid wire type for CPPTYPE_INT64:
-Invalid wire type for CPPTYPE_MESSAGE:
-Invalid wire type for CPPTYPE_UINT32:
-Invalid wire type for CPPTYPE_UINT64:
+Invalid wire type for CPPTYPE_INT32: 
+Invalid wire type for CPPTYPE_INT64: 
+Invalid wire type for CPPTYPE_MESSAGE: 
+Invalid wire type for CPPTYPE_UINT32: 
+Invalid wire type for CPPTYPE_UINT64: 
 Inverse Multi Quadratic
-Invert Axes;
-J
+Invert Axes; 
+Invite
+Item
+ItemChoiceReward
+ItemDescriptionsLanguageBlock
 JIGGLE_BONE
-JSON error, unterminated element:
-K
+JSON error, unterminated element: 
+JSType
+J\n NETWORK_DISCONNECT_SNAPSHOTERROR
+J\n'NETWORK_DISCONNECT_DISCONNECT_BY_SERVER
+J\n\finput_errors
+J\n\foutput_items
+KL2H
 KV Conditional Evaluation Error
 KV3 load transfer failed: %s
+K\n!NETWORK_DISCONNECT_INTERNAL_ERROR
+K\n#NETWORK_DISCONNECT_TICKMSG_OVERFLOW
+K\n$NETWORK_DISCONNECT_STEAM_AUTHINVALID
+K\n'NETWORK_DISCONNECT_CLIENT_DIFFERENT_MAP
 Key in map fields cannot be enum types.
 Key in map fields cannot be float/double, bytes or message types.
+KeyPair
 KeyValueCache001
-KeyValues Error: %s in file %s
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
-L
+KeyValues Error: %s in file %s\n
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
+Keys
+LABEL_OPTIONAL
+LABEL_REPEATED
+LABEL_REQUIRED
 LAYEREDGAMEROOT
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
+L\n!NETWORK_DISCONNECT_HLTVRESTRICTED
+L\n!NETWORK_DISCONNECT_LOOPDEACTIVATE
+L\n\vVirtualItem
+Label
 LayeredGameRoot
-Length;
+Length; 
 LightingBasis
 LightmapUV
 LightmapUVW
 Line %d at "%s": %s
-Line %d col %d:
+Line %d col %d: 
 Line %d: %s
 Line %d: Invalid literal value "%s"
 Line %d: Invalid value "%s"
 Linear
 LoadFromBuffer: expected '{', found '%s'
-LoadKV3ObjectInPlace error: %s
+LoadKV3ObjectInPlace error: %s\n
 Localize_001
+Location
 LogHandler
 LoggingSystem_CurrentStateIndex
 LoggingSystem_GetChannel
@@ -2188,10 +3676,10 @@ LoggingSystem_ResetBackdoorLoggingState
 LoggingSystem_ResetCurrentLoggingState
 LoggingSystem_SetChannelVerbosity
 Logic Error in CExpressionEvaluator
-Logic problem? szsrc =
+Logic problem? szsrc = 
 LookAtList
-LowerEyelid(
-M
+LowerEyelid( 
+LrwcE
 MATCHFRAMEWORK_001
 MDefaultString
 MESH_DRAW_FLAGS_DRAW_LAST
@@ -2207,13 +3695,20 @@ MNetworkSerializer
 MNetworkUserGroup
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
+M\n"NETWORK_DISCONNECT_SERVER_SHUTDOWN
+M\n"NETWORK_DISCONNECT_STEAM_DENY_MISC
+M\n"NETWORK_DISCONNECT_STEAM_OWNERSHIP
+M\n$NETWORK_DISCONNECT_REJECT_SERVERFULL
+M\n&NETWORK_DISCONNECT_STEAM_AUTHCANCELLED
+M\n'NETWORK_DISCONNECT_REJECT_SINGLE_PLAYER
+M\n(NETWORK_DISCONNECT_SERVER_REQUIRES_STEAM
 MapKey::GetBoolValue
 MapKey::GetInt32Value
 MapKey::GetInt64Value
 MapKey::GetStringValue
 MapKey::GetUInt32Value
 MapKey::GetUInt64Value
-MapKey::type MapKey is not initialized.
+MapKey::type MapKey is not initialized. 
 MapListService_001
 MapValueRef::GetBoolValue
 MapValueRef::GetDoubleValue
@@ -2237,41 +3732,44 @@ MaterialParam_t
 MaterialResourceData_t
 MaterialUtils_001
 MathLib_Init
+MaxItemIDTimestamp
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
-Merged Reload Data for %s (%s)
+Member
+Merged Reload Data for %s (%s)\n
 MeshSystem001
 MeshUtils001
 Message class "
 Message extensions cannot have required fields.
-Message missing required fields:
+Message missing required fields: 
 Message of type "
 Message type "
-Message type:
 MessageOptions
 MessageSet is not supported in proto3.
 MessageSets cannot have fields, only extensions.
 Messages can't have default values!
 Messages can't have default values.
+MethodDescriptorProto
 MethodOptions
-Mismatched CTier2AppSystemDict::SetAllowAddonChanges!!!
+Mismatched CTier2AppSystemDict::SetAllowAddonChanges!!!\n
 Missing field: FileDescriptorProto.name.
 Missing file '%s'
 Missing name.
-Missing required '%s' in compiled '%s'
-Missing required field 'level's in Synergy '%s'
-Model %s missing bone and flex counts (%d < %d), init %d
+Missing required '%s' in compiled '%s'\n
+Missing required field 'level's in Synergy '%s'\n
+Model %s missing bone and flex counts (%d < %d), init %d\n
 ModelCompile/UseShadowFastPathHeuristic
 ModelDocUtils001
+Modifier
 Modifiers
-MountAddon: Failed to find ADDONS search path.
-MountAddonSearchPaths: Failed to find CONTENTADDONS search path.
+MountAddon: Failed to find ADDONS search path.\n
+MountAddonSearchPaths: Failed to find CONTENTADDONS search path.\n
 MovementSettings
 Multiple extension registrations for type "
+MultipleGameInstances
 MutableMessage
 MutableRawRepeatedField
 MutableRepeatedMessage
-N
 N24CFieldPathHuffmanEncoder12InternalNodeE
 N24CFieldPathHuffmanEncoder5INodeE
 N24CFieldPathHuffmanEncoder8LeafNodeE
@@ -2400,6 +3898,33 @@ N6google8protobuf8internal31RepeatedPtrFieldMessageAccessorE
 N6google8protobuf8internal33RandomAccessRepeatedFieldAccessorE
 N6google8protobuf8internal8MapEntryI60CMsgRoundCombatGlobal_CombatPlayerSlotToEventsEntry_DoNotUsej31CMsgRoundCombatGlobal_EventListLNS1_14WireFormatLite9FieldTypeE13ELS6_11ELi0EEE
 N6google8protobuf8internal8MapFieldI60CMsgRoundCombatGlobal_CombatPlayerSlotToEventsEntry_DoNotUsej31CMsgRoundCombatGlobal_EventListLNS1_14WireFormatLite9FieldTypeE13ELS6_11ELi0EEE
+NETWORK_DISCONNECT_BADDELTATICK
+NETWORK_DISCONNECT_BANADDED
+NETWORK_DISCONNECT_DISCONNECTED
+NETWORK_DISCONNECT_EXITING
+NETWORK_DISCONNECT_HLTVDIRECT
+NETWORK_DISCONNECT_HLTVSTOP
+NETWORK_DISCONNECT_HOST_ENDGAME
+NETWORK_DISCONNECT_INVALID
+NETWORK_DISCONNECT_KICKBANADDED
+NETWORK_DISCONNECT_KICKED
+NETWORK_DISCONNECT_LEAVINGSPLIT
+NETWORK_DISCONNECT_LOOPSHUTDOWN
+NETWORK_DISCONNECT_LOST
+NETWORK_DISCONNECT_NOMORESPLITS
+NETWORK_DISCONNECT_NOSPECTATORS
+NETWORK_DISCONNECT_OVERFLOW
+NETWORK_DISCONNECT_RECONNECTION
+NETWORK_DISCONNECT_REJECT_STEAM
+NETWORK_DISCONNECT_REMOTE_OTHER
+NETWORK_DISCONNECT_SHUTDOWN
+NETWORK_DISCONNECT_STEAM_BANNED
+NETWORK_DISCONNECT_STEAM_INUSE
+NETWORK_DISCONNECT_STEAM_LOGON
+NETWORK_DISCONNECT_STEAM_TICKET
+NETWORK_DISCONNECT_TIMEDOUT
+NETWORK_DISCONNECT_UNUSUAL
+NETWORK_DISCONNECT_USERCMD
 NETWORK_FIELD_CHANGED_ARRAY_WITH_VALUE
 NETWORK_FIELD_CHANGED_NO_VALUE
 NETWORK_FIELD_CHANGED_NO_VALUE_NO_CONTEXT
@@ -2411,15 +3936,23 @@ NETWORK_FIELD_CHANGES_OFTEN_PRIORITY_TOPOOGICAL_SORTLOWER
 NETWORK_FIELD_DEFAULT_PRIORITY
 NETWORK_FIELD_HIGHEST_PRIORITY
 NETWORK_FIELD_LOWEST_PRIORITY
+NOTIFY_ACHIEVEMENTS
+NOTIFY_SERVER_SESSIONS
+NOTIFY_USER_SESSIONS
+NOTIFY_VAC_ACTION
 NOT_FOUND
+NO_SIDE_EFFECTS
 NSt6thread10_Impl_baseE
 NULL
 NULL output boolean given.
-NWay(
+NWay( 
+N\n"NETWORK_DISCONNECT_HLTVUNAVAILABLE
+N\n#NETWORK_DISCONNECT_REJECTED_BY_GAME
+NamePart
 Need space between identifier and decimal point.
 Need space between number and identifier.
-Need valid position and texcoord when creating world space tangent lengths!
-Need valid position to calculate face centers!
+Need valid position and texcoord when creating world space tangent lengths!\n
+Need valid position to calculate face centers!\n
 NetworkClientService_001
 NetworkMessagesVersion001
 NetworkP2PService_001
@@ -2436,33 +3969,42 @@ No know mod!
 No valid format conversion from '%s' to '%s'
 NoDefaultModPath
 NoPoseControl
+Non-primitive types can't be packed.
 Non-repeated Any specified multiple times.
 Non-repeated field "
-Not implemented field number
+Not implemented field number 
 Not implemented.
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Numbers starting with leading zero must be in octal.
-O
-OK
 ORIENT
-OSX
 OUT_OF_RANGE
+O\n%NETWORK_DISCONNECT_REJECT_BADPASSWORD
+O\n%NETWORK_DISCONNECT_REJECT_LANRESTRICT
+O\n%NETWORK_DISCONNECT_REJECT_NEWPROTOCOL
+O\n%NETWORK_DISCONNECT_REJECT_OLDPROTOCOL
+O\n%NETWORK_DISCONNECT_SOUNDSMSG_OVERFLOW
+O\n(NETWORK_DISCONNECT_REJECT_BACKGROUND_MAP
+O\n(NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED
+O\n\nAnnotation
 Oneof must have at least one field.
+OneofDescriptorProto
 OneofOptions
+Option
 Option "
 Option field "
 Option must have a name.
 Option must not use reserved name "uninterpreted_option".
-Options could not be fully parsed using the proto descriptors compiled into this binary. Missing required fields:
-Outdent() without matching Indent().
-P
-P@
+Options could not be fully parsed using the proto descriptors compiled into this binary. Missing required fields: 
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 PARENT
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
+PARTICLE_MESSAGE
 PARTICLE_SET_REPLACE_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 PARTICLE_SET_SCALE_INITIAL_VALUE
+PARTNER_INVALID
+PARTNER_PERFECT_WORLD
 PERMISSION_DENIED
 PF_BIAS_TYPE_EXPONENTIAL
 PF_MAP_TYPE_MULT
@@ -2480,18 +4022,26 @@ POSE_SPACE_BONE
 POSE_SPACE_MORPH
 POSITION
 POSIX
-PS3
+PROTOBUF_FIELD_UINT64
 PVEC_TYPE_LITERAL
 PVEC_TYPE_LITERAL_COLOR
+P\n#NETWORK_DISCONNECT_BADRELAYPASSWORD
+P\n#NETWORK_DISCONNECT_RELIABLEOVERFLOW
+P\n#NETWORK_DISCONNECT_SNAPSHOTOVERFLOW
+P\n\vLoadoutSlot
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
-Parameter to BackUp() can't be negative.
 ParseAndBindAvailableContent
 ParseAvailableFromOperations
 ParseFromString failed
 ParticleSystemMgr003
+PartnerAccountType
+PartnerItemPaymentRule
+PartnerMicroTxn
+PathfindingCell
 PerVertexLighting
+PersonaNameReplacementToken
 Physics
 Physics2 Interface Old v0.5
 PhysicsBodyMarkup
@@ -2506,7 +4056,7 @@ PhysicsShapeCapsule
 PhysicsShapeHull
 PhysicsShapeMesh
 PhysicsShapeSphere
-Pitch;
+Pitch; 
 Plat_CheckSDL
 Plat_CreateWindow
 Plat_DebugPrint
@@ -2549,7 +4099,10 @@ Plat_UUIDFromString
 Plat_UUIDToString
 Plat_UnloadModule
 Plat_UnloadSDL
+PlayerPerRoundInfo
 PlayerSlot_t
+Pm_nValue
+Po5H
 PosXYZ
 PostProcessingSystem_001
 PredictionDiffManager001
@@ -2558,44 +4111,47 @@ PreviewBoneAttachedModel
 PreviewBoneMergedModel
 PreviewPreset
 PreviewPresetList
-Problem     :
-Problem     : Enum value did not match field type:    Expected  :
-Problem     : Field is not the right type for this message:    Expected  :
+Price
+Process
 PropWorldOrigin
 PropertyEditorSystem_001
 Proto file starts with 0xEF but not UTF-8 BOM. Only UTF-8 is accepted for proto file.
-Proto type
-ProtoBufHelper::ParseJSON: Array Begin found on invalid field!
-ProtoBufHelper::ParseJSON: Array Begin found on non-repeated field: '%s'!
-ProtoBufHelper::ParseJSON: Array End found on invalid field!
-ProtoBufHelper::ParseJSON: Array End found on non-repeated field: '%s'!
-ProtoBufHelper::ParseJSON: Array size mismatch in field '%s' - JSON %d, protobuf %d
-ProtoBufHelper::ParseJSON: Failed to parse JSON type %d into protobuf type %d for field '%s'!
-ProtoBufHelper::ParseJSON: Ignoring extra JSON key '%s', which is not found in protobuf message '%s'!
-ProtoBufHelper::ParseJSON: Object Begin found on invalid field!
-ProtoBufHelper::ParseJSON: received callback with message field but no message!
-ProtoBufHelper::ParseJSON: received callback with no current message field!
-Protobuf: %s(%d): %s
-Protocol Buffer map usage error:
-Protocol Buffer reflection usage error:  Method      : google::protobuf::Reflection::
+Proto type 
+ProtoBufHelper::ParseJSON: Array Begin found on invalid field!\n
+ProtoBufHelper::ParseJSON: Array Begin found on non-repeated field: '%s'!\n
+ProtoBufHelper::ParseJSON: Array End found on invalid field!\n
+ProtoBufHelper::ParseJSON: Array End found on non-repeated field: '%s'!\n
+ProtoBufHelper::ParseJSON: Array size mismatch in field '%s' - JSON %d, protobuf %d\n
+ProtoBufHelper::ParseJSON: Failed to parse JSON type %d into protobuf type %d for field '%s'!\n
+ProtoBufHelper::ParseJSON: Ignoring extra JSON key '%s', which is not found in protobuf message '%s'!\n
+ProtoBufHelper::ParseJSON: Object Begin found on invalid field!\n
+ProtoBufHelper::ParseJSON: received callback with message field but no message!\n
+ProtoBufHelper::ParseJSON: received callback with no current message field!\n
+Protobuf: %s(%d): %s\n
+Protocol Buffer map usage error:\n
+Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Protocol message could not be serialized.
 Protocol message serialized itself in invalid fashion.
 Puzzles
-Q
 QAngle
+Q\n&NETWORK_DISCONNECT_REJECT_BADCHALLENGE
+Q\n&NETWORK_DISCONNECT_TEMPENTMSG_OVERFLOW
+Q\n*NETWORK_DISCONNECT_CLIENT_CONSISTENCY_FAIL
+Q\n+NETWORK_DISCONNECT_CLIENT_UNABLE_TO_CRC_MAP
+Q\n,NETWORK_DISCONNECT_REJECT_SERVERAUTHDISABLED
 Quaternion
 QueuedLoaderVersion001
 Quintic
-R
+RANDOM
 RESOURCE_EXHAUSTED
 RESOURCE_TYPE_DAC_GAME_JSON_DATA
+ROLL_LATE_JOIN_LOGO
 ROTATION
 RadianEuler
 RandomFloat
 RandomSeed
 Reached an unintended state: CPPTYPE_MESSAGE
 Reached impossible case in HasBit().
-ReadToken overflow
 RebindReferences
 ReconnectGameInterface
 RecursiveLoadFromBuffer:  got EOF instead of keyname
@@ -2605,14 +4161,17 @@ RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
 RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
 RegisterFormatConversion
 RegisterStringToken
 Release
-ReleaseLast() called on a RepeatedPtrField that is on an arena,
+ReleaseLast
+ReleaseLast() called on a RepeatedPtrField that is on an arena, 
 ReleaseMessage
-RemapValClamped(
+ReleaseParticleIndex
+RemapValClamped( 
 RemoveBoneAndChildren
+RemoveLast
 RenderDevice003
 RenderDeviceMgr001
 RenderHardwareConfig002
@@ -2623,6 +4182,7 @@ RenderSkeletonBone_t
 RenderSystemSurface001
 RenderUtils_001
 Repeated fields can't have default values.
+ReplacementToken
 Requested size is too large to fit into size_t.
 RequireKeyValuesSystem
 Required fields are not allowed in proto3.
@@ -2633,16 +4193,29 @@ ResourceCompilerSystem001
 ResourceHandleUtils001
 ResourceManifestRegistry001
 ResourceSystem013
+ResponseHeader
 ResponseRulesCache001
 RetargetSrc.%s.%s
-Reward Tier (Classic) Probabilities don't add up to 100 for Wave '%s'
-Reward Tier Probabilities don't add up to 100 for Wave '%s'
-Rigid;
-S
+Reward Tier (Classic) Probabilities don't add up to 100 for Wave '%s'\n
+Reward Tier Probabilities don't add up to 100 for Wave '%s'\n
+Rigid; 
+Round
+S+Ot
 SHADER_SOURCE
 SHADER_SOURCE_MOD
 SHADER_SOURCE_ROOT
+SPAWN_GROUP_BLOCK_UNTIL_LOADED
+SPAWN_GROUP_DONT_SPAWN_ENTITIES
+SPAWN_GROUP_LOAD_STREAMING_DATA
+SPAWN_GROUP_SYNCHRONOUS_SPAWN
+SPEED
 SSE and SSE2 are required.
+STRING
+S\n!NETWORK_DISCONNECT_REMOTE_TIMEOUT
+S\n%NETWORK_DISCONNECT_CONNECTION_FAILURE
+S\n'NETWORK_DISCONNECT_DELTAENTMSG_OVERFLOW
+S\n'NETWORK_DISCONNECT_REJECT_FAILEDCHANNEL
+S\n,NETWORK_DISCONNECT_STEAM_LOGGED_IN_ELSEWHERE
 SaveRestoreDataVersion001
 SceneSystem_002
 SceneUtils_001
@@ -2658,34 +4231,43 @@ SerializedEntitiesVersion001
 ServerActivateDefinitionSet
 ServerDeactivateDefinitionSet
 ServerUploadGameStats001
+ServiceDescriptorProto
 ServiceOptions
 SetAllocatedMessage
 SetAssertionPrompt
 SetBool
+SetControlPointModel
+SetControlPointSnapshot
 SetDouble
 SetEnum
 SetEnumValue
-SetEnumValue accepts only valid integer values: value
+SetEnumValue accepts only valid integer values: value 
 SetFloat
 SetInt32
 SetInt64
+SetParticleFoWProperties
+SetParticleShouldCheckFoW
+SetParticleText
 SetRepeatedBool
 SetRepeatedDouble
 SetRepeatedEnum
-SetRepeatedEnumValue accepts only valid integer values:
+SetRepeatedEnumValue accepts only valid integer values: 
 SetRepeatedFloat
 SetRepeatedInt32
 SetRepeatedInt64
 SetRepeatedString
 SetRepeatedUInt32
 SetRepeatedUInt64
+SetSceneObjectGenericFlag
 SetString
+SetTextureAttribute
 SetUInt32
 SetUInt64
 Should not reach here.
 Show diff only.
 Show diff with matching filter substring only.
-Simulated
+Simulated\n
+SingleItemDescription
 SkeletonBoneBounds_t
 SlopeTrace
 SoundOpSystem001
@@ -2704,11 +4286,14 @@ Source2GameEntities001
 Source2Host001
 Source2Server001
 Source2ServerSerializers002
-Ss
+SourceCodeInfo
+SpawnGroupFlags_t
+SpecialPayment
 St11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
 St16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
 St19_Sp_make_shared_tag
 Stack depth limit hit (%d)
+Stats
 StatsService_001
 SteamAudio001
 SteamToursHost001
@@ -2716,17 +4301,24 @@ Streetfights
 String field
 String literals cannot cross line boundaries.
 StringOutputStream.
-StringPrintfVector currently only supports up to
+StringPrintfVector currently only supports up to 
+SubGC
+SubscribedType
 SurfacePropertiesList
 Swap
 Symbol name "
-Syntax Error at offset: %d
-System %s failed to init
-T
+Syntax Error at offset: %d\n
+System %s failed to init\n
 TILT_TWIST
 TRS_FALSE
 TRS_NONE
 TRS_TRUE
+T\n%NETWORK_DISCONNECT_LOCALPROBLEM_OTHER
+T\n&NETWORK_DISCONNECT_BAD_SERVER_PASSWORD
+T\n&NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR
+T\n)NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE
+T\n+NETWORK_DISCONNECT_STEAM_VAC_CHECK_TIMEDOUT
+TeamInfo
 TestFormatA
 TestFormatB
 TestFormatC
@@ -2738,12 +4330,12 @@ TextLayout_001
 TextMessageMgr_001
 The JSON camel-case name of field "
 The first enum value must be zero in proto3.
-The type parameter T in RepeatedFieldRef<T> API doesn't match
+The type parameter T in RepeatedFieldRef<T> API doesn't match 
 Thin Plate
 This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
-This can't happen; base64 decoder state =
-This program requires version
-This program was compiled against version
+This can't happen; base64 decoder state = 
+This program requires version 
+This program was compiled against version 
 This shouldn't be called if all the sizes are equal.
 ThreadGetCurrentId
 ThreadSleep
@@ -2753,8 +4345,6 @@ TimestampedEventMsgV
 To google::protobuf::internal::down_cast(From*) [with To = const google::protobuf::Message*, From = const google::protobuf::MessageLite]
 To google::protobuf::internal::down_cast(From*) [with To = const google::protobuf::UninterpretedOption*, From = const google::protobuf::Message]
 To google::protobuf::internal::down_cast(From*) [with To = google::protobuf::Message*, From = google::protobuf::MessageLite]
-Tokenizer::ParseFloat() passed text that could not have been tokenized as a float:
-Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string:
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001
@@ -2763,53 +4353,94 @@ ToolScriptManager001
 ToolService_001
 ToolsStartup
 ToolsStartupPreGame
-Tried to add game system %s twice!
-Tried to add unknown game system %s!
-Tried to calc delta to a src message of a different type.
-Tried to merge messages of different types
+Transition_DataDriven
+Tried to add game system %s twice!\n
+Tried to add unknown game system %s!\n
+Tried to calc delta to a src message of a different type.\n
+Tried to merge messages of different types 
 Tried to register a non-generated type with the generated type registry.
 True
 Truncated data
-Trying to concatenate meshes with different numbers of attributes!
-Trying to concatenate meshes with incompatible attribute sets!
+Trying to concatenate meshes with different numbers of attributes!\n
+Trying to concatenate meshes with incompatible attribute sets!\n
 TutorialStates
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
-Type appears to be in generated pool but wasn't
-Type is already registered:
-U
+Type
+Type appears to be in generated pool but wasn't 
+Type is already registered: 
+UM_AchievementEvent
+UM_AnimGraphUpdate
+UM_AudioParameter
+UM_CameraTransition
+UM_CloseCaption
+UM_CloseCaptionDirect
+UM_CloseCaptionPlaceholder
+UM_ColoredText
+UM_CrosshairAngle
+UM_CurrentTimescale
+UM_CustomGameEvent
+UM_DesiredTimescale
+UM_Fade
+UM_HapticsManagerEffect
+UM_HapticsManagerPulse
+UM_KeyHintText
+UM_ParticleManager
+UM_RequestState
+UM_SayTextChannel
+UM_Shake
+UM_Train
+UM_VoiceSubtitle
 UNAUTHENTICATED
 UNAVAILABLE
 UNIMPLEMENTED
 UNKNOWN
 UNKNOWN_ENUM_VALUE_%s_%d
+UNUSED_job_name
 UPDATE_STRING_TOKEN_DATABASE
-UTF-8 data when
+UTF-8 data when 
+U\n"NETWORK_DISCONNECT_REMOTE_BADCRYPT
+U\n&NETWORK_DISCONNECT_REPLAY_INCOMPATIBLE
+U\n&NETWORK_DISCONNECT_SERVERINFO_OVERFLOW
+U\n&NETWORK_DISCONNECT_SERVER_INCOMPATIBLE
+U\n(NETWORK_DISCONNECT_REJECT_INVALIDCERTLEN
 Unable to Start Game
 Unable to determine buffer encoding.
-Unable to read resource file %s!
-Unable to write file '%s'
+Unable to read resource file %s!\n
+Unable to write file '%s'\n
 UnderlordBuilds
+UnderlordID_t
 Unexpected end of file
-Unexpected failure while serializing option submessage
+Unexpected end of string.
+Unexpected failure while serializing option submessage 
 Unimplemented Map Reflection API.
-Unknown available content type in PuzzleDef '%s'
+Unimplemented type: 
+UninterpretedOption
+Unknown available content type in PuzzleDef '%s'\n
 Unknown enumeration value of "
-Unknown item '%s' specified when loading puzzle
-Unknown setup operation '%s' in PuzzleDef '%s'
-UnmountAddon: Failed to find %s search path.
+Unknown item '%s' specified when loading puzzle\n
+Unknown setup operation '%s' in PuzzleDef '%s'\n
+UnmountAddon: Failed to find %s search path.\n
 Unrecognized flag name '%s'
 Unrecognized resource version (%d): %s
-Unrecognized syntax:
+Unrecognized syntax: 
 Unrecognized type '%d'
 Unresolved object reference '%s'
 Unsupported
 Unsupported text encoding id.
 Unsupported: type mismatch
-UpperEyelid(
+UpdateEntityPosition
+UpdateParticle
+UpdateParticleEnt
+UpdateParticleFallback
+UpdateParticleFwd
+UpdateParticleOffset
+UpdateParticleOrient
+UpdateParticleSetFrozen
+UpdateParticleShouldDraw
+UpperEyelid( 
 UserInfoChangeService_001
-Using 16-bit blend indices
-V
+Using 16-bit blend indices\n
 VApplication001
 VAvi001
 VBAllocTracker001
@@ -2839,6 +4470,9 @@ VProcessUtils002
 VProfService_001
 VRStartup
 VR_001
+VR_HAND_HAPTIC_PULSE_LIGHT
+VR_HAND_HAPTIC_PULSE_MEDIUM
+VR_HAND_HAPTIC_PULSE_STRONG
 VRenderDeviceSetupV001
 VRigHost001
 VSInputSignature
@@ -2847,6 +4481,8 @@ VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
+V\n&NETWORK_DISCONNECT_PURESERVER_MISMATCH
+V\n'NETWORK_DISCONNECT_CREATE_SERVER_FAILED
 V_FixDoubleSlashes
 V_FixSlashes
 V_GetErrno
@@ -2857,7 +4493,7 @@ V_PathContainsPath
 V_PrettifyMem
 V_RemoveDotSlashes
 V_SetErrno
-V_SplitString(char const*, char const*, CUtlVector<char*, CUtlMemory<char*, int> >&)
+V_SplitString(char const*, char const*, CUtlVector<char*, CUtlMemory<char*, int>>&)
 V_StrTrim
 V_StripTrailingSlash
 V_UTF16ToUTF8
@@ -2926,56 +4562,652 @@ Value of type "
 Value out of range for int32 option "
 Value out of range for int64 option "
 Value out of range for uint32 option "
+ValueTag
 Vector2D
 Vector4D
 VectorAligned
+Version
 VertexColorPos_t
 VertexPaintBlendParams
 VertexPaintBlendParams1
 VertexPaintTintColor
 VisBuilder_001
-W
 WARNING
-WARNING: Trying to create a CRenderContextPtr without a valid context.
-WARNING: You are trying to mount an addon (%s) in tools mode that is different from the addon tools mode was launched with (%s).
+WARNING: Trying to create a CRenderContextPtr without a valid context.\n
+WARNING: You are trying to mount an addon (%s) in tools mode that is different from the addon tools mode was launched with (%s).\n
+WEBAPI_PARAM_STEAMID_ACCOUNTID
 WIN32
 WINDOWS
 WINXP
+W\n,NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY
+W\n,NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY
+W\n\fdescriptions
 Warning
-Warning parsing text-format
-Warning:  %s = '%s' is infinite, clamping value.
+Warning parsing text-format 
+Warning:  %s = '%s' is infinite, clamping value.\n
 Waves
 When enum name is stripped and label is PascalCased (
+WorkshopItemPaymentRule
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
-X
 X360
-Y
-Yaw;
-Z
-[
-[$0]
-[%.3f server clamped to %.3f]
-[default = $0
+X\n'NETWORK_DISCONNECT_BADSPECTATORPASSWORD
+X\n'NETWORK_DISCONNECT_DIFFERENTCLASSTABLES
+X\n(NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
+Y\n)NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
+Y\n*NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
+Y\n0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
+Yaw; 
+Z>github.com/golang/protobuf/protoc-gen-go/descriptor;descriptor
+Z\n(NETWORK_DISCONNECT_REMOTE_CERTNOTTRUSTED
+Z\n*NETWORK_DISCONNECT_REJECT_INVALIDKEYLENGTH
+Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
+[\n+NETWORK_DISCONNECT_REJECT_INVALIDCONNECTION
 [lazy = true] can only be specified for submessage fields.
-[libprotobuf %s %s:%d] %s
+[libprotobuf %s %s:%d] %s\n
 [packed = true] can only be specified for repeated primitive fields.
-\
-\"
-\"""
 \%03o
-\'
 \U%08x
-\\
-\n
-\r
-\t
+\\n)NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
+\\n*NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE
+\\n.NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
+\\n\tlanguages
+\n    Actual    : 
+\n    Field type: 
+\n  Field       : 
+\n  Message type: 
+\n  Problem     : 
+\n  Problem     : Enum value did not match field type:\n    Expected  : 
+\n  Problem     : Field is not the right type for this message:\n    Expected  : 
+\n CMsgClientToGCCreateStaticRecipe
+\n CMsgGCToGCMasterBroadcastMessage
+\n CMsgResetStrangeGemCountResponse
+\n CSVCMsg_GameSessionConfiguration
+\n google/protobuf/descriptor.proto
+\n!CMsgClientToGCUnlockCrateResponse
+\n!CMsgGCToClientCurrencyPricePoints
+\n!CMsgGCToGCBroadcastMessageFromSub
+\n!CMsgGCToGCGrantAccountRolledItems
+\n"CMsgClientToGCSetItemStyleResponse
+\n"CMsgClientToGCUnpackBundleResponse
+\n"CMsgGCMsgMasterSetClientMsgRouting
+\n"CMsgGCToGCFlushSteamInventoryCache
+\n#CMsgGCRequestStoreSalesDataResponse
+\n#CWorkshop_AddSpecialPayment_Request
+\n$CMsgEconPlayerStrangeCountAdjustment
+\n$CMsgNotificationOfSuspiciousActivity
+\n%CAttribute_ItemDynamicRecipeComponent
+\n%CMsgClientToGCUnlockItemStyleResponse
+\n%CMsgClientToServerTeammateDuosMessage
+\n%CMsgGCToGCClientServerVersionsUpdated
+\n%CMsgPlayerChallengeCompletePrediction
+\n%CMsgServerToClientNotificationChanged
+\n%CMsgServerToClientTeammateDuosMessage
+\n%CWorkshop_GetSpecialPayments_Response
+\n%CWorkshop_SetItemPaymentRules_Request
+\n&CGCSystemMsg_GetPurchaseTrust_Response
+\n&CMsgClientToGCSetItemInventoryCategory
+\n&CMsgClientToServerLocalPlayerInventory
+\n&CMsgLookupMultipleAccountNamesResponse
+\n&CWorkshop_GetItemDailyRevenue_Response
+\n'CCommunity_GetClanAnnouncements_Request
+\n'CGCSystemMsg_GetAccountDetails_Response
+\n'CMsgGCToGCGetInfuxIntervalStatsResponse
+\n'CMsgRequestCrateEscalationLevelResponse
+\n(CCommunity_GetClanAnnouncements_Response
+\n(CMsgClientToGCCreateStaticRecipeResponse
+\n(CMsgClientToGCGetGiftPermissionsResponse
+\n(CMsgClientToGCWrapAndDeliverGiftResponse
+\n)CMsgClientToGCRemoveItemAttributeResponse
+\n)CMsgGCEconSQLWorkItemEmbeddedRollbackData
+\n)CWorkshop_GetPackageDailyRevenue_Response
+\n*CWorkshop_PopulateItemDescriptions_Request
+\n+CGCSystemMsg_ReportExternalPurchase_Request
+\n;CProtoItemSocket_AssetModifier_DESERIALIZE_FROM_STRING_ONLY
+\nCwf\r
+\n\fCMsgItemAges
+\n\fCMsgShopItem
+\n\fCMsgTeamInfo
+\n\fCNETMsg_Tick
+\n\fEDACGameMode
+\n\fEDACItemType
+\n\fEDACPlatform
+\n\fEExtractGems
+\n\fEUnitAIState
+\n\fEUnlockStyle
+\n\fFieldOptions
+\n\fLITE_RUNTIME
+\n\fNET_Messages
+\n\fPARTNER_NONE
+\n\fROLL_CREDITS
+\n\fSTRING_PIECE
+\n\fTYPE_FIXED32
+\n\fTYPE_FIXED64
+\n\fTYPE_MESSAGE
+\n\fUM_GameTitle
+\n\fUM_SendAudio
+\n\fUM_VoiceMask
+\n\fWEBAPI_PARAM
+\n\facceleration
+\n\faccount_name
+\n\fattack_speed
+\n\faudit_action
+\n\fautograph_id
+\n\fbanned_words
+\n\fblock_amount
+\n\fbonus_to_add
+\n\fbooster_type
+\n\fbroadcast_id
+\n\fchallenge_id
+\n\fcommand_line
+\n\fcommand_name
+\n\fcommentcount
+\n\fcontributors
+\n\fconvar_value
+\n\fcountry_code
+\n\fdamage_bonus
+\n\fdamage_dealt
+\n\fdamage_taken
+\n\fdesc_outputs
+\n\fdisable_done
+\n\fdouble_value
+\n\fduos_combine
+\n\feffect_scale
+\n\femail_format
+\n\fentity_index
+\n\ffade_in_time
+\n\ffile_version
+\n\ffirst_played
+\n\ffriend_count
+\n\fgames_played
+\n\fgames_viewed
+\n\fgift_message
+\n\fgifting_uses
+\n\fgrant_reason
+\n\fhealing_done
+\n\fignore_limit
+\n\fis_extension
+\n\fis_localonly
+\n\fis_unlimited
+\n\fitem_item_id
+\n\fitem_quality
+\n\fjava_package
+\n\fk_EMsgGCBase
+\n\flandmarkname
+\n\floadout_name
+\n\floadout_slot
+\n\fmachine_name
+\n\fmessage_body
+\n\fminblendrate
+\n\fnew_position
+\n\fnot_tradable
+\n\foffline_mode
+\n\fpartner_name
+\n\fpersona_name
+\n\fprocess_name
+\n\fref_trans_id
+\n\fregion_codes
+\n\fregion_pings
+\n\frender_width
+\n\freward_flags
+\n\frights_flags
+\n\fround_number
+\n\fsample_stack
+\n\fsavegamename
+\n\fscreen_width
+\n\fseconds_left
+\n\fsequencename
+\n\fservice_list
+\n\fset_to_value
+\n\fsignon_state
+\n\fsocket_index
+\n\fstart_effect
+\n\fstat_samples
+\n\fstatus_label
+\n\fsteam_txn_id
+\n\fsteamid_left
+\n\fstrange_type
+\n\fstring_value
+\n\fstyle_prereq
+\n\fswift_prefix
+\n\fsync_version
+\n\ftexture_name
+\n\ftime_created
+\n\ftime_updated
+\n\ftool_item_id
+\n\funderlord_id
+\n\fuser_offline
+\n\fvalue_string
+\n\fvalue_uint32
+\n\fwait_seconds
+\n\fwebapi_param
+\n\fwhat_changed
+\n\fworldgroupid
+\n\nEAddSocket
+\n\nEDACAIType
+\n\nEErrorCode
+\n\nEGCBaseMsg
+\n\nEM_DoSpark
+\n\nIDEMPOTENT
+\n\nPlayerInfo
+\n\nROLL_STATS
+\n\nRankUpdate
+\n\nTYPE_BYTES
+\n\nTYPE_FLOAT
+\n\nTYPE_GROUP
+\n\nTYPE_INT32
+\n\nTYPE_INT64
+\n\nUM_HudText
+\n\nUM_SayText
+\n\nUM_TextMsg
+\n\n\fEPlayerOrder
+\n\n\vCSODACParty
+\n\nability_id
+\n\naccount_id
+\n\naccountids
+\n\nadjustment
+\n\naegis_used
+\n\nalert_type
+\n\nattachment
+\n\nattr_value
+\n\naudit_data
+\n\nbot_ignore
+\n\nbytes_read
+\n\nclick_type
+\n\ncommand_id
+\n\ncurr_items
+\n\ndamage_max
+\n\ndamage_min
+\n\ndate_start
+\n\ndependency
+\n\ndeprecated
+\n\nemail_lang
+\n\nentity_msg
+\n\nequip_slot
+\n\nerror_code
+\n\nerror_text
+\n\nevent_name
+\n\nevent_tier
+\n\nevent_time
+\n\nevent_type
+\n\nfakeplayer
+\n\nflag_value
+\n\nfow_radius
+\n\nframe_data
+\n\ngameitemid
+\n\nget_misses
+\n\ngo_package
+\n\ngold_value
+\n\ngroup_code
+\n\ninput_type
+\n\ninvited_by
+\n\nis_limited
+\n\nitem_count
+\n\nitem_flags
+\n\nitem_level
+\n\nitem_price
+\n\nitems_game
+\n\nk_MsgValid
+\n\nkey_uint64
+\n\nkill_count
+\n\nlevel_type
+\n\nlogon_jobs
+\n\nloot_lists
+\n\nmax_health
+\n\nmenustring
+\n\nmessage_id
+\n\nmod_enable
+\n\nmodel_name
+\n\nnum_clicks
+\n\nowns_event
+\n\npackage_id
+\n\npartner_id
+\n\nping_times
+\n\nprop_state
+\n\nqueue_size
+\n\ns1_mapname
+\n\nsample_msg
+\n\nsecret_key
+\n\nsending_gc
+\n\nservice_id
+\n\nset_frozen
+\n\nshare_code
+\n\nslot_index
+\n\nspew_level
+\n\nstart_time
+\n\nstat_total
+\n\nstat_value
+\n\nstrip_html
+\n\nsubscriber
+\n\nswap_width
+\n\ntime_stamp
+\n\ntoken_name
+\n\ntotal_gold
+\n\nturbo_mode
+\n\nupdatetime
+\n\nval_string
+\n\nval_uint64
+\n\nvalidslots
+\n\nwin_streak
+\n\rCSOItemRecipe
+\n\rEDACLobbyTeam
+\n\rEDACMatchMode
+\n\rEDACNetBuffer
+\n\rEM_PlayJingle
+\n\rEMemberRights
+\n\rEUnpackBundle
+\n\rGameConstants
+\n\rMethodOptions
+\n\rRoutingMethod
+\n\rTYPE_SFIXED32
+\n\rTYPE_SFIXED64
+\n\rTrackedAssert
+\n\rUM_AmmoDenied
+\n\rUM_CreditsMsg
+\n\rUM_ItemPickup
+\n\rUM_ScreenTilt
+\n\ralways_notify
+\n\ramount_gained
+\n\ranim_modifier
+\n\rattr_def_name
+\n\rboard_spray_x
+\n\rboard_spray_y
+\n\rbytes_written
+\n\rcategory_desc
+\n\rcombat_result
+\n\rcontext_value
+\n\rcontrol_point
+\n\rcrate_item_id
+\n\rcurrency_code
+\n\rcurrency_name
+\n\rcurrent_value
+\n\rdamage_amount
+\n\rdamage_result
+\n\rdebug_message
+\n\rdefault_price
+\n\rdefault_value
+\n\rdelete_misses
+\n\rdesired_pos_x
+\n\rdesired_pos_y
+\n\rentity_handle
+\n\rerror_message
+\n\rfade_out_time
+\n\rfunction_name
+\n\rgem_def_index
+\n\rinitial_level
+\n\ris_banned_now
+\n\ris_compressed
+\n\ris_cyber_cafe
+\n\ris_subscribed
+\n\ris_transition
+\n\ris_vac_banned
+\n\ritem_def_name
+\n\rjob_id_source
+\n\rjob_id_target
+\n\rk_EMsgGCError
+\n\rk_ESE_Source1
+\n\rk_ESE_Source2
+\n\rmm_ban_reason
+\n\rmodifier_name
+\n\rnet_SetConVar
+\n\rnet_StringCmd
+\n\rnet_buffer_id
+\n\rnext_level_xp
+\n\rnum_top_three
+\n\ropponent_slot
+\n\rphp_namespace
+\n\rpreviouslevel
+\n\rpurchase_type
+\n\rremove_decals
+\n\rrender_height
+\n\rrender_system
+\n\rreport_output
+\n\rrequired_hero
+\n\rrequired_tags
+\n\rrequired_type
+\n\rreserved_name
+\n\rround_ranking
+\n\rrt_birth_date
+\n\rsave_game_key
+\n\rscreen_height
+\n\rsearch_string
+\n\rsend_to_users
+\n\rsnapshot_name
+\n\rsnapshot_time
+\n\rsource_app_id
+\n\rsteam_id_list
+\n\rsteamid_locks
+\n\rsteamid_right
+\n\rstrange_value
+\n\rstreak_length
+\n\rstring_param1
+\n\rsynergy_level
+\n\rtarget_entity
+\n\rteam_behavior
+\n\rteammate_slot
+\n\rtick_interval
+\n\rtime_acquired
+\n\rtime_of_death
+\n\rtrial_account
+\n\runit_cap_cost
+\n\ruser_currency
+\n\ruser_sessions
+\n\rvalidate_only
+\n\rvictory_level
+\n\ryielding_jobs
+\n\tENameItem
+\n\tEResetGem
+\n\tEResponse
+\n\tROLL_NONE
+\n\taccountid
+\n\tadd_slots
+\n\tamplitude
+\n\tautograph
+\n\tavailable
+\n\tban_masks
+\n\tcan_trade
+\n\tcheck_fow
+\n\tcmd_flush
+\n\tcode_type
+\n\tcondition
+\n\tconfig_id
+\n\tcontextid
+\n\tdef_index
+\n\tdir_index
+\n\tdirection
+\n\tent_index
+\n\tentity_id
+\n\tevictions
+\n\tfile_name
+\n\tfile_size
+\n\tfrequency
+\n\tgame_data
+\n\tgame_mode
+\n\tgc_app_id
+\n\tgc_binary
+\n\tgold_cost
+\n\thold_time
+\n\thost_loss
+\n\tinit_time
+\n\tinitiator
+\n\tint_value
+\n\tinventory
+\n\tip_public
+\n\tis_online
+\n\titem_defs
+\n\titemindex
+\n\tjoin_code
+\n\tjson_name
+\n\tleague_id
+\n\tline_item
+\n\tlongitude
+\n\tmagnitude
+\n\tmap_entry
+\n\tmmr_level
+\n\tname_part
+\n\tnet_worth
+\n\tnew_class
+\n\tnum_kills
+\n\tpackageid
+\n\tprice_key
+\n\tprice_usd
+\n\tpuzzle_id
+\n\trank_tier
+\n\trecipient
+\n\treward_id
+\n\trule_type
+\n\tsample_id
+\n\tsatisfied
+\n\tschema_kv
+\n\tsender_id
+\n\tsoid_type
+\n\tsort_type
+\n\tsoundname
+\n\tsource_gc
+\n\tsteam_ids
+\n\tsynergies
+\n\ttarget_id
+\n\tteam_name
+\n\ttickcount
+\n\ttimestamp
+\n\ttype_name
+\n\tunderlord
+\n\tval_float
+\n\tval_short
+\n\twatermark
+\n\tworldname
+\n\txp_earned
+\n\vCMsgUseItem
+\n\vCSODACLobby
+\n\vCSOEconItem
+\n\vEDACStoreID
+\n\vEM_FixAngle
+\n\vEnumOptions
+\n\vFileOptions
+\n\vROLL_OUTTRO
+\n\vTYPE_DOUBLE
+\n\vTYPE_SINT32
+\n\vTYPE_SINT64
+\n\vTYPE_STRING
+\n\vTYPE_UINT32
+\n\vTYPE_UINT64
+\n\vUM_HintText
+\n\vUM_HudError
+\n\vUM_MAX_BASE
+\n\vUM_ResetHUD
+\n\vUM_SayText2
+\n\vUM_ShakeDir
+\n\vUM_ShowMenu
+\n\vUM_VGUIMenu
+\n\vUnitChances
+\n\vaccount_ids
+\n\vachievement
+\n\vactive_jobs
+\n\vage_seconds
+\n\vallow_alias
+\n\vattach_type
+\n\vbonus_count
+\n\vbuff_status
+\n\vcamera_type
+\n\vcan_be_sold
+\n\vclient_addr
+\n\vcombat_type
+\n\vcon_command
+\n\vconstraints
+\n\vconvar_name
+\n\vcurrency_id
+\n\vcustom_text
+\n\vdelete_hits
+\n\vdesc_inputs
+\n\vdescription
+\n\vdisplaytime
+\n\vease_in_out
+\n\vegg_item_id
+\n\ventityindex
+\n\vevent_owned
+\n\vfinal_level
+\n\vfinal_place
+\n\vfinish_time
+\n\vfloat_value
+\n\vfree_reroll
+\n\vfrom_player
+\n\vfull_update
+\n\vgem_item_id
+\n\vgifting_max
+\n\vglobalindex
+\n\vgold_earned
+\n\vhidden_only
+\n\vis_critical
+\n\vis_headless
+\n\vis_summoned
+\n\vis_verified
+\n\vitem_def_id
+\n\vitem_rarity
+\n\vk_Succeeded
+\n\vkey_item_id
+\n\vkill_streak
+\n\vleaderboard
+\n\vline_number
+\n\vlogo_length
+\n\vlogon_queue
+\n\vlose_streak
+\n\vmax_clients
+\n\vmax_item_id
+\n\vmessagename
+\n\vmethod_name
+\n\vmodifier_id
+\n\vnet_message
+\n\vobject_data
+\n\voneof_index
+\n\voriginal_id
+\n\voutput_type
+\n\vpacked_diff
+\n\vparty_index
+\n\vplatform_id
+\n\vplayer_slot
+\n\vplayerindex
+\n\vrange_bonus
+\n\vreason_code
+\n\vrecent_only
+\n\vregion_code
+\n\vrelay_codes
+\n\vrelay_pings
+\n\vreroll_cost
+\n\vrevenue_usd
+\n\vsearch_type
+\n\vsequence_id
+\n\vserver_addr
+\n\vserver_port
+\n\vshop_locked
+\n\vshould_draw
+\n\vsource_file
+\n\vspawn_count
+\n\vstatus_code
+\n\vsteam_level
+\n\vstyle_index
+\n\vswap_height
+\n\vteam_number
+\n\vtimes_fired
+\n\vtoken_value
+\n\vunlock_time
+\n\vvalue_bytes
+\n\vvalue_float
+\ng default\n
+\r\n\tCODE_SIZE
+\r\n\tJS_NORMAL
+\r\n\tJS_NUMBER
+\r\n\tJS_STRING
+\r\n\tTYPE_BOOL
+\r\n\tTYPE_ENUM
+\r\n\tUM_HudMsg
+\r\n\tUM_Rumble
+\tFlags: 
 \u00
+\v\n\fEUnitKeyword
 \x%02x
-]
-^
-_
+]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
+^\n*NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -2996,6 +5228,8 @@ _V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
+_\n,NETWORK_DISCONNECT_STEAM_DENY_BAD_ANTI_CHEAT
+_\n-NETWORK_DISCONNECT_REJECT_INVALIDSTEAMCERTLEN
 __assert_fail
 __bss_start
 __ctype_toupper_loc
@@ -3026,21 +5260,40 @@ __stack_chk_fail
 __temp_unserialization_member__
 __tls_get_addr
 __xstat64
-_c
 _edata
 _end
 _fini
 _test_conversion_counter
-`
-a
-a protocol
-abs( %s )
+a\n\nInputError
+abilities_enabled
+ability_cooldowns
+ability_effect
+absolute_timeout
+accept
+account_creation_time
+account_details
+account_id_list
+accounts
+achievement_bit_id
+achievement_blocks
+achievement_id
+action
+active_challenge_slot_id
+active_rules_satisfied
+activity
 activityOverride
+add_categories
 add_modifiers
 add_owned_items
 add_owned_units
+added_time_before_results
+additional_audit_entries
+additional_backpack_slots
+additional_outputs
+additional_seconds
 addoninfo.txt
 addonroot
+addons
 affects_all_allied_summons_of_keyword_and_allied_heroes
 affects_all_allied_units
 affects_all_allies_with_keyword
@@ -3050,6 +5303,7 @@ affects_all_enemy_units
 affects_random_ally
 affects_random_ally_with_keyword
 affects_random_enemy
+aggregate_value
 aiAura
 aiIsMelee
 aiPassiveAbility
@@ -3062,55 +5316,86 @@ aiSkip
 aiSynergyKeyword
 aiTierOffset
 ai_model_info
-all
+ai_state
 allactors
 allowCombines
 allowLevel3
 allowRerolls
+allow_equal_rate
 allowed in proto3.
+allowed_unit_def_indices
 allowstatic
 alphasort64
 ambient_effect
+ammo_id
+amount
 anchor_angles
 anchor_position
+angle
 anim_name
 anim_name_a
 anim_name_b
 animationlength
 animgraph0
 animgraph1
-any
+api_key
+app_id
+app_instance_count
+appid
 application
 appliesToItems
 applies_to_untargetable_units
+apply_voice_ban_rules
 appsystemdict.cpp
 archive
-args were given.  Full format string was: "
-arguments.
+armor
 array_ != __null
+as_coach
 assassin_modifier
+asserts
+asset_modifier
+assigned_unit_entindex
+associated_workshop_files
+attach_ent_index
 attach_point
 attachment
+attachment_new
 attachment_offset
+attachment_old
 attachment_type
 attackAnimationPoint
 attackRange
 attackRate
 attack_damage
+attack_damage_dealt
+attack_projectile_speed
 attack_range
 attack_speed
+attacks_per_second
+attr_def_index
+attribute_index
+attribute_name
+attributes_string
+auth
+auto_deploy_units
 auto_unragdoll_duration
+autograph_item_id
+autograph_score
+available_cards
 available_content
 away
-b
 bUpdate
-bad
+b\n,NETWORK_DISCONNECT_SPLITPACKET_SEND_OVERFLOW
+bad 
+balance
 base_gcmessages.proto
 base_modifiers
 baseclass
 baselayer
 basic_string::_S_construct null not valid
+beams
 beautiful_corner
+begin
 bentnormal
 bin/linuxsteamrt64
 bin/linuxsteamrt64/libtier0.so
@@ -3119,14 +5404,27 @@ binary_auto
 binary_bc
 binary_lz4
 blendamount
+blenddeltamultiplier
+blendindices
 blendweight
 blendweights
+block
+block1
+block2
+block3
 blockLOS
+blue
 board_code
+board_spray_id
+board_unit_limit
+body
+body_substring_keys
+body_substring_values
 body_type
 bone_name
 bone_names
 bonemerge
+bonus
 bonus_armor
 bonus_keyword
 bool
@@ -3139,45 +5437,80 @@ bool google::protobuf::safe_parse_positive_int(std::string, IntType*) [with IntT
 borrow
 bot_brawny_kills
 bot_buying_disabled
+bot_difficulty
 bot_gold
 bot_ignore_neutrals
 bot_ignore_units
 bot_items
+bot_persona_name
 bot_personality
 bots
 botsPB
+brawny_kills_float
 break_create_joint_revolute
 break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-buffer. Use the 'bytes' type if you intend to send raw
+bt3V
+buffer. Use the 'bytes' type if you intend to send raw 
+build_id
 burst_randomize
 burst_scale
-but not used.
 bytes
-bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
-bytes.
-c
+bytes. 
 cable
+cached_file_version
+caches
 calloc
 can't reach here.
+can_move_to_bench
+can_select_underlord
 cantdie
+card_id
 careAboutDupes
 castAnimation
 castPoint
 castRange
+category
+cc_enable_arenas
+cc_generic_services
 ceil
 ceilf
 center
+chance
+change_control_point_attachment
+channel
 channelTime
 char google::protobuf::StringPiece::operator[](google::protobuf::stringpiece_ssize_type) const
+chat
 cheat
 children
+choices
+city
+city_prestige_level
+claimed
 clamp_synergies_to_level
+clanid
+class_usage_for_output
+click_x
+click_y
+click_z
 client
+client_active_version
+client_is_on_bench
+client_language
+client_launcher
+client_min_allowed_version
+client_msg_ranges
+client_session_id
+client_session_need
+client_steam_id
+client_streaming
+client_synthesized_for_setup
+client_version
 clientcmd_can_execute
-close() failed:
+close() failed: 
 closedir
 cloth_collide
 cloth_collision_layer0
@@ -3185,30 +5518,73 @@ cloth_collision_layer1
 cloth_collision_layer2
 cloth_collision_layer3
 cloth_enable
+cmd_get
+cmd_set
+code
+collection_item_id
 collision_group
 collision_prop
 color
+color1
+color2
+com.google.protobufB
+combat_duration
+combat_highlights
+combat_intro_duration
+combat_player_slot_to_events
+combat_results
+combats
 combinable
+command
+command_prefix
 comment
+compatibility_version
 composite
+compressed_msg
 configvalue.cpp
-conflicts with an existing enum type.
-conflicts with an existing field.
-conflicts with an existing nested message type.
-conflicts with an existing oneof type.
+connection_status
 console.log
 const google::protobuf::UnknownFieldSet& google::protobuf::UnknownField::group() const
 const string& google::protobuf::UnknownField::length_delimited() const
-contains invalid
+consumable_item_ids
+consumption_components
 content_enable_group
+contents
+context
+context_player_id
+context_team_id
 control_point
+convars
 cooldown
+cooldown_multiplier
 cooldown_percentage
+cooldown_ratio
 core
-cos( %s )
+corporation_id
+cost_in_local_currency
+count
+country
+country_revenue
+crate_item_def
 create_particle
+creationsequence
+credits
+critical
+csharp_namespace
+ctype
+curr_connections
+currency
+currency_price
+current
+current_room_type
 curvature
-d
+custom_game_crc
+custom_game_install_status
+custom_game_timestamp
+custom_modifier
+cvars
+cycle
+d\n-NETWORK_DISCONNECT_LOCALPROBLEM_NETWORKCONFIG
 dac/dac_gamedefinitions.cpp
 dac/dac_gamemanager.cpp
 dac_gamemessages.proto
@@ -3216,14 +5592,64 @@ dac_gcmessages_common.proto
 dac_npc
 damageMax
 damageMin
+damage_dealt_details
+damage_dealt_to_player
+damage_dealt_to_units
+damage_sources
+damage_taken_details
+data
+data_center_codes
+date
+date_end
+days_to_expiration
+deadlock_retries
 death_effect
 death_modifier
+debug_snapshot
 default
+definition_set
 delete
+deleted_item_id
 description
 description_strings
-details:
+desired
+dest
+destroy_immediately
+destroy_particle
+destroy_particle_involving
+details"
+details"3\n
+details_attack
+details_attack_blocked
+details_attack_evaded
+details_attack_missed
+details_cancel_attack
+details_cast_ability
+details_combat_ended
+details_damage
+details_dungeon
+details_modifier_create
+details_modifier_destroy
+details_normal
+details_particle_event
+details_puzzle
+details_resurrect
+details_sandbox
+details_sound_event
+details_speech_event
+details_start_attack
+details_start_gesture
+details_stop_gesture
+details_streetfight
+details_tech_prototype_a
+details_tutorial
+dev_ignore_staging_files
 developer
+developer_mode
+di_a
+di_b
+di_c
+diff_encode_field
 diffcheck
 diffcheck_playerslot
 diffcheck_spew
@@ -3231,9 +5657,11 @@ diffcheck_spew_diff_filter
 diffcheck_spew_diff_only
 difficulty
 disable_attack
+disable_done_details
 disable_items
 disable_movement
 disable_outline
+disconnected_time
 displayName
 dl_iterate_phdr
 dme_position_map
@@ -3241,68 +5669,160 @@ dmg.bullets
 dmg.club
 dmg.explosive
 dmg.fire
+do_a
+do_b
+do_c
+domain
 dota_models_imported
 dota_unit_name
 double
 draftTier
+drop_rate_bonus
 drops_on_death
-dup
+duel__class_lock
+duel_ban_expiration
+duel_bonus_damage
+duos_rank_update
+duration
+dynamic_attributes
 dynamic_interaction
-e
+eResponse_InternalError
+eResponse_InvalidItems
+eResponse_MissingEvent
+eResponse_MissingLeague
+eResponse_OfferingDisabled
+eResponse_Success
+e\n\nLeftMember
+e\n\vPartnerInfo
 econ_gcmessages.proto
+econ_gcmessages.proto"
+econ_shared_enums.proto
+econ_shared_enums.proto">\n
+econ_shared_enums.proto"E\n
+effect
+effect_amplitude
+effect_duration
+effect_frequency
+effect_name_hash_code
+eligible_for_online_play
+email_msg_type
 emitFromWorld
 enable_limit
 encoding
+end_time_stamp
+enemy_player_slot
+enemy_underlord
+engine
 english
+entindex
+entity_handle_for_modifiers
+entityfiltername
+entitylumpname
+entries
 enum
+equip_sub_slot
+equipped_state
+equips
+eresult
+eresult_deprecated
+error
+errors
+escalation_level0
+escalation_level1
+escalation_level2
+escalation_level3
+essence_item_id
+event
 event_class
+event_id
 event_keys
+event_t
+eventid
 eventindex
-exp( %s )
+events
+exclusive_item_def
+expected_audit_action
+experience_purchase_amount
+experience_purchase_gold_cost
+expiration_date
+expiration_time
 explosion_behavior
 explosion_buildup
 explosion_delay
 explosion_type
 explosive_damage
 explosive_radius
-extend .$0 {
+extend .$0 {\n
+extendee
+extension_range
 extra_abilities
-eye
-f
-f %d %d %d
+f %d %d %d\n
 f == __null || dynamic_cast<To>(f) != __null
 faceMergeAngle
+fade_in
+fade_out
+failed_lookup_steamids
 fallback
+fallback_position
 fallbacks
 false
+false"
+false"r\n
+false:7\n
+false:=\n
+false:A\n
+falseB
 fclose
 fcntl
 fdatasync
+feature_controls
 female
 fflush
+field
+file
+filename
 fileno
 filesystem_stdio
+final_level_partial_progress
+final_level_score
+final_position
 fixed32
 fixed64
+flags
 float
 float( %f )
+float_kill_count
 floor
 floorf
 fltx4
 followRandomBoughtSynergies
 fopen64
 force
+force_big_healthbar
+force_full_send
 format
 formats.cpp
+forum_topic_id
+forward
+forward_account_details
+found
+found_friendship
+fow_control_point
+fow_control_point2
 fprintf
 frame
 free
+free_trial_expiration
 friction
+friend_permissions
+friendship_age_requirement
+friendship_timestamps
 frozen
 ftruncate64
+fulfilled_item_id
 fwrite
-g
-g default
+fx_time
+g\n\fDamageSource
 g_Tier1_BitWriteMasks
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
@@ -3310,12 +5830,28 @@ g_Tier1_ExtraMasks
 g_pMemAlloc
 game/bin
 game_class
+game_constants
+game_id
 game_keys
 game_language
 game_lowviolence
+game_mode_settings
+game_modifiers
+game_msg
 game_nontools
+game_server_sessions
 gameinterfaces.cpp
+gamemode
+gamerules_masks
+games_to_unlock_rename
+gc_dir_index_source
+gc_info
+gc_name
+gc_socache_file_version
+gcsdk_gcmessages.proto
 gcsystemmsgs.proto
+gcsystemmsgs.proto*
+gems_to_socket
 generated_protodac/linuxsteamrt64/base_gcmessages.pb.cc
 generated_protodac/linuxsteamrt64/dac_gamemessages.pb.cc
 generated_protodac/linuxsteamrt64/dac_gcmessages_common.pb.cc
@@ -3326,9 +5862,28 @@ generated_protodac/linuxsteamrt64/networkbasetypes.pb.cc
 generated_protodac/linuxsteamrt64/steammessages.pb.cc
 generated_protodac/linuxsteamrt64/usermessages.pb.cc
 generic
+get_hits
+gift__potential_targets
+gifting_charge_max
+gifting_charge_uses
+gifting_window_hours
+give_to_account_id
+global
 globalMeterEntity
+global_leaderboard_rank
 glow
+gold
 goldCost
+gold_earned_this_round
+gold_from_interest
+gold_from_items
+gold_from_round_bonus
+gold_from_streak
+gold_from_victory
+gold_spent_on_levels
+gold_spent_on_rerolls
+gold_spent_on_units
+google.protobuf"G\n
 google.protobuf.
 google.protobuf.Any
 google.protobuf.DescriptorProto.name
@@ -3396,35 +5951,58 @@ google/protobuf/message_lite.cc
 google/protobuf/reflection_ops.cc
 google/protobuf/repeated_field.cc
 google/protobuf/stubs/common.cc
+google/protobuf/stubs/int128.cc
 google/protobuf/stubs/stringpiece.cc
 google/protobuf/stubs/stringprintf.cc
 google/protobuf/stubs/strutil.cc
 google/protobuf/stubs/substitute.cc
 google/protobuf/text_format.cc
 google/protobuf/unknown_field_set.cc
+google/protobuf/wire_format.cc
 google/protobuf/wire_format_lite.cc
 google::protobuf::StringPiece::StringPiece(const char*, google::protobuf::stringpiece_ssize_type)
 google::protobuf::uint32 google::protobuf::UnknownField::fixed32() const
 google::protobuf::uint64 google::protobuf::UnknownField::fixed64() const
 google::protobuf::uint64 google::protobuf::UnknownField::varint() const
+grants_rewards
 gravity
+green
 group
-h
+group_id
+h\n,NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING
+h\n\nActivePath
+hand_id
 handindex
+has_neutral_rounds
+has_no_recent_password_resets
+has_prior_purchase_history
+has_two_factor
+hash
+headers
+headline
 headtype
+healing_done_details
 health
 healthBarOffset
 healthRegen
 health_bonus
 health_override
+heroid
 hidden
 hideHealthBar
 hide_if_disabled
+high
 highlander
 highlight_keywords
+highlight_type
 hintWords
+histogram_buckets
 home
 host
+host_computationtime
+host_frametime
+host_frametime_std_deviation
+hostname
 hurt_me
 hurt_them
 hypeBarBaseColor
@@ -3433,59 +6011,534 @@ hypeBarColorStart
 hypeBarDarkColor
 hypeBarLightColor
 hypeCost
-i
 i < length_
-i >= 0
 icon
+idempotency_level
+identifier_value
 idle
 ignoreForRoundEnd
 ignore_cap
+ignore_enabled_flag
 ignore_ms_limit
 ikdata
-import "$0";
-import public "$0";
-import weak "$0";
+import "$0";\n
+import public "$0";\n
+import weak "$0";\n
+impulse
+in_coaches_list
+in_developer_mode
+in_logon_surge
+in_match_making
+in_offline_mode
+include_friendship_timestamps
+include_hidden
+include_partner_events
+include_wearables
 increases_kill_counts
+index
 index < 10
-inf
+individual_rank_update
 infinity
+infos
+initial_amount
+initial_inventory
+initial_leaderboard_place
+initial_level_partial_progress
+initial_level_score
 initial_position
+initial_progress
+initial_quantity
+initiator_account_id
+initiator_steam_id
+input_item_dupe_counts
+input_items_criteria
 int google::protobuf::CalculateBase64EscapedLen(int, bool)
 int( %d = 0x%X )
 int32
 int64
+interest_gold_divisor
+interest_gold_earned
+interface_name
 internal error in map key sorting
 introSoundEvent
+inventory_token
 invert_orientation
+invites
 isBarricade
 isPersonality
 isPlaceable
 isStreetfight
 isStub
 isUnderlord
+is_account_locked_down
+is_background_map
+is_banned_future
+is_community_banned
 is_debris
+is_diff
+is_free_trial_account
+is_human_player
+is_initial_startup
+is_inventory_public
+is_last
+is_listen_server_game
+is_loadsavegame
+is_low_violence
+is_mirrored_match
+is_multiplayer
+is_phone_identifying
+is_phone_verified
+is_placeable_item
+is_profile_created
+is_profile_public
+is_ready
+is_result_compressed
+is_school_account
+is_single_human_game
+is_steamguard_enabled
+is_trade_banned
+is_two_factor_auth_enabled
+is_update_compressed
+is_user_facing
+is_wallet_cash_trusted
 is_weekly
 isgame
+ishltv
+ismember
 item
-j
+item_damage_dealt
+item_def
+item_def_index
+item_description
+item_id
+item_ids
+item_ids_for_player
+item_level_set
+item_name_custom
+item_positions
+item_quality_set
+item_schema_crc
+item_schema_version
+item_sell_listings
+item_socket_id
+item_to_unlock
+itemid
+itemname
+itempack__ack_immediately
+items
+items_fulfilled
+items_game_url
+java_generate_equals_and_hash
+java_generic_services
+java_multiple_files
+java_outer_classname
+java_string_check_utf8
 jiggle bone %u
 json_name = "
+jstype
 jstype is only allowed on int64, uint64, sint64, fixed64 or sfixed64 fields.
-k
+k_AddGem_Failed_FailedToAddGem
+k_AddGem_Failed_GemIsInvalid
+k_AddGem_Failed_ItemIsInvalid
+k_AddGem_Succeeded
+k_AddSocket_Succeeded
+k_ECustomGameInstallStatus_Busy
+k_EDACAIType_Invalid
+k_EDACAIType_Lvl1
+k_EDACAIType_Lvl2
+k_EDACAIType_Lvl3
+k_EDACAIType_Lvl4
+k_EDACAIType_Lvl5
+k_EDACAIType_Lvl6
+k_EDACAIType_Lvl7
+k_EDACAIType_Lvl8
+k_EDACAIType_ML
+k_EDACAIType_PB0
+k_EDACAIType_PB1
+k_EDACAIType_PB10
+k_EDACAIType_PB11
+k_EDACAIType_PB12
+k_EDACAIType_PB13
+k_EDACAIType_PB14
+k_EDACAIType_PB15
+k_EDACAIType_PB16
+k_EDACAIType_PB17
+k_EDACAIType_PB18
+k_EDACAIType_PB19
+k_EDACAIType_PB2
+k_EDACAIType_PB20
+k_EDACAIType_PB21
+k_EDACAIType_PB22
+k_EDACAIType_PB23
+k_EDACAIType_PB24
+k_EDACAIType_PB25
+k_EDACAIType_PB26
+k_EDACAIType_PB27
+k_EDACAIType_PB28
+k_EDACAIType_PB29
+k_EDACAIType_PB3
+k_EDACAIType_PB30
+k_EDACAIType_PB31
+k_EDACAIType_PB32
+k_EDACAIType_PB33
+k_EDACAIType_PB34
+k_EDACAIType_PB35
+k_EDACAIType_PB4
+k_EDACAIType_PB5
+k_EDACAIType_PB6
+k_EDACAIType_PB7
+k_EDACAIType_PB8
+k_EDACAIType_PB9
+k_EDACBotDifficulty_Easy
+k_EDACBotDifficulty_Hard
+k_EDACBotDifficulty_ML
+k_EDACBotDifficulty_Medium
+k_EDACBotDifficulty_MommaEeb
+k_EDACBotDifficulty_Nightmare
+k_EDACBotDifficulty_None
+k_EDACDisconnectReason_Goodbye
+k_EDACDungeonPhase_Defeat
+k_EDACDungeonPhase_None
+k_EDACDungeonPhase_Room_Main
+k_EDACDungeonPhase_Room_Setup
+k_EDACDungeonPhase_Victory
+k_EDACDungeonRoomType_Boss
+k_EDACDungeonRoomType_MiniBoss
+k_EDACDungeonRoomType_MiniGame
+k_EDACDungeonRoomType_Mystery
+k_EDACDungeonRoomType_None
+k_EDACDungeonRoomType_Shop
+k_EDACGameMode_Classic
+k_EDACGameMode_Duos
+k_EDACGameMode_Invalid
+k_EDACGameMode_Normal
+k_EDACGameMode_Puzzle
+k_EDACGameMode_Sandbox
+k_EDACGameMode_Streetfight
+k_EDACGameMode_TechPrototypeA
+k_EDACGameMode_Turbo
+k_EDACGameMode_Tutorial
+k_EDACLobbyTeam_Spectator
+k_EDACLobbyTeam_Team0
+k_EDACLobbyTeam_Team1
+k_EDACLobbyTeam_Team2
+k_EDACLobbyTeam_Team3
+k_EDACLobbyTeam_Team4
+k_EDACLobbyTeam_Team5
+k_EDACLobbyTeam_Team6
+k_EDACLobbyTeam_Team7
+k_EDACMatchMode_Casual
+k_EDACMatchMode_Invalid
+k_EDACMatchMode_PrivateLobby
+k_EDACMatchMode_Ranked
+k_EDACMatchMode_SoloBot
 k_EDACPuzzleRule_%s
+k_EDACPuzzleRule_BoardCostLimit
+k_EDACPuzzleRule_Custom1
+k_EDACPuzzleRule_Custom2
+k_EDACPuzzleRule_Custom3
+k_EDACPuzzleRule_Custom4
+k_EDACPuzzleRule_ItemCountLimit
+k_EDACPuzzleRule_None
+k_EDACPuzzleRule_UnitAllowed1
+k_EDACPuzzleRule_UnitAllowed2
+k_EDACPuzzleRule_UnitAllowed3
+k_EDACPuzzleRule_UnitAllowed4
+k_EDACPuzzleRule_UnitCopyLimit
+k_EDACPuzzleRule_UnitCountLimit
+k_EDACPuzzleRule_UnitStarLimit
+k_EDACRegionMode_China
+k_EDACRegionMode_ROW
+k_EDACStoreID_GooglePlay
+k_EDACStoreID_Invalid
+k_EDACStoreID_SteamOverlay
+k_EDACStoreID_Test
+k_EDACStoreID_iOS
+k_EDamageSourceType_Item
+k_EDamageSourceType_Round
+k_EDamageSourceType_Unit
+k_EGCMsgFailedToCreate
+k_EGCMsgResponseDenied
+k_EGCMsgResponseInvalid
+k_EGCMsgResponseNoMatch
+k_EGCMsgResponseNotLoggedOn
+k_EGCMsgResponseOK
+k_EGCMsgResponseServerError
+k_EGCMsgResponseTimeout
+k_EGCMsgResponseUnknownError
+k_EMatchState_Completed
+k_EMatchState_InProgress
+k_EMsgAnyToGCReportAsserts
+k_EMsgClientConnectionComplete
+k_EMsgClientConnectionStarted
+k_EMsgClientSetDebugNetBuffer
+k_EMsgClientToGCEquipItems
+k_EMsgClientToGCNameItem
+k_EMsgClientToGCRemoveItemName
+k_EMsgClientToGCSetItemStyle
+k_EMsgClientToGCUnlockCrate
+k_EMsgClientToGCUnlockItemStyle
+k_EMsgClientToGCUnpackBundle
+k_EMsgClientToServerChatMsg
+k_EMsgClientToServerClickMsg
+k_EMsgGCAddGiftItem
+k_EMsgGCAddItemToSocket
+k_EMsgGCAddItemToSocketResponse
+k_EMsgGCAddSocket
+k_EMsgGCAddSocketResponse
+k_EMsgGCAdjustItemEquippedState
+k_EMsgGCApplyAutograph
+k_EMsgGCApplyConsumableEffects
+k_EMsgGCApplyEggEssence
+k_EMsgGCApplyPennantUpgrade
+k_EMsgGCApplyStrangePart
+k_EMsgGCBackpackSortFinished
+k_EMsgGCClientConnectToServer
+k_EMsgGCClientConnectionStatus
+k_EMsgGCClientHello
+k_EMsgGCClientRequestMarketData
+k_EMsgGCClientVersionUpdated
+k_EMsgGCClientWelcome
+k_EMsgGCCollectItem
+k_EMsgGCCompressedMsgToClient
+k_EMsgGCConVarUpdated
+k_EMsgGCCustomizeItemTexture
+k_EMsgGCDelete
+k_EMsgGCDev_NewItemRequest
+k_EMsgGCExtractGems
+k_EMsgGCExtractGemsResponse
+k_EMsgGCGameServerInfo
+k_EMsgGCGenericResult
+k_EMsgGCGiftedItems
+k_EMsgGCGoldenWrenchBroadcast
+k_EMsgGCInvitationCreated
+k_EMsgGCInviteToLobby
+k_EMsgGCInviteToParty
+k_EMsgGCItemAcknowledged
+k_EMsgGCKickFromParty
+k_EMsgGCLANServerAvailable
+k_EMsgGCLeaveParty
+k_EMsgGCLobbyInviteResponse
+k_EMsgGCMOTDRequest
+k_EMsgGCMOTDRequestResponse
+k_EMsgGCNameBaseItem
+k_EMsgGCNameBaseItemResponse
+k_EMsgGCNameEggEssenceResponse
+k_EMsgGCPaintItem
+k_EMsgGCPaintItemResponse
+k_EMsgGCPartnerBalanceRequest
+k_EMsgGCPartnerBalanceResponse
+k_EMsgGCPartyInviteResponse
+k_EMsgGCPingRequest
+k_EMsgGCPingResponse
+k_EMsgGCPresets_SetItemPosition
+k_EMsgGCRedeemCode
+k_EMsgGCRedeemCodeResponse
+k_EMsgGCRemoveCustomTexture
+k_EMsgGCRemoveItemGiftMessage
+k_EMsgGCRemoveItemName
+k_EMsgGCRemoveItemPaint
+k_EMsgGCRemoveMakersMark
+k_EMsgGCRemoveUniqueCraftIndex
+k_EMsgGCReplicateConVars
+k_EMsgGCRequestCrateItems
+k_EMsgGCRequestStoreSalesData
+k_EMsgGCResetStrangeGemCount
+k_EMsgGCSaxxyBroadcast
+k_EMsgGCServerAvailable
+k_EMsgGCServerConnectionStatus
+k_EMsgGCServerHello
+k_EMsgGCServerRentalsBase
+k_EMsgGCServerUseItemRequest
+k_EMsgGCServerVersionUpdated
+k_EMsgGCServerWelcome
+k_EMsgGCSetItemPosition
+k_EMsgGCSetItemPositions
+k_EMsgGCSetItemStyle_DEPRECATED
+k_EMsgGCShowItemsPickedUp
+k_EMsgGCSortItems
+k_EMsgGCStatueCraft
+k_EMsgGCStorePurchaseCancel
+k_EMsgGCStorePurchaseFinalize
+k_EMsgGCStorePurchaseInit
+k_EMsgGCSystemMessage
+k_EMsgGCToClientItemAges
+k_EMsgGCToClientPollFileRequest
+k_EMsgGCToClientRequestDropped
+k_EMsgGCToGCAddSubscriptionTime
+k_EMsgGCToGCCanUseDropRateBonus
+k_EMsgGCToGCConsoleOutput
+k_EMsgGCToGCDevRevokeUserItems
+k_EMsgGCToGCDirtySDOCache
+k_EMsgGCToGCGetUserPCBangNo
+k_EMsgGCToGCInternalTestMsg
+k_EMsgGCToGCPerformManualOp
+k_EMsgGCToGCPingRequest
+k_EMsgGCToGCPingResponse
+k_EMsgGCToGCPurchaseSucceeded
+k_EMsgGCToGCRefreshSOCache
+k_EMsgGCToGCSelfPing
+k_EMsgGCToGCUpdateSQLKeyValue
+k_EMsgGCTradingBase
+k_EMsgGCTrading_SessionClosed
+k_EMsgGCTrading_StartSession
+k_EMsgGCUnwrapGiftRequest
+k_EMsgGCUnwrapGiftResponse
+k_EMsgGCUpdateItemSchema
+k_EMsgGCUseItemRequest
+k_EMsgGCUseItemResponse
+k_EMsgGCUseMultipleItemsRequest
+k_EMsgGCUsedClaimCodeItem
+k_EMsgGCVerifyCacheSubscription
+k_EMsgGameReplayActionMarker
+k_EMsgItemChangedOwner
+k_EMsgLocalPlayerInventory
+k_EMsgNetBufferContents
+k_EMsgNetBufferRemoved
+k_EMsgPlayerAcquiredItem
+k_EMsgPlayerBoardBuddyCommand
+k_EMsgPlayerCombatResult
+k_EMsgPlayerCombinedHero
+k_EMsgPlayerEliminated
+k_EMsgPlayerLevelUp
+k_EMsgPlayerMapPropCommand
+k_EMsgPlayerOrder
+k_EMsgPlayerOrderProcessed
+k_EMsgPlayerPreferences
+k_EMsgPlayerSelectedTalent
+k_EMsgPlayerWinStreak
+k_EMsgRecordLocalBotStats
+k_EMsgSQLAddDropRateBonus
+k_EMsgServerToClientChatMsg
+k_EMsgServerToClientClickMsg
+k_EPartnerRequestBadAccount
+k_EPartnerRequestNotLinked
+k_EPartnerRequestOK
+k_EPlayerState_Abandoned
+k_EPlayerState_Disconnected
+k_EPlayerState_Eliminated
+k_EPlayerState_Playing
+k_EPlayerState_ServerCrashed
+k_EProtoObjectLobbyInvite
+k_EProtoObjectPartyInvite
+k_ESOMsg_CacheSubscribed
+k_ESOMsg_CacheUnsubscribed
+k_ESOMsg_Create
+k_ESOMsg_Destroy
+k_ESOMsg_Update
+k_ESOMsg_UpdateMultiple
+k_ExtractGems_Succeeded
+k_Failed
+k_Failed_CodeAlreadyUsed
+k_Failed_CodeNotFound
+k_Failed_OtherError
+k_MsgAlreadyRunning
+k_MsgInvalidAppID
+k_MsgInvalidPartnerInfo
+k_MsgInvalidTransactionData
+k_MsgNoTransactions
+k_MsgPartnerInfoDiscrepancy
+k_MsgSQLFailure
+k_MsgTransactionInsertFailed
+k_NameItem_Failed
+k_NameItem_Failed_ItemIsInvalid
+k_NameItem_Failed_NameIsInvalid
+k_NameItem_Failed_ToolIsInvalid
+k_NameItem_Succeeded
+k_RemoveItemAttribute_Failed
+k_RemoveItemAttribute_Succeeded
+k_ResetGem_Failed_ItemIsInvalid
+k_ResetGem_Succeeded
+k_SetStyle_Failed
+k_SetStyle_Failed_StyleIsLocked
+k_SetStyle_Succeeded
+k_UnlockStyle_Failed_CantAfford
+k_UnlockStyle_Failed_CantCommit
+k_UnlockStyle_Failed_OtherError
+k_UnlockStyle_Failed_PreReq
+k_UnlockStyle_Succeeded
+k_UnpackBundle_Succeeded
+k_eActionType_Placholder
+k_eBoardBuddyCommand_Move
+k_eBoardBuddyCommand_None
+k_eClickType_Left
+k_eClickType_Right
+k_eDACNetBuffer_Debug
+k_eDACNetBuffer_GameModeState
+k_eDACNetBuffer_MatchState
+k_eDACNetBuffer_ModifierName
+k_eDACNetBuffer_RoundCombat
+k_eDACPlatform_Android
+k_eDACPlatform_Linux
+k_eDACPlatform_Mac
+k_eDACPlatform_None
+k_eDACPlatform_PC
+k_eDACPlatform_iOS
+k_eDuosMessageTargetType_Gold
+k_eDuosMessageTargetType_None
+k_eDuosMessageTargetType_Unit
+k_eDuosMessageType_DoYouWant
+k_eDuosMessageType_IWant
+k_eDuosMessageType_NoWant
+k_eDuosMessageType_None
+k_eDuosMessageType_Sent1Gold
+k_eDuosMessageType_Sent5Gold
+k_eDuosMessageType_Thanks
+k_eDuosMessageType_WantGold
+k_eDuosMessageType_YesWant
+k_eInGameChatType_Combat
+k_eInGameChatType_Global
+k_eLobbyServerState_Abandoned
+k_eLobbyServerState_Assign
+k_eLobbyServerState_InGame
+k_eLobbyServerState_PostMatch
+k_eLobbyServerState_SignedOut
+k_eMapPropCommand_Click
+k_eMapPropCommand_None
+k_eMemberRights_Admin
+k_eMemberRights_Creator
+k_eMemberRights_HighRankedMM
+k_eMemberRights_RankedMM
+k_eMsgIndividualPostMatchStats
+k_ePlayerType_Player
+k_ePlayerType_Spectator
+k_eTeamFlags_CanRename
+k_eTeamFlags_RenameCooldown
 keepCombineds
-key
+key_id
+key_name
+key_t
+keys
 keyvalues.cpp
-kv3
+keyword
+keywords
+kill_multiplier
+killer_account_id
+kills
 kv3format_manager.cpp
-l
+label
+language
+language_preference
+last_playtimes
 last_sniff
+last_update_time
+latest_timestamp_from_steam
+latitude
+lazy
+lcQe
 ld-linux-x86-64.so.2
+leaderboard_histograms
+leaderboard_place
+leaderboard_type
+leading_comments
+leading_detached_comments
+left
 legendary
-len >= 0
 len >= input_len
 length_ >= n
+level
 levels
+leveltransition
 libc.so.6
 libhost.so
 libm.so.6
@@ -3493,22 +6546,37 @@ libpthread.so.0
 libstdc++.so.6
 libtier0.so
 libvstdlib.so
+license
 lightingbasis
 lightmap
 lightmapuv
+limit_maxbytes
+load_save_file
 loaded
 loading
+loadout
+loadout_sub_slot
+loadouts
+lobby_id
+local_global_leaderboard_rank
+local_mmr_level
+localnamefixup
+location
 lockRotationAlpha
 loop
 loop_break_on_damage
 loop_break_on_flashlight
 loop_in_action
 looping
+loot_list_name
+loot_round_numbers
+lootlist
+losses
 lowprecisionuv
 lowprecisionuv1
 lseek
 lseek64
-m
+mXr4
 m_Bone
 m_ChainData
 m_Children
@@ -3862,26 +6930,33 @@ m_vectorAttributes
 m_vectorParams
 m_vertexBuffers
 m_wristBones
+made_first_purchase
 magicResist
+magical_damage_taken
 malloc
+mana
 manaCost
 manaRegen
 manifest
+manifestincomplete
+manifestloadpriority
 map keys are not unique
 map<$0, $1>
 map_entry should not be set explicitly. Use map<KeyType, ValueType> instead.
+map_key
+map_name
 mapbuilder.nodraw
 mapbuilder.occluder
 maps
 maps/
-maps/*.*
+master_dir_index
 master_morph_weight
+match_id
 materials/error.vmat
 mathlib.cpp
 matrix3x4_t
 matrix3x4a_t
 max( %s, %s )
-max. %f
 maxHullVertices
 maxLevel
 maxLevelToBuy
@@ -3892,14 +6967,23 @@ maxUnitTier
 maxVerticesPerHull
 max_allowed
 max_angle
+max_client_limit
+max_interest_gold
+max_item_id_timestamps
+max_spectators
+maxchars
 maxmana
 melee_only
+member_account_id
+member_account_ids
+members
 memchr
 memcmp
 memcpy
 memmove
 mempool.cpp
 memset
+menu
 mesh
 mesh.cpp
 meshUtilsKeyValues
@@ -3908,11 +6992,22 @@ mesh_calculate_curvature_smooth_pass_count
 mesh_calculate_curvature_smooth_weight
 meshes
 message
-message of type "
+message_set_wire_format
+messages
+meter_snapshots
+method
 min( %s, %s )
-min. %f
 min_angle
-mod
+min_client_limit
+mirrored
+mm_ban_time_stamp
+mm_ranked_ban_reason
+mm_ranked_ban_time_stamp
+mmr_leaderboard
+mmr_leaderboard_place
+mmr_level_partial_progress
+mmr_level_progress
+mmr_level_score
 model.cpp
 modelName
 modelScale
@@ -3952,29 +7047,80 @@ modeldoc7
 modeldoc8
 modeldoc9
 modifier_assassin_leap
+modifier_entindex
 modifier_name
 movespeed
+msg_data
+msg_id
+msg_key
+msg_type
+msgpool_hard_limit
+msgpool_soft_limit
+msgs
+msgtype
 multiplayer_break
-n
-nan
+multiple_instances
+n\f"pA3Q
+n\n\nActiveRule
+n\n\tChallenge
+name
+name_hash_code
 nav_attribute_avoid
 nav_data
+needmore
+negative_int_value
+net_Disconnect
+net_NOP
+net_SignonState
+net_SpawnGroup_Load
+net_SpawnGroup_LoadCompleted
+net_SpawnGroup_ManifestUpdate
+net_SpawnGroup_SetCreationTick
+net_SpawnGroup_Unload
+net_SplitScreenUser
+net_Tick
+net_buffer_type
+net_payment_row_usd
+net_payment_us_usd
 network_connection.proto
+network_connection.proto"-\n\nCMsgVector
+network_connection_token
 networkbasetypes.proto
+networkbasetypes.proto"3\n
 neutral_creep
 neutrals_count_for_cap
-no
+new_audit_action
+new_player_slot
+new_rank
+new_slot
+nexonid
+next_room_types
+no_standard_descriptor_accessor
+no_steam_server
 none
 norm
-not found
 notconnected
+notification_id
 notify
 null
+num_first_place
+num_server_players
+number
 numsegments
-o
-of the Protocol Buffer runtime library, but the installed version is
-of the Protocol Buffer runtime library, which is not compatible with the installed version (
+objc_class_prefix
+objects
+objects_modified
+objects_removed
+offset
+old_audit_action
+old_player_slot
+oldest_unclaimed_reward
+online
+only_gid
+op_id
 opendir
+operations_submitted
+operations_timed_out_in_queue
 operator delete(void*)
 operator delete(void*, std::nothrow_t const&)
 operator delete[](void*)
@@ -3982,112 +7128,250 @@ operator new(unsigned long)
 operator new(unsigned long, std::nothrow_t const&)
 operator new[](unsigned long)
 operator new[](unsigned long, std::nothrow_t const&)
+opponent"
+opponent"Z\n
+opponent"m\n\nCMsgBattle
+opponent_neutral_wave
+opponent_player_slot
 optional
+options
+order
+order_id
+orderid
+origin
 origin_max_delta
 origin_relative
+original_purchaser_id
+os_type
+other_steamids
+outofdate_subscribed_caches
 output specified is NULL
+output_initiator
+output_items_criteria
 overlay
-p
+override_item_slot
+owner_account_id
+owner_entindex
+owner_id
 pGameDefsData->HasActiveDefinitionSet()
-package $0;
-parent of jiggle bone %u: %s
+package
+package $0;\n\n
+packed
+param
+param1
+param2
+param3
+param4
+param5
+param6
+parameter_type
+params_data_driven
+parent of jiggle bone %u: %s\n
+parent_stack_index
+parentnamefixup
 parse
 parsing
+particle_attachment_names
+particle_name_index
 particles/
+partner
+partner_accounts
+partner_txn_id
+party_id
+party_password
+passes_granted
+passes_to_grant
+passports_bought
+path
+path_waypoint_index
+path_waypoints
+pathfinding_cells
+paused_state_time_remaining
+payload
+payment_row_usd
+payment_us_usd
+pedestal_itemdef
+peek_item_defs
+pennant_item_id
+persona
+persona_name_tokens
 personalities
 personalityGroup
 pervertexlighting
+phone_id
+phone_verification_time
+php_class_prefix
+php_generic_services
 phys_res
 physgun_interactions
 physib
+physical_damage_taken
 physicsmode
 pipe
 placement_attach
 placement_bone
 placement_mode
+platform
 play_endcap
+player
 player_brawny_kills
 player_dmg_override
+player_experience_table
 player_gold
+player_loadout
+player_player_slot
+player_steamid
+players
+players_networkids
 please implement MergeFrom for your type.
 point0
 point1
+poll_id
+port
+pos_x
+pos_y
 pose_control
 pose_control_type
+position
+positive_int_value
 posix_fadvise64
+posterid
+posttime
 posxyz
 powerLevel
 pread64
 precache
+predicted_total
 preferred_carryangles
+prepared_statements_executed
 prerequisite
+prestige_level
 prev
 prevent_mana_items
+price
+price_in_local_currency
 priority
+private_player_state
+progress
 projectileName
 projectile_model
 projectile_speed
 prop_data
+prop_idx
 props
 proto
 proto2
 proto3
+protobuf_field
+provider
+provider_orderid
 ptestbed
 pthread_cancel
 pthread_create
 pthread_mutex_destroy
 pthread_mutex_init
 pthread_mutex_lock
-pthread_mutex_lock:
+pthread_mutex_lock: 
 pthread_mutex_unlock
-pthread_mutex_unlock:
+pthread_mutex_unlock: 
 pthread_mutexattr_init
 pthread_mutexattr_settype
 pthread_once
 pthread_sigmask
 ptr( 0x%p )
 ptr_ != __null
+public_dependency
+public_player_state
 publish_data
 publish_data.txt
+publisher_group_id
+purchase_report_status
+purchase_result_detail
+pure_damage_taken
+pwid
 pwrite64
-q
+py_generic_services
+quality
+quantity
+queue_position
+radius
 radius0
 radius1
+ran_out_of_time
 random_count
 ranged_only
-rb
+rank
+rarity
 read
 readdir64
 readlink
+reason
 recenter_on_parent_bone
-registered:
+recipe_def_index
+recommended_for_placement
+region_ping_failed_bitmask
+registered: 
+relative
 relative_angles
 relative_origin
+release_particle_index
+reload
 remapping vertex %d[w%d] invalid: %d->%d >= %d
 remapping vertex %d[w%d] invalid: %d->? >= %d
+remove_categories
 renderOutlineOnly
+render_system_req
+repeat
 repeated
+request
+request_method
+require_no_tags
 required
+required_item_slot
 requires_ability
+requires_all_same_class
+requires_all_same_slot
+reroll_cost_modifier
+reserved
+reserved_range
+reset
 resource
 resourcesystem
+response
+restrict_to_home_team
+result
+revenue_percentage
 rewardTiers
 rewardTiers_classic
+right
 rnd_down
 rnd_up
+rolltype
 rootNode
 rounds
+rounds_remaining
+routing
+routing_app_id
+rt_identity_linked
+rtime_oldest_date
+rtime_vacban_starts
+rule
+rule_description
 rules
 runleft
 runright
 runspeed
-s
-s offg cMeshusemtl initialShadingGroup
+s off\ng cMesh\nusemtl initialShadingGroup\n
+sample_duration_ms
+sandbox_share_code
+savegamefilename
 scaleOnlyBaseModel
 scandir64
 sched_yield
 schema
+schema_catalog
 schemabindings.cpp
+screen_refresh
 scripts/abilities.vdacdefs
 scripts/bots.vdacdefs
 scripts/bots_difficulties.vdacdefs
@@ -4103,44 +7387,115 @@ scripts/tutorialstates.vdacdefs
 scripts/underlord_builds.vdacdefs
 scripts/units.vdacdefs
 scripts/waves.vdacdefs
+sdo_type
 secondary
+seconds_duration
+selected
 sellObsolete
+send_to_servers
+sender_permission
 seq_trans
 sequence_name
 sequence_number
 serialize
+serialized_msg
 serializing
+server_active_version
 server_can_execute
-service $0 {
+server_deployed_version
+server_ip_address
+server_sessions
+server_steam_id
+server_streaming
+server_time_ms
+server_version
+service
+service $0 {\n
 set_balance
 set_base
+set_control_point_model
+set_control_point_snapshot
+set_for_output
+set_particle_fow_properties
+set_particle_should_check_fow
+set_particle_text
+set_scene_object_generic_flag
+set_texture_attribute
+settings"
 setup
 sfixed32
 sfixed64
+shake
 shapeType
 sharpStartAngle
+shop_cost_modifier
+shop_generation_id
+show
 sigfillset
-sin( %s )
 singleplayer
 sint32
 sint64
 size
-size too big:
+size too big: 
 size_t to int conversion
+slot
+slot_id
+slot_usage_for_output
+so_cache_version_id
+socache_have_versions
+socaches
+socaches_loading
+socaches_to_unload
+socket
+soid
+soid_id
 soundName
 soundSet
+soundevent_hash
 soundsystem
+source
+source_code_info
+source_entindex
 source_filename
 source_folder
+source_player_slot
+source_reference_id
+source_unit_idx
+span
 spawn_motion_disabled
+spawngrouphandle
+spawngroupmanifest
+spawngroupownerhandle
+spawngroupparenthandle
+special_payments
 speeds
+spell_damage_dealt
+spoof_player_slot
+sprayed_board_player_slot
 springConstant
 sprintf
 sqrt
-sqrt( %s )
 sqrtf
 ss_added
+start
 starting_charges
+starting_position
+stat_best_victory_duration
+stat_best_victory_net_worth
+stat_best_victory_units
+stat_id
+stat_ids
+stat_max
+stat_prev_victory_duration
+stat_prev_victory_net_worth
+stat_prev_victory_units
+state
+state_change_time
+state_duration
+stats
+stats_kv
+status
+status_effect_index
 std::_Rb_tree_decrement(std::_Rb_tree_node_base const*)
 std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
 std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
@@ -4155,22 +7510,22 @@ std::__throw_length_error(char const*)
 std::__throw_logic_error(char const*)
 std::allocator<char>::allocator()
 std::allocator<char>::~allocator()
-std::basic_ios<char, std::char_traits<char> >::eof() const
-std::basic_ios<char, std::char_traits<char> >::fail() const
-std::basic_ios<char, std::char_traits<char> >::fill() const
-std::basic_ios<char, std::char_traits<char> >::good() const
-std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::_Setfill<char>)
-std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::_Setw)
-std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream(std::_Ios_Openmode)
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::str() const
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned long, char, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+std::basic_ios<char, std::char_traits<char>>::eof() const
+std::basic_ios<char, std::char_traits<char>>::fail() const
+std::basic_ios<char, std::char_traits<char>>::fill() const
+std::basic_ios<char, std::char_traits<char>>::good() const
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <char, std::char_traits<char>, std::allocator<char>>(std::basic_ostream<char, std::char_traits<char>>&, std::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, std::_Setfill<char>)
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, std::_Setw)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::basic_ostringstream(std::_Ios_Openmode)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::str() const
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_ostringstream()
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string()
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, unsigned long, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(unsigned long, char, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string()
 std::exception::~exception()
 std::ios_base::Init::Init()
 std::ios_base::Init::~Init()
@@ -4248,14 +7603,30 @@ std::tr1::__detail::__prime_list
 stderr
 stdout
 stealable
+steam_id
+steam_txn_type
+steamdatagram_login
+steamid
+steamids
+steammessages.proto
+steammessages.proto"
+steammessages.proto"@\n
+stop
 stop_immediately
 stop_instantly
 stop_on_seq_change
+store_country_code
+store_purchase_type
+strange_count_adjustments
+strange_part_item_id
 strcasecmp
 strchr
 strcmp
 strcpy
-stream
+streak_gold_earned
+stream 
+streetfight_id
+streetfight_settings
 strerror
 string
 strings::Substitute format string invalid: asked for "$
@@ -4268,38 +7639,90 @@ strtoll
 strtoul
 strtoull
 stub
+style
+sub_slot
+subject_item_id
+subscribe_to_id
+subscribe_to_type
 subtype mismatch
+subtypes
+succeeded_lookups
+success
+summon_owner_entindex
 supportUnitCount
 suppress
 surfacePropertyName
 surface_prop
+suspension_end_time
 synergies_affect_all_allies
 synergy
-syntax = "$0";
-t
+syntax
+syntax = "$0";\n\n
 table
+tags
 talent%d
+talent_itemdef_index
 talents
 tangent
 tangentu_signv
+target_entindex
+target_job_name
+target_player_slot
+target_steam_id
 target_team
+target_unit_idx
 target_unit_name
+tax_usd
+team
+team_id
 team_invisible
+team_leaderboard_place
+team_mmr_level
+teammate_damage_result
+teammate_opponent_slot
+teams
+template
+template_exists
 test_angles_relative
 texcoord
 text
 text format contains deprecated field "
 texturename
 texturescale
-the actual field type (for enums T should be the generated enum
+the actual field type (for enums T should be the generated enum 
 the global scope
+thick
+threads
+threads_active
+threads_connected
 three_star
+tick
 tier
+time
+time_all_trusted
 title
-to
+tokens
+toolid
+total_damage_dealt
+total_damage_taken
+trade_ban_expiration
+trade_restriction
+trailing_comments
+transid
 true
+trusted
+turbo_mmr_leaderboard
+turbo_mmr_level
+turbo_mmr_level_score
 turn_rate
-type does not match
+tutorial
+tutorial_phase
+tutorial_state_name
+two_factor_enabled_time
+twofactor_enabled
+txn_country_code
+txn_id
+type
 type or int32).
 type() == TYPE_FIXED32
 type() == TYPE_FIXED64
@@ -4308,6 +7731,8 @@ type() == TYPE_LENGTH_DELIMITED
 type() == TYPE_VARINT
 type.googleapis.com/
 type.googleprod.com/
+type_id
+type_instances
 typeinfo for CThreadSyncObject
 typeinfo for char
 typeinfo for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
@@ -4321,45 +7746,92 @@ typeinfo name for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_make_shared_tag
 typeinfo name for std::string
 typeinfo name for std::thread::_Impl_base
-u
 u64( %lld = 0x%llX )
+udp_connect_ip
+udp_connect_port
 uint32
 uint64
 ultimate
+unclaimed_reward_count
 underlord
+underlord_available_talents
 underlord_build
+underlord_build_id
+underlord_picker_offering
+underlord_power
+underlord_selected_talents
+underlord_selection_round
 underlords
-unexpected for field
 unimplemented
 uninterpreted_option
+unique_unit_count
 unit
 unitCapCost
 unitCount
 unitName
+unit_id
+unit_ids
+unit_tier_chances
 unitcount
+units
 unknown
 unlink
+unlock_ranked_progress
+unpacked_item_def_indexes
+unpacked_item_ids
+unpacked_state_size
 unspecified
+unsubscribe_from_id
+unsubscribe_from_type
+unusual
 update
+update_entity_position
+update_particle
+update_particle_ent
+update_particle_fallback
+update_particle_fwd
+update_particle_offset
+update_particle_orient
+update_particle_set_frozen
+update_particle_should_draw
+updated_socket_index
+updates
+upgrade_item_id
+uptodate_subscribed_caches
+upvotes
 useConstantAnimationLayer
 useMotionDamping
 useSmoothPaths
 use_additional_offset
+use_custom_modifier
+used_turbo_bucket_reroll
 user
+userid
 usermessages.proto
+usermessages.proto"
+usermsgs
+users_per_second
 utlstring.cpp
 utlsymbol.cpp
-v
-v %g %g %g
-v %g %g %g%s
+v %g %g %g%s\n
+v %g %g %g\n
+val_bool
+val_byte
+val_long
+validation_errors
 value
+value 
+values
 valveextensions.proto
 vanmgrph
 vb phys
+vcd_name
 vector::_M_fill_insert
 vector::_M_insert_aux
 vector::reserve
 version
+versions
+victory
 vmax > 0
 vmax >= base
 vmdl
@@ -4369,8 +7841,7 @@ vmdlkeys2
 vmdlkeys3
 vmin < 0
 vmin <= 0 - base
-vn %g %g %g
-vo
+vn %g %g %g\n
 void google::protobuf::FieldDescriptorProto::set_label(google::protobuf::FieldDescriptorProto_Label)
 void google::protobuf::FieldDescriptorProto::set_type(google::protobuf::FieldDescriptorProto_Type)
 void google::protobuf::FieldOptions::set_ctype(google::protobuf::FieldOptions_CType)
@@ -4379,7 +7850,7 @@ void google::protobuf::FileOptions::set_optimize_for(google::protobuf::FileOptio
 void google::protobuf::MethodOptions::set_idempotency_level(google::protobuf::MethodOptions_IdempotencyLevel)
 void google::protobuf::StringPiece::remove_prefix(google::protobuf::stringpiece_ssize_type)
 void google::protobuf::strings::SubstituteAndAppend(std::string*, const char*, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&)
-void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int const&>(int const&)
+void std::vector<int, std::allocator<int>>::_M_emplace_back_aux<int const&>(int const&)
 vpcf
 vpcf1
 vpcf10
@@ -4411,6 +7882,9 @@ vpks
 vpks/
 vr_carry_type
 vsImageName
+vs_opponent_draws
+vs_opponent_losses
+vs_opponent_wins
 vsnap
 vstdlib
 vtable for __cxxabiv1::__class_type_info
@@ -4418,35 +7892,39 @@ vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
 vtable for std::exception
 vtable for std::thread::_Impl_base
-w
 walkleft
 walkright
 walkspeed
-was modified concurrently during serialization.
+wanted_legendary
+was_head_to_head
 waveUnit.pUnitDef
-wb
 wcscmp
 wcslen
+weak
+weak_dependency
 width
-with a type that does not implement MergeFrom. This is unsafe;
-with type
+will_combine_three_stars
+will_combine_two_stars
+win_matters_for_item_rewards
+wins
+wins_1st
+wins_2nd
+wins_3rd
+with a type that does not implement MergeFrom. This is unsafe; 
+workshop_file_id
+world_offset_angle
+world_offset_pos
 write
+writeback_queue
 wrong submessage type
-wt
-x
-y
-yaw
+xuid
 yaw_end
 yaw_start
-yes
-z
+z:KEZ
+z\n8NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY
 zero
-{
-{ ... };
-{$0$1}
-{}()':
-|
-}
-} %llu aggs, %s total data
-
-C
+{YIN?
+{}[]()=&, \t\n'"*;
+{}[]=, \t\n'":|;
+}\n %llu aggs, %s total data\n
+}\n\tChallenge
